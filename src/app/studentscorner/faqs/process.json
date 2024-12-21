@@ -1,21 +1,20 @@
 {
-    "faq":
-    [
-{
-    "Question":"By which month will the first company arrive?",
-    "Answer":"Internship - Last week of July Placements- Decemeber (the process will start from October)"
-},
-{
-    "Question":"Is it true that the PPTs/first rounds of all companies will be held collectively during sept-oct and interviews will be held collectively during dec?",
-    "Answer":"Yes"
-},
-{
-    "Question":"Please explain the new placement procedure that we are to start from this year briefly.",
-    "Answer":"There is nothing new, go through the policies thoroughly, attend the induction T&P session of your department.For major concern ask your Managers & for minor concerns you can connect with TPC team (coordinators)." 
-},
-{
-    "Question":"If we have an on campus offer, can we not approach for any off campus opportunities?",
-    "Answer":"No U can't - Penalty will be imposed in case you leave an on campus offer and go for an off campus opportunity, which will be carried forward to next placement Drive" 
-}
-    ]
+  "faq": [
+    {
+      "Question": "By which month will the first company arrive?",
+      "Answer": "Internship - Last week of July Placements- Decemeber (the process will start from October)"
+    },
+    {
+      "Question": "Is it true that the PPTs/first rounds of all companies will be held collectively during sept-oct and interviews will be held collectively during dec?",
+      "Answer": "Yes"
+    },
+    {
+      "Question": "Please explain the new placement procedure that we are to start from this year briefly.",
+      "Answer": "There is nothing new, go through the policies thoroughly, attend the induction T&P session of your department.For major concern ask your Managers & for minor concerns you can connect with TPC team (coordinators)."
+    },
+    {
+      "Question": "If we have an on campus offer, can we not approach for any off campus opportunities?",
+      "Answer": "No U can't - Penalty will be imposed in case you leave an on campus offer and go for an off campus opportunity, which will be carried forward to next placement Drive"
+    }
+  ]
 }

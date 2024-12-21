@@ -1,39 +1,62 @@
-.header{
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFAC 0%, #FFFFAC 8%, #D1B464 25%, #8b6f2f 62.5%, #5d4a1f 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-    text-transform: capitalize;
-    font-weight: bold;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    /* color: #0488D3; */
-   width: min-content;
-    transition: .3s ease;
-    
+.header {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffac 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #8b6f2f 62.5%,
+      #5d4a1f 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  /* color: #0488D3; */
+  width: min-content;
+  transition: 0.3s ease;
 }
 
 .header:hover {
-    
-    filter: brightness(110%);
+  filter: brightness(110%);
 }
 
-.subheader
-{
-    background: radial-gradient(ellipse farthest-corner at right bottom, #d0ac0a 0%, #FDB931 8%, #ae862e 30%, #a28136 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #90732f 62.5%, #866a29 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.subheader {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #d0ac0a 0%,
+      #fdb931 8%,
+      #ae862e 30%,
+      #a28136 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #90732f 62.5%,
+      #866a29 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    font-size: 1.4rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.subheader:hover
-{
-    filter: brightness(120%);
-
+.subheader:hover {
+  filter: brightness(120%);
 }

@@ -60,7 +60,9 @@ export default function Footer(props: any) {
                 </div>
                 <div className=" flex flex-col">
                   <span>{"Phone Number"}</span>
-                  <span className=" text-white opacity-60">{"0731-660333"}</span>
+                  <span className=" text-white opacity-60">
+                    {"0731-660333"}
+                  </span>
                   <span>{"Extn."}</span>
                   <span className=" text-white opacity-60">{"3431"}</span>
                 </div>
@@ -107,7 +109,6 @@ export default function Footer(props: any) {
           </div>
           <div className={styles.copyright}>{props.copyright}</div>
         </div>
-       
       </div>
       {/* <div className={styles.wrapper} id="footer">
         <div className={styles.unexpendable}>

@@ -1,72 +1,71 @@
 .hover4 {
-    --b: 0.1em;   /* the thickness of the line */
-    --c: #115398; /* the color */
-    text-transform: uppercase;
-    filter: brightness(150%);
-    font-weight: bold;
-    color: #0000;
-    padding-block: var(--b);
-    background: 
-      linear-gradient(var(--c) 50%,#0488D3 0) 0% calc(100% - var(--_p,0%))/100% 200%,
-      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
-    -webkit-background-clip: text,padding-box;
-            background-clip: text,padding-box;
-    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
-  }
-  .hover4:hover {
-    --_p: 100%;
-    --_s: .3s;
-    font-size: 3rem;
+  --b: 0.1em; /* the thickness of the line */
+  --c: #115398; /* the color */
+  text-transform: uppercase;
+  filter: brightness(150%);
+  font-weight: bold;
+  color: #0000;
+  padding-block: var(--b);
+  background:
+    linear-gradient(var(--c) 50%, #0488d3 0) 0% calc(100% - var(--_p, 0%)) /
+      100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition:
+    0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+.hover4:hover {
+  --_p: 100%;
+  --_s: 0.3s;
+  font-size: 3rem;
+}
 
-  }
+.block {
+  width: 100%;
 
-  .block{
-    width: 100%;
-
-    padding: 1rem;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: flex-start;
-    border-radius: 10px;
-    align-items: center;
-    /* font-weight: 900; */
-    
-  }
-.grid{
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+  align-items: center;
+  /* font-weight: 900; */
+}
+.grid {
   display: grid;
   width: 55%;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 4rem;
-    padding: 2rem;
-    margin: 0;
-    place-items: center;
-    height: min-content;
-    position: sticky;
-    top: 100px;
-   
-   
-    
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 4rem;
+  padding: 2rem;
+  margin: 0;
+  place-items: center;
+  height: min-content;
+  position: sticky;
+  top: 100px;
 }
 
-.card{
-    background-color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px #aaa, -2px -2px 5px #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    width: 350px;
-    height: 350px;
+.card {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow:
+    2px 2px 5px #aaa,
+    -2px -2px 5px #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
 }
 
-
-.card:hover{
-
-    box-shadow: inset 2px 2px 5px #aaa, -2px -2px 5px #fff;
-    
-
+.card:hover {
+  box-shadow:
+    inset 2px 2px 5px #aaa,
+    -2px -2px 5px #fff;
 }

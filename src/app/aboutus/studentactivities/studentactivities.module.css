@@ -1,39 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.H1{
-    font-size: 2rem;
-    font-weight :800;
-    margin: 0 1.5rem 1rem ;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.H1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 1.5rem 1rem;
 }
 .card {
-    /* border: 1px solid #ddd; */
-    border-radius: 5px;
-    margin: 10px auto;
-    padding: 15px;
-    max-width: 300px;
- box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
 }
 .card h3 {
-    margin: 1rem 0;
-    font-size: 1.5rem;
-font-weight: 700;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 .card p {
-    font-size: 1rem;
-    color: #555;
-    font-weight: 300;
+  font-size: 1rem;
+  color: #555;
+  font-weight: 300;
 }
 .cardContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    background-color: #FBFBFD;
-    font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  background-color: #fbfbfd;
+  font-family: "Poppins", sans-serif;
 }

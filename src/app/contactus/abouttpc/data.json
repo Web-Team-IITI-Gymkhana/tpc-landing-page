@@ -1,103 +1,99 @@
 {
-
-    "starter":"The Training and Placement (T&P) Cell at the Indian Institute of Technology Indore (IIT Indore) plays a pivotal role in preparing students for successful careers by facilitating their transition from academic life to professional life. The T&P Cell is committed to providing comprehensive support to students, enabling them to secure prestigious job positions and internships."
-    ,
-
-    "title1":"Objectives of the T&P Cell"
-,
-    "objective":[
-        {"title":"Career Guidance and Counseling",
-        "description":"The T&P Cell provides personalized career counseling and guidance to help students make informed decisions about their professional paths. This includes advice on career options, industry trends, and higher education opportunities."
-        },
-        {"title":"Skill Development",
-        "description":"The cell organizes various training programs and workshops aimed at enhancing students' technical skills, soft skills, and overall employability. These programs cover areas such as resume writing, interview preparation, communication skills, and aptitude training."
-        },
-        {"title":"Industrial Interaction",
-        "description":"By fostering strong relationships with industries, the T&P Cell ensures that students have ample opportunities to interact with professionals and experts. This includes guest lectures, seminars, industry visits, and networking events."
-        },
-        {"title":"Internship Facilitation",
-        "description":": Internships are crucial for gaining practical experience and understanding industry dynamics. The T&P Cell assists students in securing internships in reputed organizations, providing them with real-world exposure and experience."
-        },
-        {"title":"Placement Assistance",
-        "description":"The T&P Cell coordinates the campus recruitment process, inviting top companies from various sectors to recruit students. It ensures that the placement process is smooth and efficient for both students and recruiters."
+  "starter": "The Training and Placement (T&P) Cell at the Indian Institute of Technology Indore (IIT Indore) plays a pivotal role in preparing students for successful careers by facilitating their transition from academic life to professional life. The T&P Cell is committed to providing comprehensive support to students, enabling them to secure prestigious job positions and internships.",
+  "title1": "Objectives of the T&P Cell",
+  "objective": [
+    {
+      "title": "Career Guidance and Counseling",
+      "description": "The T&P Cell provides personalized career counseling and guidance to help students make informed decisions about their professional paths. This includes advice on career options, industry trends, and higher education opportunities."
+    },
+    {
+      "title": "Skill Development",
+      "description": "The cell organizes various training programs and workshops aimed at enhancing students' technical skills, soft skills, and overall employability. These programs cover areas such as resume writing, interview preparation, communication skills, and aptitude training."
+    },
+    {
+      "title": "Industrial Interaction",
+      "description": "By fostering strong relationships with industries, the T&P Cell ensures that students have ample opportunities to interact with professionals and experts. This includes guest lectures, seminars, industry visits, and networking events."
+    },
+    {
+      "title": "Internship Facilitation",
+      "description": ": Internships are crucial for gaining practical experience and understanding industry dynamics. The T&P Cell assists students in securing internships in reputed organizations, providing them with real-world exposure and experience."
+    },
+    {
+      "title": "Placement Assistance",
+      "description": "The T&P Cell coordinates the campus recruitment process, inviting top companies from various sectors to recruit students. It ensures that the placement process is smooth and efficient for both students and recruiters."
     }
-    ]
+  ],
 
-,
-"title2":"Training Programs and Workshops"
-,
-"body2":"To enhance the employability of students, the T&P Cell at IIT Indore conducts several training programs and workshops, including:"
+  "title2": "Training Programs and Workshops",
+  "body2": "To enhance the employability of students, the T&P Cell at IIT Indore conducts several training programs and workshops, including:",
 
-,
-    "train":[
-        {"title":"Technical Training",
-        "description":" Focused on updating students' knowledge with the latest technologies and industry practices."
-        },
-        {"title":"Soft Skills Development",
-        "description":"Workshops on communication, leadership, teamwork, and problem-solving skills."
-        },
-        {"title":"Aptitude and Reasoning",
-        "description":"Training sessions on quantitative aptitude, logical reasoning, and analytical skills."
-        },
-        {"title":"Resume Building and Interview Preparation",
-        "description":" Guidance on crafting impactful resumes and preparing for technical and HR interviews."
-        }
-    ]
+  "train": [
+    {
+      "title": "Technical Training",
+      "description": " Focused on updating students' knowledge with the latest technologies and industry practices."
+    },
+    {
+      "title": "Soft Skills Development",
+      "description": "Workshops on communication, leadership, teamwork, and problem-solving skills."
+    },
+    {
+      "title": "Aptitude and Reasoning",
+      "description": "Training sessions on quantitative aptitude, logical reasoning, and analytical skills."
+    },
+    {
+      "title": "Resume Building and Interview Preparation",
+      "description": " Guidance on crafting impactful resumes and preparing for technical and HR interviews."
+    }
+  ],
 
+  "title3": "Industry Collaboration",
 
+  "body3": "IIT Indore maintains robust collaborations with various industries, research organizations, and academic institutions. These partnerships are crucial for:",
+  "colab": [
+    {
+      "title": "Guest Lectures and Workshops",
+      "description": "Industry experts and alumni are invited to share their insights and experiences, providing students with practical knowledge and exposure."
+    },
+    {
+      "title": "Collaborative Research Projects",
+      "description": "Joint research initiatives with industry partners allow students to work on cutting-edge projects, enhancing their research skills and industry relevance."
+    },
+    {
+      "title": "Industry Visits and Internships",
+      "description": "Regular industry visits and internships help students gain firsthand experience of the corporate world and understand industry expectations."
+    }
+  ],
 
+  "title4": "Placement Process",
+  "body4": "The placement process at IIT Indore is systematic and student-centric, ensuring maximum opportunities for students. The process typically involves:",
+  "process": [
+    {
+      "title": "Pre-Placement Talks (PPTs)",
+      "description": "Companies conduct PPTs to introduce themselves, discuss job roles, and outline the recruitment process."
+    },
+    {
+      "title": "Application Process",
+      "description": "Students apply to companies based on their interests and eligibility criteria."
+    },
+    {
+      "title": "Selection Process",
+      "description": "Companies conduct various rounds of selection, including aptitude tests, group discussions, technical interviews, and HR interviews."
+    },
+    {
+      "title": "Offer Acceptance",
+      "description": " Selected students receive job offers, and the T&P Cell facilitates the offer acceptance process."
+    }
+  ],
 
+  "title5": "Placement Statistics",
+  "body5": "IIT Indore has consistently achieved impressive placement statistics, with students securing positions in leading national and international companies. Graduates from IIT Indore are highly sought after by employers in various sectors, including:",
+  "list": [
+    "Information Technology",
+    "Engineering and Manufacturing",
+    "Finance and Consulting",
+    "Research and Development",
+    "Public Sector Undertakings"
+  ],
 
-,"title3":"Industry Collaboration"
-
-, "body3":"IIT Indore maintains robust collaborations with various industries, research organizations, and academic institutions. These partnerships are crucial for:"
-,
-"colab":[
-        {"title":"Guest Lectures and Workshops",
-        "description":"Industry experts and alumni are invited to share their insights and experiences, providing students with practical knowledge and exposure."
-        },
-        {"title":"Collaborative Research Projects",
-        "description":"Joint research initiatives with industry partners allow students to work on cutting-edge projects, enhancing their research skills and industry relevance."
-        },
-        {"title":"Industry Visits and Internships",
-        "description":"Regular industry visits and internships help students gain firsthand experience of the corporate world and understand industry expectations."
-        }
-    ]
-
-,"title4":"Placement Process"
-,"body4":"The placement process at IIT Indore is systematic and student-centric, ensuring maximum opportunities for students. The process typically involves:"
-,
-"process":[
-        {"title":"Pre-Placement Talks (PPTs)",
-        "description":"Companies conduct PPTs to introduce themselves, discuss job roles, and outline the recruitment process."
-        },
-        {"title":"Application Process",
-        "description":"Students apply to companies based on their interests and eligibility criteria."
-        },
-        {"title":"Selection Process",
-        "description":"Companies conduct various rounds of selection, including aptitude tests, group discussions, technical interviews, and HR interviews."
-        },
-        {"title":"Offer Acceptance",
-        "description":" Selected students receive job offers, and the T&P Cell facilitates the offer acceptance process."
-        }
-    ]
-
-,"title5":"Placement Statistics"
-,"body5":"IIT Indore has consistently achieved impressive placement statistics, with students securing positions in leading national and international companies. Graduates from IIT Indore are highly sought after by employers in various sectors, including:"
-,
-"list":
-
-    [
-        "Information Technology",
-        "Engineering and Manufacturing",
-        "Finance and Consulting",
-        "Research and Development",
-        "Public Sector Undertakings"
-    ]
-    
-
-,"conclusion":"The Training and Placement Cell at IIT Indore is dedicated to bridging the gap between academic learning and professional success. Through its comprehensive training programs, strong industry connections, and efficient placement processes, the T&P Cell ensures that students are well-prepared to embark on successful careers and make significant contributions to their chosen fields."
-
-
-
+  "conclusion": "The Training and Placement Cell at IIT Indore is dedicated to bridging the gap between academic learning and professional success. Through its comprehensive training programs, strong industry connections, and efficient placement processes, the T&P Cell ensures that students are well-prepared to embark on successful careers and make significant contributions to their chosen fields."
 }

@@ -1,54 +1,54 @@
 {
-    "Clubs": [
-        {
-            "title": "Kalakriti Club",
-            "link": "https://www.instagram.com/kalakriti_iiti/",
-            "img": "/data/Gymkhana/Cultural/Kalakriti_Club.png"
-        },
-        {
-            "title": "The Music Club",
-            "link": "https://www.instagram.com/themusicclub.iiti/",
-            "img": "/data/Gymkhana/Cultural/Music_Club.jpg"
-        },
-        {
-            "title": "D_alphazcrew Club",
-            "link": "",
-            "img": "/data/Gymkhana/Cultural/D_Alpha_Crewz.jpg"
-        },
-        {
-            "title": "Mystic Hues",
-            "link": "https://www.instagram.com/mystichues/",
-            "img": "/data/Gymkhana/Cultural/Mystichues.png"
-        },
-        {
-            "title": "Aaina club",
-            "link": "https://www.instagram.com/dramaticsclubiiti/",
-            "img": "/data/Gymkhana/Cultural/Aaina_Club.png"
-        },
-        {
-            "title": "Literary Club",
-            "link": "https://www.instagram.com/thelitclub.iiti/",
-            "img": "/data/Gymkhana/Cultural/Literary_Club.jpg"
-        },
-        {
-            "title": "Prakrati Club (Wildlife)",
-            "link": "https://www.instagram.com/prakriti.iiti/",
-            "img": "/data/Gymkhana/Cultural/Prakriti.jpg"
-        },
-        {
-            "title": "Cinephiles (Movie Making)",
-            "link": "https://www.instagram.com/cinephiles_iiti/",
-            "img": "/data/Gymkhana/Cultural/Cinephiles_Club.jpg"
-        },
-        {
-            "title": "Debating Society",
-            "link": "https://www.instagram.com/debsociiti/",
-            "img": "/data/Gymkhana/Cultural/Debsoc.jpg"
-        },
-        {
-            "title": "Avana Club (Social Welfare)",
-            "link": "https://www.instagram.com/avana_iiti/",
-            "img": "/data/Gymkhana/Cultural/Avana_Club.png"
-        }
-    ]
+  "Clubs": [
+    {
+      "title": "Kalakriti Club",
+      "link": "https://www.instagram.com/kalakriti_iiti/",
+      "img": "/data/Gymkhana/Cultural/Kalakriti_Club.png"
+    },
+    {
+      "title": "The Music Club",
+      "link": "https://www.instagram.com/themusicclub.iiti/",
+      "img": "/data/Gymkhana/Cultural/Music_Club.jpg"
+    },
+    {
+      "title": "D_alphazcrew Club",
+      "link": "",
+      "img": "/data/Gymkhana/Cultural/D_Alpha_Crewz.jpg"
+    },
+    {
+      "title": "Mystic Hues",
+      "link": "https://www.instagram.com/mystichues/",
+      "img": "/data/Gymkhana/Cultural/Mystichues.png"
+    },
+    {
+      "title": "Aaina club",
+      "link": "https://www.instagram.com/dramaticsclubiiti/",
+      "img": "/data/Gymkhana/Cultural/Aaina_Club.png"
+    },
+    {
+      "title": "Literary Club",
+      "link": "https://www.instagram.com/thelitclub.iiti/",
+      "img": "/data/Gymkhana/Cultural/Literary_Club.jpg"
+    },
+    {
+      "title": "Prakrati Club (Wildlife)",
+      "link": "https://www.instagram.com/prakriti.iiti/",
+      "img": "/data/Gymkhana/Cultural/Prakriti.jpg"
+    },
+    {
+      "title": "Cinephiles (Movie Making)",
+      "link": "https://www.instagram.com/cinephiles_iiti/",
+      "img": "/data/Gymkhana/Cultural/Cinephiles_Club.jpg"
+    },
+    {
+      "title": "Debating Society",
+      "link": "https://www.instagram.com/debsociiti/",
+      "img": "/data/Gymkhana/Cultural/Debsoc.jpg"
+    },
+    {
+      "title": "Avana Club (Social Welfare)",
+      "link": "https://www.instagram.com/avana_iiti/",
+      "img": "/data/Gymkhana/Cultural/Avana_Club.png"
+    }
+  ]
 }

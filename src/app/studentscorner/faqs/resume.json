@@ -1,29 +1,28 @@
 {
-    "faq":
-    [
-{
-    "Question":"When will the resume verification of 4th Years take place?",
-    "Answer":"Just after the Internship Drive -May be 1st week od Sept, by that time you can update the CV with Internships done. \n This will be done by managers for their departments under my supervision."
-},
-{
-    "Question":"Can I remove Key Courses Taken Section from my Resume",
-    "Answer":"Yes, it's not mandatory but if you have taken some good courses online or somewhere it'll add a good value to your resume"
-},
-{
-    "Question":"What if the internship completion certificate is not available by the time CV verification happens? Will the offer letter work in that case?",
-    "Answer":"NO. Completion certificate /email is must to write in CV"
-},
-{
-    "Question":"What we have to do if we want to change our CV after verification \n ( like after a month or so, if we want to add something)",
-    "Answer":"NO. Completion certificate /email is must to write in CV"
-},
-{
-    "Question":"I am currently doing an internship which will be over on 4th August! So will receive the completion certificate after that. Can I use the offer letter during verification instead of the CoC? ",
-    "Answer":"NO. Completion certificate /email is a must to write in CV. becuase we will be unsure of sucessful completion."
-},
-{
-    "Question":"Can I add something if i had missed in my resume after verification is done?",
-    "Answer":"Answer not available"
-}
-    ]
+  "faq": [
+    {
+      "Question": "When will the resume verification of 4th Years take place?",
+      "Answer": "Just after the Internship Drive -May be 1st week od Sept, by that time you can update the CV with Internships done. \n This will be done by managers for their departments under my supervision."
+    },
+    {
+      "Question": "Can I remove Key Courses Taken Section from my Resume",
+      "Answer": "Yes, it's not mandatory but if you have taken some good courses online or somewhere it'll add a good value to your resume"
+    },
+    {
+      "Question": "What if the internship completion certificate is not available by the time CV verification happens? Will the offer letter work in that case?",
+      "Answer": "NO. Completion certificate /email is must to write in CV"
+    },
+    {
+      "Question": "What we have to do if we want to change our CV after verification \n ( like after a month or so, if we want to add something)",
+      "Answer": "NO. Completion certificate /email is must to write in CV"
+    },
+    {
+      "Question": "I am currently doing an internship which will be over on 4th August! So will receive the completion certificate after that. Can I use the offer letter during verification instead of the CoC? ",
+      "Answer": "NO. Completion certificate /email is a must to write in CV. becuase we will be unsure of sucessful completion."
+    },
+    {
+      "Question": "Can I add something if i had missed in my resume after verification is done?",
+      "Answer": "Answer not available"
+    }
+  ]
 }

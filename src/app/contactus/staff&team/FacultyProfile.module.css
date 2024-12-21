@@ -1,40 +1,39 @@
 .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    
-    gap: 10px;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .card {
-    width: calc(max(45%, 300px));
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   
-    padding: 15px;
-    text-align: left;
-    transition: transform 0.2s;
+  width: calc(max(45%, 300px));
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.2s;
 }
 
 .card:hover {
-    border-left: 4px solid #0073e6;
-    transform: scale(1.02);
+  border-left: 4px solid #0073e6;
+  transform: scale(1.02);
 }
 
 .info h2 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 
 .info p {
-    margin: 0;
-    color: #555;
+  margin: 0;
+  color: #555;
 }
 @media (max-width: 642px) {
-    .card {
-        justify-content: center;
-        width: calc(max(85%, 400px));
-    }
+  .card {
+    justify-content: center;
+    width: calc(max(85%, 400px));
+  }
 }

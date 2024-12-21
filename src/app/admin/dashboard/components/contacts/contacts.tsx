@@ -1,17 +1,7 @@
-
 export default function Contacts() {
-
-    return(
-<>
-        <h1>contacts</h1>
-
-</>
-
-
-
-    );
-
-
-
-
+  return (
+    <>
+      <h1>contacts</h1>
+    </>
+  );
 }

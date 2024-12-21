@@ -1,82 +1,101 @@
 {
-    "departmentData": [
-      {
-        "short":"CSE",
-        "departmentName": "Computer Science Engineering",
+  "departmentData": [
+    {
+      "short": "CSE",
+      "departmentName": "Computer Science Engineering",
+      "labels": ["B.Tech", "M.Tech", "M.S."],
+      "data": [82, 16, 12],
+      "description": "A 4-year UG program that offers graduates a strong foundation in Computer Science. Courses include: Mathematics, Discrete Mathematical Structures, Data Structures and Algorithms, Automata Theory and Logic, Software Engineering, Database and Information Systems, Parallel Computing, Operating Systems, Computer Architecture, Computer Graphics and Visualization, Computational Intelligence, Computer Networks, Optimization Algorithms and Techniques, Compiler Techniques. B.Tech projects involve practical applications in various fields such as machine learning, computer vision, blockchain, natural language processing etc.",
+      "pieLabels": {
         "labels": ["B.Tech", "M.Tech", "M.S."],
-        "data": [82, 16, 12],
-        "description": "A 4-year UG program that offers graduates a strong foundation in Computer Science. Courses include: Mathematics, Discrete Mathematical Structures, Data Structures and Algorithms, Automata Theory and Logic, Software Engineering, Database and Information Systems, Parallel Computing, Operating Systems, Computer Architecture, Computer Graphics and Visualization, Computational Intelligence, Computer Networks, Optimization Algorithms and Techniques, Compiler Techniques. B.Tech projects involve practical applications in various fields such as machine learning, computer vision, blockchain, natural language processing etc.",
-        "pieLabels": {
-          "labels": ["B.Tech", "M.Tech", "M.S."],
-          "data": [82, 16, 12]
-        }
-      },
-      {
-        "short":"EE",
-        "departmentName": "Electrical Engineering",
-        "labels": ["B.Tech", "M.Tech - Communication and Signal Processing", "M.Tech - VLSI Design and Nanoelectronics", "M.S. Research"],
-        "data": [85, 15, 12, 7],
-        "description": "A 4-year UG program that offers graduates a strong foundation in electrical engineering. Courses include: Analog Circuits, Digital Electronics, Electromagnetic Waves, VLSI Systems and Technology, Microprocessors and Digital Systems, Power Systems, Digital Signal Processing, MOS Devices and Modeling, System on Chip(SoC) Design, Information and Coding Theory. B.Tech projects involve microcontroller-based projects, designing and building electronic devices, and research in areas like renewable energy, power systems, wireless communication, and IC design.",
-        "pieLabels": {
-          "labels": ["B.Tech", "M.Tech", "M.S. Research"],
-          "data": [85, 27, 7]
-        }
-      },
-      {
-        "short":"ME",
-        "departmentName": "Mechanical Engineering",
-        "labels": ["B.Tech", "M.Tech - Mechanical Systems Design", "M.Tech - Thermal Energy Systems", "M.Tech - Advance Manufacturing", "M.Tech - Applied Optics and Laser Technology", "M.S."],
-        "data": [87, 15, 8, 13, 10, 4],
-        "description": "Strengthening their command on analytical methods, simulation tools, and experimental techniques alike, students pursue projects involving a vast spectrum of industry relevant topics. B.Tech students work on innovative fuel needs, exhaust systems, and automotive sector challenges. M.Tech students specialize in Mechanical Systems Design, Thermal Energy Systems, Advanced Manufacturing, and Applied Optics and Laser Technology, collaborating with industries and research institutions like RRCAT, Indore. MS Research scholars focus on novel technologies in noise control, condition monitoring, digital twins, and Lab-on-a-chip for industrial and biomedical applications.",
-        "pieLabels": {
-          "labels": ["B.Tech", "M.Tech", "M.S."],
-          "data": [87, 46, 4]
-        }
-      },
-      {
-        "short":"CE",
-        "departmentName": "Civil Engineering",
-        "labels": ["B.Tech", "M.Tech - Structural Engineering", "M.Tech - Water, Climate and Sustainability"],
-        "data": [46, 9, 8],
-        "description": "Civil Engineering at IIT Indore aims to play an active role in propelling India in its growth trajectory through innovative interdisciplinary research and educational programs at postgraduate levels. The M.Tech program offers specializations in Structural Engineering and Water, Climate and Sustainability, focusing on industry-oriented thesis work.",
-        "pieLabels": {
-          "labels": ["B.Tech", "M.Tech"],
-          "data": [46, 17]
-        }
-      },
-      {
-        "short":"MEMS",
-        "departmentName": "Metallurgical Engineering and Materials Science (MEMS)",
-        "labels": ["B.Tech", "M.Tech - Metallurgical Engineering", "M.Tech - Materials Science Engineering"],
-        "data": [47, 7, 5],
-        "description": "With 49 courses and 12 labs, students gain theoretical and practical expertise in materials engineering. The curriculum emphasizes practical learning with industry-connected projects in leading companies. B.Tech students focus on materials engineering fundamentals. M.Tech students specialize in Metallurgical Engineering and Materials Science Engineering, participating in hands-on labs and industry projects.",
-        "pieLabels": {
-          "labels": ["B.Tech", "M.Tech"],
-          "data": [47, 12]
-        }
-      },
-      {
-        "short":"BBE",
-        "departmentName": "Biosciences and Biological Engineering",
-        "labels": ["M.Tech", "MSc"],
-        "data": [7, 21],
-        "description": "The Department of Biosciences and Biomedical Engineering (BSBE) at IIT Indore aims to be a center of excellence in human resource development and research in Biosciences, Bioengineering, and Biomedical Engineering. Current projects include drug discovery for neurodegenerative diseases, nanoparticle-mediated drug delivery and disease theranostics, molecular immunology, cancer research, and musculoskeletal tissue engineering. Additional research focuses on algal biomass for aquatic feed, 2D and 3D cell culture systems, and neuro-robotics.",
-        "pieLabels": {
-          "labels": ["M.Tech", "M.Sc."],
-          "data": [7, 21]
-        }
-      },
-      {
-        "short":"BS",
-        "departmentName": "Department of Basic Sciences",
-        "labels": ["M.Sc. (Physics)", "M.Sc. (Chemistry)", "M.Sc. (Mathematics)"],
-        "data": [27, 26, 19],
-        "description": "Our institute offers a comprehensive M.Sc. program and a robust research program leading to the coveted Doctor of Philosophy degree. At IIT Indore, we pride ourselves on our diverse and dynamic research portfolio, which spans across various frontier areas of basic sciences, catering to the ever-evolving demands of scientific exploration and societal needs. Students gain technical and teaching skills, enabling success in academia, research, and industry. The curriculum includes core courses, electives, and a final-year project for the practical application of mathematics. Notably, the syllabi of the laboratory courses have been meticulously revised from traditional standards. Students engage in seminars and departmental activities to bridge theory with real-world applications.",
-        "pieLabels": {
-          "labels": ["M.Sc."],
-          "data": [72]
-        }
+        "data": [82, 16, 12]
       }
-    ]
-  }
-  
+    },
+    {
+      "short": "EE",
+      "departmentName": "Electrical Engineering",
+      "labels": [
+        "B.Tech",
+        "M.Tech - Communication and Signal Processing",
+        "M.Tech - VLSI Design and Nanoelectronics",
+        "M.S. Research"
+      ],
+      "data": [85, 15, 12, 7],
+      "description": "A 4-year UG program that offers graduates a strong foundation in electrical engineering. Courses include: Analog Circuits, Digital Electronics, Electromagnetic Waves, VLSI Systems and Technology, Microprocessors and Digital Systems, Power Systems, Digital Signal Processing, MOS Devices and Modeling, System on Chip(SoC) Design, Information and Coding Theory. B.Tech projects involve microcontroller-based projects, designing and building electronic devices, and research in areas like renewable energy, power systems, wireless communication, and IC design.",
+      "pieLabels": {
+        "labels": ["B.Tech", "M.Tech", "M.S. Research"],
+        "data": [85, 27, 7]
+      }
+    },
+    {
+      "short": "ME",
+      "departmentName": "Mechanical Engineering",
+      "labels": [
+        "B.Tech",
+        "M.Tech - Mechanical Systems Design",
+        "M.Tech - Thermal Energy Systems",
+        "M.Tech - Advance Manufacturing",
+        "M.Tech - Applied Optics and Laser Technology",
+        "M.S."
+      ],
+      "data": [87, 15, 8, 13, 10, 4],
+      "description": "Strengthening their command on analytical methods, simulation tools, and experimental techniques alike, students pursue projects involving a vast spectrum of industry relevant topics. B.Tech students work on innovative fuel needs, exhaust systems, and automotive sector challenges. M.Tech students specialize in Mechanical Systems Design, Thermal Energy Systems, Advanced Manufacturing, and Applied Optics and Laser Technology, collaborating with industries and research institutions like RRCAT, Indore. MS Research scholars focus on novel technologies in noise control, condition monitoring, digital twins, and Lab-on-a-chip for industrial and biomedical applications.",
+      "pieLabels": {
+        "labels": ["B.Tech", "M.Tech", "M.S."],
+        "data": [87, 46, 4]
+      }
+    },
+    {
+      "short": "CE",
+      "departmentName": "Civil Engineering",
+      "labels": [
+        "B.Tech",
+        "M.Tech - Structural Engineering",
+        "M.Tech - Water, Climate and Sustainability"
+      ],
+      "data": [46, 9, 8],
+      "description": "Civil Engineering at IIT Indore aims to play an active role in propelling India in its growth trajectory through innovative interdisciplinary research and educational programs at postgraduate levels. The M.Tech program offers specializations in Structural Engineering and Water, Climate and Sustainability, focusing on industry-oriented thesis work.",
+      "pieLabels": {
+        "labels": ["B.Tech", "M.Tech"],
+        "data": [46, 17]
+      }
+    },
+    {
+      "short": "MEMS",
+      "departmentName": "Metallurgical Engineering and Materials Science (MEMS)",
+      "labels": [
+        "B.Tech",
+        "M.Tech - Metallurgical Engineering",
+        "M.Tech - Materials Science Engineering"
+      ],
+      "data": [47, 7, 5],
+      "description": "With 49 courses and 12 labs, students gain theoretical and practical expertise in materials engineering. The curriculum emphasizes practical learning with industry-connected projects in leading companies. B.Tech students focus on materials engineering fundamentals. M.Tech students specialize in Metallurgical Engineering and Materials Science Engineering, participating in hands-on labs and industry projects.",
+      "pieLabels": {
+        "labels": ["B.Tech", "M.Tech"],
+        "data": [47, 12]
+      }
+    },
+    {
+      "short": "BBE",
+      "departmentName": "Biosciences and Biological Engineering",
+      "labels": ["M.Tech", "MSc"],
+      "data": [7, 21],
+      "description": "The Department of Biosciences and Biomedical Engineering (BSBE) at IIT Indore aims to be a center of excellence in human resource development and research in Biosciences, Bioengineering, and Biomedical Engineering. Current projects include drug discovery for neurodegenerative diseases, nanoparticle-mediated drug delivery and disease theranostics, molecular immunology, cancer research, and musculoskeletal tissue engineering. Additional research focuses on algal biomass for aquatic feed, 2D and 3D cell culture systems, and neuro-robotics.",
+      "pieLabels": {
+        "labels": ["M.Tech", "M.Sc."],
+        "data": [7, 21]
+      }
+    },
+    {
+      "short": "BS",
+      "departmentName": "Department of Basic Sciences",
+      "labels": ["M.Sc. (Physics)", "M.Sc. (Chemistry)", "M.Sc. (Mathematics)"],
+      "data": [27, 26, 19],
+      "description": "Our institute offers a comprehensive M.Sc. program and a robust research program leading to the coveted Doctor of Philosophy degree. At IIT Indore, we pride ourselves on our diverse and dynamic research portfolio, which spans across various frontier areas of basic sciences, catering to the ever-evolving demands of scientific exploration and societal needs. Students gain technical and teaching skills, enabling success in academia, research, and industry. The curriculum includes core courses, electives, and a final-year project for the practical application of mathematics. Notably, the syllabi of the laboratory courses have been meticulously revised from traditional standards. Students engage in seminars and departmental activities to bridge theory with real-world applications.",
+      "pieLabels": {
+        "labels": ["M.Sc."],
+        "data": [72]
+      }
+    }
+  ]
+}

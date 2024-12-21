@@ -1,112 +1,117 @@
-.name{
-    background: url("../../../../public/data/branches/cse.jpg"); 
-    
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.name {
+  background: url("../../../../public/data/branches/cse.jpg");
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: 0.3s ease;
+  letter-spacing: 0.1rem;
+  filter: brightness(70%);
+}
+.name:hover {
+  font-size: 4rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.name2 {
+  background: url("../../../../public/data/branches/electrical.jpg");
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: 0.3s ease;
+  letter-spacing: 0.1rem;
+  /* filter: brightness(70%); */
+}
+.name2:hover {
+  font-size: 5rem;
+}
+.name3 {
+  background: url("../../../../public/data/branches/mech.jpg");
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: 0.3s ease;
+  letter-spacing: 0.1rem;
+  filter: brightness(70%);
+}
+.name3:hover {
+  font-size: 5rem;
+}
+.name4 {
+  background: url("../../../../public/data/branches/civil.jpeg");
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: 0.3s ease;
+  letter-spacing: 0.1rem;
+  filter: brightness(70%);
+}
+.name4:hover {
+  font-size: 5rem;
+  filter: brightness(100%);
+}
+.name5 {
+  background: url("../../../../public/data/branches/metal.jpg");
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: 0.3s ease;
+  letter-spacing: 0.1rem;
+}
+.name5:hover {
+  font-size: 5rem;
+}
+
+.goldenbtn {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #d0ac0a 0%,
+      #fdb931 8%,
+      #ae862e 30%,
+      #a28136 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffac83 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #90732f 62.5%,
+      #866a29 100%
+    );
+}
+
+@media screen and (max-width: 768px) {
+  .name:hover,
+  .name2:hover,
+  .name3:hover,
+  .name4:hover,
+  .name5:hover {
     font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    transition: .3s ease;
-    letter-spacing: 0.1rem;
-    filter: brightness(70%);
-
-}
-.name:hover{
-    font-size: 4rem;
-}
-
-.grid{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    
-}
-
-.name2{
-    background: url("../../../../public/data/branches/electrical.jpg"); 
-    
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    transition: .3s ease;
-    letter-spacing: 0.1rem;
-    /* filter: brightness(70%); */
-
-}
-.name2:hover{
-    font-size: 5rem;
-}
-.name3{
-    background: url("../../../../public/data/branches/mech.jpg"); 
-    
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    transition: .3s ease;
-    letter-spacing: 0.1rem;
-    filter: brightness(70%);
-
-}
-.name3:hover{
-    font-size: 5rem;
-}
-.name4{
-    background: url("../../../../public/data/branches/civil.jpeg"); 
-    
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    transition: .3s ease;
-    letter-spacing: 0.1rem;
-    filter: brightness(70%);
-
-}
-.name4:hover{
-    font-size: 5rem;
-    filter: brightness(100%);
-
-}
-.name5{
-    background: url("../../../../public/data/branches/metal.jpg"); 
-    
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    transition: .3s ease;
-    letter-spacing: 0.1rem;
-
-
-}
-.name5:hover{
-    font-size: 5rem;
-
-
-}
-
-.goldenbtn{
-    background: radial-gradient(ellipse farthest-corner at right bottom, #d0ac0a 0%, #FDB931 8%, #ae862e 30%, #a28136 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #ffffac83 0%, #FFFFAC 8%, #D1B464 25%, #90732f 62.5%, #866a29 100%);
-
-}
-
-
-
-@media screen and (max-width: 768px){
-    .name:hover , .name2:hover , .name3:hover , .name4:hover , .name5:hover{
-       font-size: 1.5rem;
-    }
+  }
 }

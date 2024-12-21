@@ -1,21 +1,12 @@
 {
-
-
-
-    "achieve":[
-
-
-        "Student research group under Prof I A Palani won the Best Technology Award in the Institute's foundation day celebration ",
-        "Team members from Finalist of IIT Guwahati Aquawars 2023",
-        "Members in the winning team of Inter IIT Tech meet 12.0",
-        "Best oral presentation award AIMTDR conference held  in IIT BHU",
-        "Participation in Boeing National Aeromodelling Competition ",
-        "Undergraduate students of Mechanical Engineering Department have received best BTP project Award and best Working Prototype Award in 1st Annual Student Research Symposium (SRS)",
-        "IIT Inodre's Smart Manufacturing Team won the best Student Project Demo award (under technology category) in “Manufacturing Today Summit” organized by Aditya Birla Group and ITP publishing"
-
-
-
-    ]
-,
-    "medal": "/data/buttonspngs/medal.png"
+  "achieve": [
+    "Student research group under Prof I A Palani won the Best Technology Award in the Institute's foundation day celebration ",
+    "Team members from Finalist of IIT Guwahati Aquawars 2023",
+    "Members in the winning team of Inter IIT Tech meet 12.0",
+    "Best oral presentation award AIMTDR conference held  in IIT BHU",
+    "Participation in Boeing National Aeromodelling Competition ",
+    "Undergraduate students of Mechanical Engineering Department have received best BTP project Award and best Working Prototype Award in 1st Annual Student Research Symposium (SRS)",
+    "IIT Inodre's Smart Manufacturing Team won the best Student Project Demo award (under technology category) in “Manufacturing Today Summit” organized by Aditya Birla Group and ITP publishing"
+  ],
+  "medal": "/data/buttonspngs/medal.png"
 }

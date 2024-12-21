@@ -1,16 +1,15 @@
-
 .header {
   font-size: 1rem;
   text-transform: capitalize;
   font-weight: bold;
-  background: linear-gradient(to right , #115398, #0488D3);
- 
+  background: linear-gradient(to right, #115398, #0488d3);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   /* color: #0488D3; */
 
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 .header:hover {
   font-size: 2rem;
@@ -18,14 +17,10 @@
 }
 
 .title {
-
-
   display: flex;
   flex-direction: row;
   align-items: baseline;
   margin: 10px;
   width: 100%;
   justify-content: flex-start;
-
-
 }

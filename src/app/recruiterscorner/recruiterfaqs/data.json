@@ -1,11 +1,7 @@
 {
-    "starter" : "Recruiters visiting the Indian Institute of Technology Indore (IIT Indore) often have several questions about the recruitment process, the student body, and the support provided by the Training and Placement (T&P) Cell. Here are some of the most frequently asked questions and their answers:",
-    "finisher": "These FAQs provide a comprehensive overview for recruiters looking to engage with IIT Indore for their hiring needs. The T&P Cell is dedicated to facilitating a seamless recruitment experience and ensuring that recruiters find the best talent suited to their organizational requirements.",
+  "starter": "Recruiters visiting the Indian Institute of Technology Indore (IIT Indore) often have several questions about the recruitment process, the student body, and the support provided by the Training and Placement (T&P) Cell. Here are some of the most frequently asked questions and their answers:",
+  "finisher": "These FAQs provide a comprehensive overview for recruiters looking to engage with IIT Indore for their hiring needs. The T&P Cell is dedicated to facilitating a seamless recruitment experience and ensuring that recruiters find the best talent suited to their organizational requirements.",
 
-    "brochure" : "/data/pdf/brochure.pdf",
-    "facilites" : "/recruiterscorner/facilities"
-
-
-
-
+  "brochure": "/data/pdf/brochure.pdf",
+  "facilites": "/recruiterscorner/facilities"
 }

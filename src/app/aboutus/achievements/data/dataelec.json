@@ -1,30 +1,21 @@
 {
+  "achieve": [
+    "Finalist in Findoc' AlgoNinjas, Techfest IITB",
+    "1 team in the top 10 and 2 teams as finalists in Dark Pattern Buster Hackathon IITBHU",
+    "1 Gold 1 Silver, and 2 Bronze in InterIIT tech meet 12.0",
+    "2 cleared GSOC",
+    "Finalist in the Indian Web Browser Development Challenge",
+    "ICPC Kanpur regionals AIR 15, AIR20, AIR 21",
+    "ICPC Asia West finals AIR 32",
+    "CSAW finals AIR 7th ",
+    "Finalists in IIT Guwahati Aquawars 2023",
+    "Semifinalists in IIT Guwahati Escalade 2023",
+    "NXP Campus Connect Workshop held in the Campus for students.",
+    "VLSI-expert talk by Puneet Mittal on Basics on Static Time Analysis.",
+    "Instruction enhancement Program for hands-on experience on EDA tools",
+    "MAC and PUF Chip fabricated by NSDCS Lab through EFabLess under open shuttle program",
+    "NOMA workshop on Signal Processing"
+  ],
 
-
-    "achieve":[
-
-        "Finalist in Findoc' AlgoNinjas, Techfest IITB",
-        "1 team in the top 10 and 2 teams as finalists in Dark Pattern Buster Hackathon IITBHU",
-        "1 Gold 1 Silver, and 2 Bronze in InterIIT tech meet 12.0",
-        "2 cleared GSOC",
-        "Finalist in the Indian Web Browser Development Challenge",
-        "ICPC Kanpur regionals AIR 15, AIR20, AIR 21",
-        "ICPC Asia West finals AIR 32",
-        "CSAW finals AIR 7th ",
-        "Finalists in IIT Guwahati Aquawars 2023",
-        "Semifinalists in IIT Guwahati Escalade 2023",
-        "NXP Campus Connect Workshop held in the Campus for students.",
-        "VLSI-expert talk by Puneet Mittal on Basics on Static Time Analysis.",
-        "Instruction enhancement Program for hands-on experience on EDA tools",
-        "MAC and PUF Chip fabricated by NSDCS Lab through EFabLess under open shuttle program",
-        "NOMA workshop on Signal Processing"
-
-    ]
-   
-
-,
-    "medal": "/data/buttonspngs/medal.png"
-
-
-
+  "medal": "/data/buttonspngs/medal.png"
 }
