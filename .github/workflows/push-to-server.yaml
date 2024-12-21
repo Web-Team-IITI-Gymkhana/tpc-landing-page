@@ -1,0 +1,25 @@
+name: Push To Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: deploy on remote
+    steps:
+      - uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.DC_HOST }}
+          username: ${{ secrets.DC_USER }}
+          password: ${{ secrets.DC_PASS }}
+          script: |
+            cd ~/tpc_portal/tpc-landing-page
+            git pull origin main
+            docker stop tpc_portal-landing_page-1
+            docker rm tpc_portal-landing_page-1
+            docker rmi tpc_portal-landing_page || true
+            cd ..
+            docker compose up -d
