@@ -1,29 +1,11 @@
 {
+  "images": [
+    "/data/carouseliiti/1.jpg",
+    "/data/carouseliiti/2.jpg",
+    "/data/carouseliiti/3.jpg",
+    "/data/carouseliiti/4.jpg",
+    "/data/carouseliiti/5.jpg"
+  ],
 
-    "images": [
-
-     
-        
-        "/data/carouseliiti/1.jpg",
-        "/data/carouseliiti/2.jpg",
-        "/data/carouseliiti/3.jpg",
-        "/data/carouseliiti/4.jpg",
-        "/data/carouseliiti/5.jpg"
-
-    ],
-
-
-    "locationicon": "./data/buttonspngs/locationicon.png"
-
-
-
-
-
-
-
-
-
-
-
-
+  "locationicon": "./data/buttonspngs/locationicon.png"
 }

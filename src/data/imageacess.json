@@ -1,17 +1,5 @@
-
 {
-
-
-    "image":{
-
-        "backbutton" : "./data/buttonspngs/crossbtn.png"
-
-    }
-
+  "image": {
+    "backbutton": "./data/buttonspngs/crossbtn.png"
+  }
 }
-
-
-
-
-
-

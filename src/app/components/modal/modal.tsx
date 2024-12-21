@@ -64,7 +64,7 @@ export default function ModalUI(props: any) {
                     <p key={index} className="text-justify">
                       {para}
                     </p>
-                  )
+                  ),
                 )}
               </ModalBody>
               <ModalFooter className="   justify-start">
@@ -78,7 +78,7 @@ export default function ModalUI(props: any) {
                         >
                           {sign}
                         </p>
-                      )
+                      ),
                     )}
                   </div>
                   <div className=" w-min flex items-end  ">

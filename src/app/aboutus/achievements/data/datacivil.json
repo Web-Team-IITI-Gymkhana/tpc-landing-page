@@ -1,22 +1,11 @@
 {
-
-   
-
-    "achieve":[
-
-
-        "Inter IIT Civil Conclave: Two-time winner of the prestigious Inter IIT Civil Conclave, showcasing excellence in civil engineering projects and innovation.",
-        "Research Excellence: Significant contributions to research, including the GOBAIR project focused on advanced civil engineering solutions.",
-        "Industry Collaborations: Partnerships with leading industry players for collaborative projects and internships.",
-        "Student Success: Graduates securing prestigious positions in top companies and pursuing advanced studies at renowned institutions globally.",
-        "Innovative Projects: Successful implementation of projects in structural engineering, transportation systems, and environmental sustainability.",
-        "Awards and Recognitions: Faculty and students receiving accolades and awards at national and international levels for their contributions to civil engineering."
-
-
-    ],
-    "medal": "/data/buttonspngs/medal.png"
-
-
-
-
+  "achieve": [
+    "Inter IIT Civil Conclave: Two-time winner of the prestigious Inter IIT Civil Conclave, showcasing excellence in civil engineering projects and innovation.",
+    "Research Excellence: Significant contributions to research, including the GOBAIR project focused on advanced civil engineering solutions.",
+    "Industry Collaborations: Partnerships with leading industry players for collaborative projects and internships.",
+    "Student Success: Graduates securing prestigious positions in top companies and pursuing advanced studies at renowned institutions globally.",
+    "Innovative Projects: Successful implementation of projects in structural engineering, transportation systems, and environmental sustainability.",
+    "Awards and Recognitions: Faculty and students receiving accolades and awards at national and international levels for their contributions to civil engineering."
+  ],
+  "medal": "/data/buttonspngs/medal.png"
 }

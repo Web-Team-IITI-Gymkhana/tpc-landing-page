@@ -1,40 +1,36 @@
 {
+  "bg": "/data/branches/cse.jpg",
+  "starter": "The department of Computer Science Engineering offers relevant and extensive courses with projects that lay a strong foundation in computer science.",
 
-  "bg":"/data/branches/cse.jpg",
-  "starter":"The department of Computer Science Engineering offers relevant and extensive courses with projects that lay a strong foundation in computer science.",
-
-  "degree":[
+  "degree": [
     "B.Tech projects involve practical applications in various fields such as machine learning, computer vision, blockchain, natural language processing etc.",
     "M.Tech projects deal with quantum networking, DNN optimizers, Multimodal Sentiment Analysis, anomaly detection using GAN and network optimisation.",
     "MS(R) students conduct pioneering research involving AI/ML, computer vision, natural language processing, pattern recognition, reinforcement learning, cryptography, network security, cloud computing and Blockchain technologies."
-
   ],
 
-  "mid":"The department encourages students to engage in seminars and departmental activities to bridge theory with real-world applications."
-,
-  "ug":{
+  "mid": "The department encourages students to engage in seminars and departmental activities to bridge theory with real-world applications.",
+  "ug": {
     "title": "Courses for the UG program include",
-    "data":[
-    "Mathematics",
-    "Discrete Mathematical Structures",
-    "Data Structures and Algorithms",
-    "Automata Theory and Logic",
-    "Software Engineering",
-    "Database and Information Systems",
-    "Parallel Computing",
-    "Operating Systems",
-    "Computer Architecture",
-    "Computer Graphics and Visualization",
-    "Computational Intelligence",
-    "Computer Networks",
-    "Optimization Algorithms and Techniques",
-    "Compiler Techniques"
+    "data": [
+      "Mathematics",
+      "Discrete Mathematical Structures",
+      "Data Structures and Algorithms",
+      "Automata Theory and Logic",
+      "Software Engineering",
+      "Database and Information Systems",
+      "Parallel Computing",
+      "Operating Systems",
+      "Computer Architecture",
+      "Computer Graphics and Visualization",
+      "Computational Intelligence",
+      "Computer Networks",
+      "Optimization Algorithms and Techniques",
+      "Compiler Techniques"
     ]
-  }
-  ,
-  "pg":{
+  },
+  "pg": {
     "title": "Courses for the PG program include",
-    "data":[
+    "data": [
       "Advanced Algorithms",
       "Machine Learning",
       "Pattern Recognition",
@@ -46,8 +42,4 @@
       "Computer Architecture"
     ]
   }
-
-
-
-
 }

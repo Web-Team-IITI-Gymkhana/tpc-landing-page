@@ -62,8 +62,6 @@ body {
   transition: 0.3s ease;
 }
 
-
-
 .header2 {
   font-size: 2rem;
   text-transform: capitalize;
@@ -76,8 +74,6 @@ body {
   filter: brightness(150%);
   transition: 0.3s ease;
 }
-
-
 
 .para {
   text-align: justify;
@@ -136,43 +132,42 @@ body {
   border-radius: 5px;
 }
 
-
-.enter1{
+.enter1 {
   position: relative;
   animation-name: enter1;
- animation-duration: 0.6s;
- animation-timing-function: ease-in-out;
- animation-iteration-count: 1;
- animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes enter1 {
   0% {
     opacity: 0;
-    transform: translateY(-50%) ;
+    transform: translateY(-50%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0) ;
+    transform: translateY(0);
   }
 }
 
-.enter2{
+.enter2 {
   position: relative;
   animation-name: enter2;
- animation-duration: 0.6s;
- animation-timing-function: ease-in-out;
- animation-iteration-count: 1;
- animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes enter2 {
   0% {
     opacity: 0;
-    transform: translateX(-50%) ;
+    transform: translateX(-50%);
   }
   100% {
     opacity: 1;
-    transform: translateX(0) ;
+    transform: translateX(0);
   }
 }

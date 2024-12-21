@@ -1,62 +1,49 @@
 {
+  "bg": "data/branches/civil.jpeg",
 
-   "bg":"data/branches/civil.jpeg",
+  "starter": "The Civil Engineering Department at IIT Indore is dedicated to providing a robust education through its B.Tech, M.S (Research), and M.Tech programs. Supported by a team of 20 experienced faculty members, the department excels in various specializations, including Structural Engineering, Geotechnical Engineering, Transportation Engineering, Water Resources Engineering, Environmental Engineering, and Construction Management.",
+  "courses": [
+    "Structural Analysis and Design",
+    "Geotechnical Engineering",
+    "Transportation Systems Engineering",
+    "Hydrology and Water Resources",
+    "Environmental Impact Assessment",
+    "Construction Materials and Techniques",
+    "Surveying and Geomatics",
+    "Infrastructure Planning and Management",
+    "Sustainable Construction",
+    "Advanced Concrete Technology"
+  ],
 
-    "starter" : "The Civil Engineering Department at IIT Indore is dedicated to providing a robust education through its B.Tech, M.S (Research), and M.Tech programs. Supported by a team of 20 experienced faculty members, the department excels in various specializations, including Structural Engineering, Geotechnical Engineering, Transportation Engineering, Water Resources Engineering, Environmental Engineering, and Construction Management.",
-    "courses" : [
-        "Structural Analysis and Design",
-        "Geotechnical Engineering",
-        "Transportation Systems Engineering",
-        "Hydrology and Water Resources",
-        "Environmental Impact Assessment",
-        "Construction Materials and Techniques",
-        "Surveying and Geomatics",
-        "Infrastructure Planning and Management",
-        "Sustainable Construction",
-        "Advanced Concrete Technology"
- 
+  "mid": "The department places a strong emphasis on developing both technical and soft skills in its students:",
 
-    ],
+  "technicalskills": [
+    "Proficiency in AutoCAD",
+    "Analysis using STAADPro",
+    "3D Concrete Printing Technology",
+    "Reusability of Construction and Demolition Waste",
+    "QGIS Technology"
+  ],
+  "technicalskillsdescription": [
+    "Mastery in using AutoCAD for drafting and designing.",
+    "Skilled in structural analysis using STAADPro software.",
+    "Engaged in cutting-edge research on 3D concrete printing technology.",
+    "Working on innovative solutions for recycling construction and demolition waste.",
+    "Utilizing QGIS for geospatial analysis and planning."
+  ],
 
-    "mid":"The department places a strong emphasis on developing both technical and soft skills in its students:",
-
-    "technicalskills": [
-        "Proficiency in AutoCAD",
-        "Analysis using STAADPro",
-        "3D Concrete Printing Technology",
-        "Reusability of Construction and Demolition Waste",
-        "QGIS Technology"
-    ],
-    "technicalskillsdescription": [
-        "Mastery in using AutoCAD for drafting and designing.",
-        "Skilled in structural analysis using STAADPro software.",
-        "Engaged in cutting-edge research on 3D concrete printing technology.",
-        "Working on innovative solutions for recycling construction and demolition waste.",
-        "Utilizing QGIS for geospatial analysis and planning."
-    ],
-
-    "softskills": [
-        "Teamwork",
-        "Communication",
-        "Leadership",
-        "Problem-Solving",
-        "Project Management"
-    ],
-    "softskillsdescription": [
-        "Engaging in group projects to enhance collaboration and teamwork.",
-        "Improving public speaking and presentation skills through academic presentations.",
-        "Hosting and participating in seminars to develop leadership and networking skills.",
-        "Tackling complex engineering problems in various projects.",
-        "Managing and executing engineering projects efficiently."
-    ]
-
-    
-
-
-
-
-    
-
-
-
+  "softskills": [
+    "Teamwork",
+    "Communication",
+    "Leadership",
+    "Problem-Solving",
+    "Project Management"
+  ],
+  "softskillsdescription": [
+    "Engaging in group projects to enhance collaboration and teamwork.",
+    "Improving public speaking and presentation skills through academic presentations.",
+    "Hosting and participating in seminars to develop leadership and networking skills.",
+    "Tackling complex engineering problems in various projects.",
+    "Managing and executing engineering projects efficiently."
+  ]
 }

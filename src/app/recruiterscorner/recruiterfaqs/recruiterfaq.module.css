@@ -1,128 +1,114 @@
-.wrapper{
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-
-   
-
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
 }
 
-
-.title{
-
- 
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 10px;
-    width: 100%;
-    justify-content: flex-start;
-
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 10px;
+  width: 100%;
+  justify-content: flex-start;
 }
 
-.F{
-    font-size: 3rem;
-    text-transform: capitalize;
-    font-weight: bold;
-    background: linear-gradient(to right , #115398, #0488D3);
-    -webkit-background-clip: text;
+.F {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  background: linear-gradient(to right, #115398, #0488d3);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    /* color: #0488D3; */
+  /* color: #0488D3; */
 
-    transition: .3s ease;
-
+  transition: 0.3s ease;
 }
 
-.F:hover{
-
- 
+.F:hover {
 }
 
-.student{
-    text-transform: uppercase;
-    padding-inline: 20px;
-    /* background: linear-gradient(to left , #0488D3, #115398);
+.student {
+  text-transform: uppercase;
+  padding-inline: 20px;
+  /* background: linear-gradient(to left , #0488D3, #115398);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  color: #0488D3;
-    font-size: 1rem;
-    font-weight: bold;
-    
+  color: #0488d3;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-
-.questitle{
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    background: linear-gradient(to right , #115398, #0488D3);
-    -webkit-background-clip: text;
+.questitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to right, #115398, #0488d3);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-    margin-top: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transition: .3s ease;
-   
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease;
 }
 
-.questitle:hover{
+.questitle:hover {
   filter: brightness(150%);
 }
 
-.starter{
-    max-width: 60%;
-    padding-inline: 30px;
-    text-align: justify;
-    /* border-left: 2px solid #0487d37f;
+.starter {
+  max-width: 60%;
+  padding-inline: 30px;
+  text-align: justify;
+  /* border-left: 2px solid #0487d37f;
     border-right: 2px solid #0487d37f; */
-    margin: 10px;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
+  margin: 10px;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
 }
 
-.button{
-    width: 40%;
-    display: flex;
+.button {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finisher {
+  max-width: 60%;
+  padding-inline: 30px;
+  text-align: justify;
+  /* border-left: 2px solid #0487d37f;
+    border-right: 2px solid #0487d37f; */
+  margin: 10px;
+
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+.paras {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .paras {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
+  .starter,
+  .finisher {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
 
-.finisher{
-    max-width: 60%;
-    padding-inline: 30px;
-    text-align: justify;
-    /* border-left: 2px solid #0487d37f;
-    border-right: 2px solid #0487d37f; */
+  .button {
     margin: 10px;
-    
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-}
-.paras{
-    display: flex;
-    margin-top: 20px;
-
-}
-
-@media screen and (max-width: 768px){
-    
-    .paras{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .starter, .finisher{
-        max-width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .button{
-        margin: 10px;
-    }
+  }
 }

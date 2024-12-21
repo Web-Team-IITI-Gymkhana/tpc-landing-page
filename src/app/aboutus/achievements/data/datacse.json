@@ -1,18 +1,10 @@
 {
-
-    "achieve":[
-
-        "Represented India at the ICPC World Finals in 2023",
-        "Bagged the gold medal at the Global Best M-GOV Awards 2023 ceremony during the World Government Summit",
-        "Achieved 1st place in India in CSAW CTF Finals and Top 10 ranks globally",
-        "6th Position in Inter IIT Tech Meet 11.0 and won Gold and Silver Medals",
-        "Selection in Google Summer of Code and other Open Source Events."
-
-    ],
-    "medal": "/data/buttonspngs/medal.png"
-
-
-
-
-
+  "achieve": [
+    "Represented India at the ICPC World Finals in 2023",
+    "Bagged the gold medal at the Global Best M-GOV Awards 2023 ceremony during the World Government Summit",
+    "Achieved 1st place in India in CSAW CTF Finals and Top 10 ranks globally",
+    "6th Position in Inter IIT Tech Meet 11.0 and won Gold and Silver Medals",
+    "Selection in Google Summer of Code and other Open Source Events."
+  ],
+  "medal": "/data/buttonspngs/medal.png"
 }

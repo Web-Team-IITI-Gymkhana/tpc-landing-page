@@ -1,48 +1,35 @@
+.carousel {
+  display: flex;
 
-
-.carousel{
-    display: flex;
-
-    flex-direction: row;
-    min-width: 30vw;
-    justify-content: flex-start;
-    /* background-color: aqua; */
-    align-items: center;
-    margin-inline: 10px;
-    margin-block: 20px;
-
+  flex-direction: row;
+  min-width: 30vw;
+  justify-content: flex-start;
+  /* background-color: aqua; */
+  align-items: center;
+  margin-inline: 10px;
+  margin-block: 20px;
 }
 
-
-.displaypic{
-    width: 30vw;
-    height: 25vh;
-
+.displaypic {
+  width: 30vw;
+  height: 25vh;
 }
 
-
-
-
-.activedot{
-    color: black;
-    font-weight: 900;
+.activedot {
+  color: black;
+  font-weight: 900;
 }
 
-.inactivedot{
-    color: rgba(0, 0, 0, 0.462);
-    font-weight: 700;
+.inactivedot {
+  color: rgba(0, 0, 0, 0.462);
+  font-weight: 700;
 }
 
-
-
-
-
-.dots{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-
+.dots {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
 }
 
 /* .sidebar{
@@ -54,7 +41,6 @@
     overflow-y: scroll;
     scrollbar-width: none;
 } */
-
 
 /* .sidebar button{
     width: 100%;
@@ -69,7 +55,6 @@
     height: 100%;
     width: 100%;
 } */
-
 
 /* @media (max-width: 768px) {
 
@@ -108,13 +93,11 @@
 }
     */
 
-
-    @media (max-width: 770px) {
-        .carousel{
-            width: 70vw;
-        }
-        .displaypic{
-            width: 70vw;
-        }
-
-    }
+@media (max-width: 770px) {
+  .carousel {
+    width: 70vw;
+  }
+  .displaypic {
+    width: 70vw;
+  }
+}
