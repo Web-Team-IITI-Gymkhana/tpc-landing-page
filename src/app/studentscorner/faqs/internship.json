@@ -1,29 +1,28 @@
 {
-    "faq":
-    [
-        {
-            "Question":"I have a remote intern in a startup, I started it in June and it's supposed to continue till August, will I have to leave this before sitting for on campus placement drives?",
-            "Answer":"You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
-        },
-{
-    "Question":"I wish to continue applying for interns in small companies/startups and research interns, these will be remote and finish before the time of the start of my Intern next summer, Can I do that?",
-    "Answer":"You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated. \n Also I'm not sure how they are going to include this with regular classes in CV, as anything during the academic session needs NOC."
-},
-{
-    "Question":"If I want to apply (when I haven't received any offer) to companies myself for Summer Internship, via asking members for referrals, sitting for open positions etc. (Off-Campus),  If I tell the TPC, will I be barred from sitting in On-Campus Drives?",
-    "Answer":"You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
-},
-{
-    "Question":"Since I have 6 month industrial/on-site internship with proper NOC, what will happen to the resume verification in my case? I want to participate in placement drive after coming back to college. ",
-    "Answer":"In this case contact your managers, write a request email attach NOC-with reason to them, mark APO in CC. \n Once approved by Placement Office any of the Manager can do this online and once the student is back on-campus the same can be verified before the commencement of the drive."
-},
-{
-    "Question":"Do we need to inform Placement Office everytime we apply for an off campus internship?",
-    "Answer":"Yes. Mandatory before you get an interview/test call and after u get selected or rejected"
-},
-{
-    "Question":"Is one student is allowed to have two internships if there timings are different like one oncampus and one offcampus?",
-    "Answer":"You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
-}
-    ]
+  "faq": [
+    {
+      "Question": "I have a remote intern in a startup, I started it in June and it's supposed to continue till August, will I have to leave this before sitting for on campus placement drives?",
+      "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
+    },
+    {
+      "Question": "I wish to continue applying for interns in small companies/startups and research interns, these will be remote and finish before the time of the start of my Intern next summer, Can I do that?",
+      "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated. \n Also I'm not sure how they are going to include this with regular classes in CV, as anything during the academic session needs NOC."
+    },
+    {
+      "Question": "If I want to apply (when I haven't received any offer) to companies myself for Summer Internship, via asking members for referrals, sitting for open positions etc. (Off-Campus),  If I tell the TPC, will I be barred from sitting in On-Campus Drives?",
+      "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
+    },
+    {
+      "Question": "Since I have 6 month industrial/on-site internship with proper NOC, what will happen to the resume verification in my case? I want to participate in placement drive after coming back to college. ",
+      "Answer": "In this case contact your managers, write a request email attach NOC-with reason to them, mark APO in CC. \n Once approved by Placement Office any of the Manager can do this online and once the student is back on-campus the same can be verified before the commencement of the drive."
+    },
+    {
+      "Question": "Do we need to inform Placement Office everytime we apply for an off campus internship?",
+      "Answer": "Yes. Mandatory before you get an interview/test call and after u get selected or rejected"
+    },
+    {
+      "Question": "Is one student is allowed to have two internships if there timings are different like one oncampus and one offcampus?",
+      "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
+    }
+  ]
 }

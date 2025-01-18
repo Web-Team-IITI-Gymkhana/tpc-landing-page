@@ -13,7 +13,6 @@ export default function Carousel(props: any) {
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
-      
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -21,13 +20,11 @@ export default function Carousel(props: any) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
- 
-
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((currentIndex) =>
-        currentIndex === props.images.length - 1 ? 0 : currentIndex + 1
+        currentIndex === props.images.length - 1 ? 0 : currentIndex + 1,
       );
     }, 5000);
 
@@ -42,7 +39,7 @@ export default function Carousel(props: any) {
         blurDataURL={props.images[currentIndex]}
         src={props.images[currentIndex]}
         alt="tpc images"
-        style={{ right: `${-scrollY*0.5 - 5}px`, top: "40px" }} // Dynamically update the right position
+        style={{ right: `${-scrollY * 0.5 - 5}px`, top: "40px" }} // Dynamically update the right position
         className={`  object-cover w-[80vh] rounded-l-[100px] aspect-square absolute  border-[5px] border-white  `}
       />
 

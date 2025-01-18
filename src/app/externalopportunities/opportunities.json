@@ -1,47 +1,43 @@
 {
+  "rows": [
+    {
+      "key": "1",
+      "job": "IBM Off-Campus Internship Opportunity",
+      "date": "Not Mentioned",
+      "link": "https://careers.ibm.com/job-not-found/?jobid=18698263"
+    },
+    {
+      "key": "2",
+      "job": "Research Intern at Microsoft",
+      "date": "Not Mentioned",
+      "link": "https://jobs.careers.microsoft.com/global/en/job/1582723/Research-Intern?utm_medium=Copy-job-share"
+    },
+    {
+      "key": "3",
+      "job": "IBM Off-Campus Internship Opportunity",
+      "date": "Not Mentioned",
+      "link": "https://careers.ibm.com/job-not-found/?jobid=18698263"
+    },
+    {
+      "key": "4",
+      "job": "Research Intern at Microsoft",
+      "date": "Not Mentioned",
+      "link": "https://jobs.careers.microsoft.com/global/en/job/1582723/Research-Intern?utm_medium=Copy-job-share"
+    }
+  ],
 
-
-    "rows" : [
-        {
-          "key": "1",
-          "job": "IBM Off-Campus Internship Opportunity",
-          "date": "Not Mentioned",
-          "link": "https://careers.ibm.com/job-not-found/?jobid=18698263"
-        },
-        {
-         "key": "2",
-          "job": "Research Intern at Microsoft",
-          "date": "Not Mentioned",
-          "link": "https://jobs.careers.microsoft.com/global/en/job/1582723/Research-Intern?utm_medium=Copy-job-share"
-        },
-        {
-            "key": "3",
-            "job": "IBM Off-Campus Internship Opportunity",
-            "date": "Not Mentioned",
-            "link": "https://careers.ibm.com/job-not-found/?jobid=18698263"
-          },
-          {
-           "key": "4",
-            "job": "Research Intern at Microsoft",
-            "date": "Not Mentioned",
-            "link": "https://jobs.careers.microsoft.com/global/en/job/1582723/Research-Intern?utm_medium=Copy-job-share"
-          }
-      ],
-      
-         "columns" : [
-        {
-         "key": "job",
-          "label": "JOB"
-        },
-        {
-          "key": "date",
-          "label": "LAST DATE"
-        },
-        {
-          "key": "link",
-          "label": "LINK"
-        }
-      ]
-
-
+  "columns": [
+    {
+      "key": "job",
+      "label": "JOB"
+    },
+    {
+      "key": "date",
+      "label": "LAST DATE"
+    },
+    {
+      "key": "link",
+      "label": "LINK"
+    }
+  ]
 }

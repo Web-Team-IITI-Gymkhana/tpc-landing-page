@@ -1,36 +1,44 @@
-'use client'
+"use client";
 
-import { Plane, Train, Bus, Car } from 'lucide-react'
-import { useState } from 'react'
+import { Plane, Train, Bus, Car } from "lucide-react";
+import { useState } from "react";
 
 export default function HowToReachIITI() {
-  const [activeTab, setActiveTab] = useState<'air' | 'train' | 'road'>('air')
+  const [activeTab, setActiveTab] = useState<"air" | "train" | "road">("air");
 
-  const transportModes: { id: 'air' | 'train' | 'road'; icon: any; title: string }[] = [
-    { id: 'air', icon: Plane, title: 'By Air' },
-    { id: 'train', icon: Train, title: 'By Train' },
-    { id: 'road', icon: Car, title: 'By Road' },
-    
-  ]
+  const transportModes: {
+    id: "air" | "train" | "road";
+    icon: any;
+    title: string;
+  }[] = [
+    { id: "air", icon: Plane, title: "By Air" },
+    { id: "train", icon: Train, title: "By Train" },
+    { id: "road", icon: Car, title: "By Road" },
+  ];
 
-  const transportInfo: { [key in 'air' | 'train'| 'road']: string } = {
+  const transportInfo: { [key in "air" | "train" | "road"]: string } = {
     air: "The nearest airport is Devi Ahilyabai Holkar Airport (IDR), located about 25 km from the IIT Indore campus. Taxis and pre-paid cabs are available from the airport to reach the institute.",
-    train: "Indore Junction (INDB) is the main railway station, approximately 20 km from the campus. You can take a taxi or use app-based cab services to reach IIT Indore from the station.",
-    road: "Indore has a well-connected bus network. The nearest bus stop to IIT Indore is Simrol, from where you can take a local auto or taxi to reach the campus. IIT Indore is located on Khandwa Road (NH 59A). If you're driving, use GPS navigation and follow the signs to Simrol. The campus is well-marked and easy to locate."
-  }
+    train:
+      "Indore Junction (INDB) is the main railway station, approximately 20 km from the campus. You can take a taxi or use app-based cab services to reach IIT Indore from the station.",
+    road: "Indore has a well-connected bus network. The nearest bus stop to IIT Indore is Simrol, from where you can take a local auto or taxi to reach the campus. IIT Indore is located on Khandwa Road (NH 59A). If you're driving, use GPS navigation and follow the signs to Simrol. The campus is well-marked and easy to locate.",
+  };
 
   return (
     <div className="  pt-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-center header2 mb-8">How To Reach IITI</h1>
-        
+        <h1 className="text-4xl font-bold text-center header2 mb-8">
+          How To Reach IITI
+        </h1>
+
         <div className="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
           <div className="flex border-b">
             {transportModes.map((mode) => (
               <button
                 key={mode.id}
                 className={`flex-1 py-4 px-6 text-center focus:outline-none transition-colors duration-200 ${
-                  activeTab === mode.id ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-gray-100'
+                  activeTab === mode.id
+                    ? "bg-blue-500 text-white"
+                    : "text-gray-700 hover:bg-gray-100"
                 }`}
                 onClick={() => setActiveTab(mode.id)}
               >
@@ -39,20 +47,27 @@ export default function HowToReachIITI() {
               </button>
             ))}
           </div>
-          
+
           <div className="p-6">
-            <p className="text-gray-700 leading-relaxed">{transportInfo[activeTab]}</p>
+            <p className="text-gray-700 leading-relaxed">
+              {transportInfo[activeTab]}
+            </p>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Campus Address</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                Campus Address
+              </h2>
               <p className="text-gray-700 leading-relaxed">
-                Indian Institute of Technology Indore<br />
-                Khandwa Road, Simrol<br />
-                Indore 453552<br />
+                Indian Institute of Technology Indore
+                <br />
+                Khandwa Road, Simrol
+                <br />
+                Indore 453552
+                <br />
                 Madhya Pradesh, India
               </p>
             </div>
@@ -74,10 +89,15 @@ export default function HowToReachIITI() {
         <div className="mt-8 text-center">
           <p className="text-gray-600">
             For more information, please contact our helpdesk at:
-            <a href="tel:+917324306800" className="text-blue-500 hover:underline ml-1">+91 732 4306 800</a>
+            <a
+              href="tel:+917324306800"
+              className="text-blue-500 hover:underline ml-1"
+            >
+              +91 732 4306 800
+            </a>
           </p>
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,79 +1,79 @@
 {
-    "Clubs": [
-        {
-            "title": "Google Developer Student Club",
-            "link": "https://www.instagram.com/gdsc_iiti/",
-            "img": "/data/Gymkhana/Tech/GDSC_Club.png"
-        },
-        {
-            "title": "Programming Club",
-            "link": "https://www.instagram.com/pclub_iiti/",
-            "img": "/data/Gymkhana/Tech/Pclub.png"
-        },
-        {
-            "title": "The Aeromodelling club",
-            "link": "https://www.instagram.com/aeroclub_iiti/",
-            "img": "/data/Gymkhana/Tech/Aeromodelling_Club.jpg"
-        },
-        {
-            "title": "Electronics Club",
-            "link": "https://www.instagram.com/electronics_club_iiti/",
-            "img": "/data/Gymkhana/Tech/Electronics_Club.png"
-        },
-        {
-            "title": "IEEE",
-            "link": "https://www.instagram.com/ieeesbiiti/",
-            "img": "/data/Gymkhana/Tech/IEEE_Club.jpeg"
-        },
-        {
-            "title": "Robotics Club",
-            "link": "https://www.instagram.com/roboticsclub_iitindore/",
-            "img": "/data/Gymkhana/Tech/Robotics_Club.jpg"
-        },
-        {
-            "title": "CAE Club",
-            "link": "https://www.instagram.com/caeclub_iiti/",
-            "img": "/data/Gymkhana/Tech/CAE_Club.png"
-        },
-        {
-            "title": "Cynaptics Club",
-            "link": "https://www.instagram.com/cynapticsclubiiti/",
-            "img": "/data/Gymkhana/Tech/Cynaptics_Club.jpg"
-        },
-        {
-            "title": "Concrete Club",
-            "link": "https://www.instagram.com/concreate_iiti/",
-            "img": "/data/Gymkhana/Tech/Concreate_Club.jpg"
-        },
-        {
-            "title": "Astronomy Club",
-            "link": "https://www.instagram.com/astronomyclub_iiti/",
-            "img": "/data/Gymkhana/Tech/Astronomy_Club.jpg"
-        },
-        {
-            "title": "IVDC Club",
-            "link": "https://www.instagram.com/ivdc_iiti/",
-            "img": "/data/Gymkhana/Tech/IVDC_Club.jpg"
-        },
-        {
-            "title": "CFA Club",
-            "link": "https://www.instagram.com/cfaclub_iiti/",
-            "img": "/data/Gymkhana/Tech/CFA_Club.jpg"
-        },
-        {
-            "title": "Metacryst",
-            "link": "https://www.instagram.com/metacryst_iiti/",
-            "img": "/data/Gymkhana/Tech/MetaCryst.png"
-        },
-        {
-            "title": "Quantum Computing",
-            "link": "https://www.instagram.com/quantum_computing_iiti/",
-            "img": "/data/Gymkhana/Tech/Quantum_Computing.jpg"
-        },
-        {
-            "title": "VLR",
-            "link": "https://www.instagram.com/vlr_iiti/",
-            "img": "/data/Gymkhana/Tech/VLR.png"
-        }
-    ]
+  "Clubs": [
+    {
+      "title": "Google Developer Student Club",
+      "link": "https://www.instagram.com/gdsc_iiti/",
+      "img": "/data/Gymkhana/Tech/GDSC_Club.png"
+    },
+    {
+      "title": "Programming Club",
+      "link": "https://www.instagram.com/pclub_iiti/",
+      "img": "/data/Gymkhana/Tech/Pclub.png"
+    },
+    {
+      "title": "The Aeromodelling club",
+      "link": "https://www.instagram.com/aeroclub_iiti/",
+      "img": "/data/Gymkhana/Tech/Aeromodelling_Club.jpg"
+    },
+    {
+      "title": "Electronics Club",
+      "link": "https://www.instagram.com/electronics_club_iiti/",
+      "img": "/data/Gymkhana/Tech/Electronics_Club.png"
+    },
+    {
+      "title": "IEEE",
+      "link": "https://www.instagram.com/ieeesbiiti/",
+      "img": "/data/Gymkhana/Tech/IEEE_Club.jpeg"
+    },
+    {
+      "title": "Robotics Club",
+      "link": "https://www.instagram.com/roboticsclub_iitindore/",
+      "img": "/data/Gymkhana/Tech/Robotics_Club.jpg"
+    },
+    {
+      "title": "CAE Club",
+      "link": "https://www.instagram.com/caeclub_iiti/",
+      "img": "/data/Gymkhana/Tech/CAE_Club.png"
+    },
+    {
+      "title": "Cynaptics Club",
+      "link": "https://www.instagram.com/cynapticsclubiiti/",
+      "img": "/data/Gymkhana/Tech/Cynaptics_Club.jpg"
+    },
+    {
+      "title": "Concrete Club",
+      "link": "https://www.instagram.com/concreate_iiti/",
+      "img": "/data/Gymkhana/Tech/Concreate_Club.jpg"
+    },
+    {
+      "title": "Astronomy Club",
+      "link": "https://www.instagram.com/astronomyclub_iiti/",
+      "img": "/data/Gymkhana/Tech/Astronomy_Club.jpg"
+    },
+    {
+      "title": "IVDC Club",
+      "link": "https://www.instagram.com/ivdc_iiti/",
+      "img": "/data/Gymkhana/Tech/IVDC_Club.jpg"
+    },
+    {
+      "title": "CFA Club",
+      "link": "https://www.instagram.com/cfaclub_iiti/",
+      "img": "/data/Gymkhana/Tech/CFA_Club.jpg"
+    },
+    {
+      "title": "Metacryst",
+      "link": "https://www.instagram.com/metacryst_iiti/",
+      "img": "/data/Gymkhana/Tech/MetaCryst.png"
+    },
+    {
+      "title": "Quantum Computing",
+      "link": "https://www.instagram.com/quantum_computing_iiti/",
+      "img": "/data/Gymkhana/Tech/Quantum_Computing.jpg"
+    },
+    {
+      "title": "VLR",
+      "link": "https://www.instagram.com/vlr_iiti/",
+      "img": "/data/Gymkhana/Tech/VLR.png"
+    }
+  ]
 }

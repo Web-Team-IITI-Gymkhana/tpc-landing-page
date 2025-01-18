@@ -1,58 +1,48 @@
-
-
-
 .button {
-    position: relative; /* Add relative positioning to enable absolute positioning for pseudo-element */
-    color: white;
-    display: block;
-    margin: 0 auto;
-    padding: 0.5rem 1rem;
-    border-radius: 70px;
-    font-size: 3rem;
-    background-image: linear-gradient(to right, #0487D2, #115398);
+  position: relative; /* Add relative positioning to enable absolute positioning for pseudo-element */
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 70px;
+  font-size: 3rem;
+  background-image: linear-gradient(to right, #0487d2, #115398);
 
-    border: none; 
-    
+  border: none;
 }
-
 
 .button::after {
-    content: '';
-    position: absolute;
-    top: -2px; 
-    left: -2px;
-    right: -2px; 
-    bottom: -2px; 
-    background-image: linear-gradient(to bottom, #0487D2, #115398);
-    border-radius: inherit;
-    z-index: -1; 
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background-image: linear-gradient(to bottom, #0487d2, #115398);
+  border-radius: inherit;
+  z-index: -1;
 }
 
-
-.photos{
-    width: 10rem;
-    height: 4rem;
-    object-fit: cover;
+.photos {
+  width: 10rem;
+  height: 4rem;
+  object-fit: cover;
 }
 
-
-
-.logos{
-    width: 10rem;
-    object-fit: cover;
-    transition: 1s ease;
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: hidden;
-    
+.logos {
+  width: 10rem;
+  object-fit: cover;
+  transition: 1s ease;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
 }
-.logos img{
-    width: 10rem;
-    height: auto;
-    object-fit: cover;
-
+.logos img {
+  width: 10rem;
+  height: auto;
+  object-fit: cover;
 }
 
 /* .logos:hover{
@@ -63,17 +53,16 @@
     border-radius: 10px;
 } */
 
-.catalog{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
+.catalog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
 }
 
-
-@media only screen and (max-width: 467px){
-    .button{
-        font-size: 2.3rem;
-    }
+@media only screen and (max-width: 467px) {
+  .button {
+    font-size: 2.3rem;
+  }
 }

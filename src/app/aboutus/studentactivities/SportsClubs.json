@@ -1,54 +1,54 @@
 {
-    "Clubs": [
-        {
-            "title": "Aquatics Club",
-            "link": "",
-            "img": ""
-        },
-        {
-            "title": "Basketball Club",
-            "link": "https://www.instagram.com/club_basketball_iiti/",
-            "img": "/data/Gymkhana/Sports/basketball.png"
-        },
-        {
-            "title": "Cricket Club",
-            "link": "https://www.instagram.com/cricket_iiti/",
-            "img": "/data/Gymkhana/Sports/cricket.jpg"
-        },
-        {
-            "title": "Volleyball Club",
-            "link": "https://www.instagram.com/volleyball.iiti/",
-            "img": "/data/Gymkhana/Sports/volleyball.png"
-        },
-        {
-            "title": "Squash Club",
-            "link": "",
-            "img": ""
-        },
-        {
-            "title": "Chess Club",
-            "link": "https://www.instagram.com/theberserkers_iiti/",
-            "img": "/data/Gymkhana/Sports/chess.jpg"
-        },
-        {
-            "title": "Athletics Club",
-            "link": "https://www.instagram.com/athletics_iiti/",
-            "img": "/data/Gymkhana/Sports/athletics.png"
-        },
-        {
-            "title": "Football Club",
-            "link": "https://www.instagram.com/football_club_iiti/",
-            "img": "/data/Gymkhana/Sports/football.jpg"
-        },
-        {
-            "title": "Table Tennis Club",
-            "link": "https://www.instagram.com/table_tennis_iiti/",
-            "img": "/data/Gymkhana/Sports/tabletennis.png"
-        },
-        {
-            "title": "Badminton Club",
-            "link": "https://www.instagram.com/badmintonclub_iiti/",
-            "img": "/data/Gymkhana/Sports/badminton.png"
-        }
-    ]
+  "Clubs": [
+    {
+      "title": "Aquatics Club",
+      "link": "",
+      "img": ""
+    },
+    {
+      "title": "Basketball Club",
+      "link": "https://www.instagram.com/club_basketball_iiti/",
+      "img": "/data/Gymkhana/Sports/basketball.png"
+    },
+    {
+      "title": "Cricket Club",
+      "link": "https://www.instagram.com/cricket_iiti/",
+      "img": "/data/Gymkhana/Sports/cricket.jpg"
+    },
+    {
+      "title": "Volleyball Club",
+      "link": "https://www.instagram.com/volleyball.iiti/",
+      "img": "/data/Gymkhana/Sports/volleyball.png"
+    },
+    {
+      "title": "Squash Club",
+      "link": "",
+      "img": ""
+    },
+    {
+      "title": "Chess Club",
+      "link": "https://www.instagram.com/theberserkers_iiti/",
+      "img": "/data/Gymkhana/Sports/chess.jpg"
+    },
+    {
+      "title": "Athletics Club",
+      "link": "https://www.instagram.com/athletics_iiti/",
+      "img": "/data/Gymkhana/Sports/athletics.png"
+    },
+    {
+      "title": "Football Club",
+      "link": "https://www.instagram.com/football_club_iiti/",
+      "img": "/data/Gymkhana/Sports/football.jpg"
+    },
+    {
+      "title": "Table Tennis Club",
+      "link": "https://www.instagram.com/table_tennis_iiti/",
+      "img": "/data/Gymkhana/Sports/tabletennis.png"
+    },
+    {
+      "title": "Badminton Club",
+      "link": "https://www.instagram.com/badmintonclub_iiti/",
+      "img": "/data/Gymkhana/Sports/badminton.png"
+    }
+  ]
 }

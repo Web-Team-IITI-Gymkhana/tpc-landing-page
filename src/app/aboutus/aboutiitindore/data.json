@@ -1,121 +1,65 @@
 {
+  "intro": "Established in 2009, the Indian Institute of Technology Indore (IIT Indore) is a prestigious institution in India, recognized for its excellence in engineering, science, and humanities education and research. Situated in Indore, Madhya Pradesh, IIT Indore boasts a robust global presence, having formed over 100 Memoranda of Understanding (MoUs) and secured more than 35 bilateral research grants. The faculty comprises approximately 210 members, including esteemed scientists and emerging scholars. The institute has made significant contributions to research, with over 7,500 journal publications and 150 patents filed. Furthermore, IIT Indore is committed to providing a flexible, industry-responsive curriculum and fostering entrepreneurship through its Advanced Centre for Entrepreneurship. The institute celebrates its students' achievements on global platforms, notably at the Global Best M-GOV Awards 2023 and in various competitive programming contests. With a strong dedication to advancing knowledge and promoting collaborative efforts, IIT Indore offers a modern academic environment conducive to innovation and academic excellence.",
 
-   "intro" : "Established in 2009, the Indian Institute of Technology Indore (IIT Indore) is a prestigious institution in India, recognized for its excellence in engineering, science, and humanities education and research. Situated in Indore, Madhya Pradesh, IIT Indore boasts a robust global presence, having formed over 100 Memoranda of Understanding (MoUs) and secured more than 35 bilateral research grants. The faculty comprises approximately 210 members, including esteemed scientists and emerging scholars. The institute has made significant contributions to research, with over 7,500 journal publications and 150 patents filed. Furthermore, IIT Indore is committed to providing a flexible, industry-responsive curriculum and fostering entrepreneurship through its Advanced Centre for Entrepreneurship. The institute celebrates its students' achievements on global platforms, notably at the Global Best M-GOV Awards 2023 and in various competitive programming contests. With a strong dedication to advancing knowledge and promoting collaborative efforts, IIT Indore offers a modern academic environment conducive to innovation and academic excellence.",
+  "iitihome": "https://www.iiti.ac.in/",
 
+  "academicsstarter": "IIT Indore offers a range of undergraduate, postgraduate, and doctoral programs across various disciplines. The academic structure is designed to foster interdisciplinary learning and research. The key programs include:",
 
-    "iitihome": "https://www.iiti.ac.in/",
-
-
-    "academicsstarter" : "IIT Indore offers a range of undergraduate, postgraduate, and doctoral programs across various disciplines. The academic structure is designed to foster interdisciplinary learning and research. The key programs include:",
-
-       
-        
-
-    "academicsend" :  "The curriculum at IIT Indore emphasizes both theoretical knowledge and practical application, encouraging students to engage in research projects and internships."
-,
-    "reasearchstarting" : "IIT Indore has made significant strides in research and development, establishing itself as a hub for innovation. The institute boasts numerous research centers and labs equipped with state-of-the-art facilities, fostering an environment conducive to cutting-edge research. Key research areas include:"
-,
-
-    "research" : [
-        {"title":"Nanotechnology",
-        "link":"/data/research/nanotech.png"
-    },
-        {"title":"Artificial Intelligence and Machine Learning",
-    "link":"/data/research/ai.png"},
-        {"title":"Renewable Energy",
-    "link":"/data/research/renew.png"},
-        {"title":"Biomedical Engineering",
-    "link":"/data/research/biomedical.png"},
-       {"title":"Environmental Science and Engineering",
-    "link":"/data/research/evs.png"}
-    ],
-
-    "reaseachend" : "The institute also collaborates with various national and international organizations, enhancing its research capabilities and providing students and faculty with opportunities to work on globally relevant projects."
-
-, "infrastructure" : "The IIT Indore campus is spread over a sprawling area with modern infrastructure, including:"
-
-
-, "infrabody" : [
-
+  "academicsend": "The curriculum at IIT Indore emphasizes both theoretical knowledge and practical application, encouraging students to engage in research projects and internships.",
+  "reasearchstarting": "IIT Indore has made significant strides in research and development, establishing itself as a hub for innovation. The institute boasts numerous research centers and labs equipped with state-of-the-art facilities, fostering an environment conducive to cutting-edge research. Key research areas include:",
+  "research": [
+    { "title": "Nanotechnology", "link": "/data/research/nanotech.png" },
     {
-
-        "images": [
-    
-         
-            
-            "/data/carouseliiti/acad/classroom1.jpeg"
-            
-        ],
-    
-        "title" : "Academic Buildings",
-    
-        "description" : "Equipped with advanced classrooms, lecture halls, and labs."
-       
-    
-    
+      "title": "Artificial Intelligence and Machine Learning",
+      "link": "/data/research/ai.png"
+    },
+    { "title": "Renewable Energy", "link": "/data/research/renew.png" },
+    {
+      "title": "Biomedical Engineering",
+      "link": "/data/research/biomedical.png"
     },
     {
-
-        "images": [
-    
-         
-            
-            "/data/carouseliiti/lib/lrc1.jpeg"
-    
-        ],
-    
-        "title" : "Central Library",
-    
-        "description" : "A vast collection of books, journals, and digital resources, supporting academic and research activities."
-    
-    },
-    {
-
-        "images": [
-    
-         
-            
-            "/data/carouseliiti/hostel/hostel1.jpg"
-    
-        ],
-    
-        "title" : "Hostels and Housing",
-    
-        "description" : "Comfortable accommodation facilities for students, faculty, and staff."
-   
-    
-    },
-    {
-
-        "images": [
-    
-         
-            
-            "/data/carouseliiti/facil/sprts1.jpeg"
-    
-        ],
-    
-        "title" : "Recreational Facilities",
-    
-        "description" : "Sports complexes, gymnasiums, and cultural centers to promote extracurricular activities."
-  
+      "title": "Environmental Science and Engineering",
+      "link": "/data/research/evs.png"
     }
+  ],
 
+  "reaseachend": "The institute also collaborates with various national and international organizations, enhancing its research capabilities and providing students and faculty with opportunities to work on globally relevant projects.",
 
+  "infrastructure": "The IIT Indore campus is spread over a sprawling area with modern infrastructure, including:",
 
+  "infrabody": [
+    {
+      "images": ["/data/carouseliiti/acad/classroom1.jpeg"],
 
+      "title": "Academic Buildings",
 
+      "description": "Equipped with advanced classrooms, lecture halls, and labs."
+    },
+    {
+      "images": ["/data/carouseliiti/lib/lrc1.jpeg"],
 
-],
+      "title": "Central Library",
 
+      "description": "A vast collection of books, journals, and digital resources, supporting academic and research activities."
+    },
+    {
+      "images": ["/data/carouseliiti/hostel/hostel1.jpg"],
 
- "faculty" : "The faculty at IIT Indore comprises experienced and distinguished professors, many of whom are recognized for their contributions to their respective fields. The faculty members are actively involved in research, publishing in reputed journals, and participating in international conferences."
-,
- "student" : "Life at IIT Indore is vibrant and diverse, with numerous student clubs and organizations catering to a wide range of interests, including technical, cultural, and sports activities. Annual events like Fluxus (the cultural fest) and Concours (the tech fest) are highly anticipated, providing students with opportunities to showcase their talents and interact with peers from other institutions."
-,
- "industry" : "IIT Indore maintains strong ties with the industry, facilitating internships, collaborative projects, and placements. The institute's placement cell works tirelessly to ensure that students have access to job opportunities in leading companies across various sectors. Graduates from IIT Indore have secured positions in top-tier firms globally, reflecting the institute's commitment to excellence in education and professional development."
+      "title": "Hostels and Housing",
 
+      "description": "Comfortable accommodation facilities for students, faculty, and staff."
+    },
+    {
+      "images": ["/data/carouseliiti/facil/sprts1.jpeg"],
 
+      "title": "Recreational Facilities",
 
+      "description": "Sports complexes, gymnasiums, and cultural centers to promote extracurricular activities."
+    }
+  ],
 
+  "faculty": "The faculty at IIT Indore comprises experienced and distinguished professors, many of whom are recognized for their contributions to their respective fields. The faculty members are actively involved in research, publishing in reputed journals, and participating in international conferences.",
+  "student": "Life at IIT Indore is vibrant and diverse, with numerous student clubs and organizations catering to a wide range of interests, including technical, cultural, and sports activities. Annual events like Fluxus (the cultural fest) and Concours (the tech fest) are highly anticipated, providing students with opportunities to showcase their talents and interact with peers from other institutions.",
+  "industry": "IIT Indore maintains strong ties with the industry, facilitating internships, collaborative projects, and placements. The institute's placement cell works tirelessly to ensure that students have access to job opportunities in leading companies across various sectors. Graduates from IIT Indore have secured positions in top-tier firms globally, reflecting the institute's commitment to excellence in education and professional development."
 }

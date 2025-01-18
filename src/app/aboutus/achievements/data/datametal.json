@@ -1,21 +1,11 @@
 {
+  "achieve": [
+    "Significant contributions in research in areas of nanotechnology, energy storage, smart materials, energy and sustainability, alloy design, electrochemistry and hydrogen synthesis.",
+    "Student achievements and awards include- PMRF, Best Oral Presentation Award, Raman Charpak Fellowship.",
+    "11 students visited foreign universities and 10 international visitors visited IIT Indore MEMS Department",
+    "Graduates securing prestigious positions in top companies, top ranks in exams like GATE and CAT, pursuing advanced studies at renowned institutions globally.",
+    "Materials Advantage Student Chapter of MEMS Department IIT Indore organized an International Symposium on Physical Metallurgy of High-Entropy Alloys. The symposium featured six expert talks, delivered by distinguished speakers from foreign universities."
+  ],
 
-   
-
-    "achieve":[
-
-        "Significant contributions in research in areas of nanotechnology, energy storage, smart materials, energy and sustainability, alloy design, electrochemistry and hydrogen synthesis.",
-        "Student achievements and awards include- PMRF, Best Oral Presentation Award, Raman Charpak Fellowship.",
-        "11 students visited foreign universities and 10 international visitors visited IIT Indore MEMS Department",
-        "Graduates securing prestigious positions in top companies, top ranks in exams like GATE and CAT, pursuing advanced studies at renowned institutions globally.",
-        "Materials Advantage Student Chapter of MEMS Department IIT Indore organized an International Symposium on Physical Metallurgy of High-Entropy Alloys. The symposium featured six expert talks, delivered by distinguished speakers from foreign universities."
-
-
-    ]
-
-,
-    "medal": "/data/buttonspngs/medal.png"
-
-
-
+  "medal": "/data/buttonspngs/medal.png"
 }

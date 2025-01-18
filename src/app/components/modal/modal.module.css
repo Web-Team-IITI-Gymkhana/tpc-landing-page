@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .base {
-width: 80%;
-max-width: 1200px;
-min-width: 425px;
+  width: 80%;
+  max-width: 1200px;
+  min-width: 425px;
 }

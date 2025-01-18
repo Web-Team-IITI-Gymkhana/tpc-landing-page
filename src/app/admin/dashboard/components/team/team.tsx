@@ -1,16 +1,7 @@
 export default function Team() {
-
-    return(
-<>
-        <h1>team</h1>
-
-</>
-
-
-
-    );
-
-
-
-
+  return (
+    <>
+      <h1>team</h1>
+    </>
+  );
 }

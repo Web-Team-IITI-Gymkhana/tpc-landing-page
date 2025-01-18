@@ -1,69 +1,53 @@
 {
+  "starter": "The Department of Metallurgical Engineering and Materials Science at IIT Indore, formerly known as the Center for Materials Science Engineering, has experienced swift expansion and advancement, leading to its designation as an official department in 2016. The department is dedicated to both significant contributions to the field of materials science and engineering as well as high academic performance. The primary research focuses on providing a thorough understanding of the structure and processing of various material types, establishing correlations with material attributes, and improving their performance. Students are provided with both theoretical knowledge and practical expertise through a comprehensive curriculum that includes 12 state-of-the-art laboratories and 49 courses. In the seventh semester, students work on industry-related-projects and acquire practical experience in research groups of leading businesses. The curriculum places a strong emphasis on hands-on learning, equipping students to successfully meet the needs of industry. Students are strongly encouraged to take part in national exams and competitions, which foster teamwork and align their skills with industry requirements. Notably, a survey conducted in October 2023 by Stanford University's Professor John Ioannidis revealed that two of our esteemed teachers are included among the Top 2% Scientists in the World.",
+  "title": "Top Courses Offered by the Department",
+  "listbtech": [
+    "Mechanics of Materials",
+    "Physical Metallurgy",
+    "Materials Science",
+    "Extractive Metallurgy",
+    "Powder metallurgy",
+    "Iron and Steel Making",
+    "Theory of metal forming",
+    "Welding and Foundry Engineering",
+    "Corrosion Engineering",
+    "Powder Metallurgy",
+    "Thin Films and Nano-structure",
+    "Ceramics Technology"
+  ],
 
-   
-"starter":"The Department of Metallurgical Engineering and Materials Science at IIT Indore, formerly known as the Center for Materials Science Engineering, has experienced swift expansion and advancement, leading to its designation as an official department in 2016. The department is dedicated to both significant contributions to the field of materials science and engineering as well as high academic performance. The primary research focuses on providing a thorough understanding of the structure and processing of various material types, establishing correlations with material attributes, and improving their performance. Students are provided with both theoretical knowledge and practical expertise through a comprehensive curriculum that includes 12 state-of-the-art laboratories and 49 courses. In the seventh semester, students work on industry-related-projects and acquire practical experience in research groups of leading businesses. The curriculum places a strong emphasis on hands-on learning, equipping students to successfully meet the needs of industry. Students are strongly encouraged to take part in national exams and competitions, which foster teamwork and align their skills with industry requirements. Notably, a survey conducted in October 2023 by Stanford University's Professor John Ioannidis revealed that two of our esteemed teachers are included among the Top 2% Scientists in the World."
-,
-"title":"Top Courses Offered by the Department",
-"listbtech":
+  "listmtech": [
+    "Advanced Mechanical Metallurgy",
+    "Multiphysics Modelling",
+    "Advances in Iron and Steel Metallurgy",
+    "Quality Assurance in Metallurgy",
+    "Integrated Computational Materials Engineering",
+    "Energy Materials",
+    "Experimental Techniques in Materials",
+    "Thin film and devices",
+    "Materials for Devices",
+    "Applied Surface Science",
+    "Advances in Energy Storage Materials",
+    "Fundamentals and Engineering of Solar Energy Devices"
+  ],
 
-    [
-        "Mechanics of Materials",
-        "Physical Metallurgy",
-        "Materials Science",
-        "Extractive Metallurgy",
-        "Powder metallurgy",
-        "Iron and Steel Making",
-        "Theory of metal forming",
-        "Welding and Foundry Engineering",
-        "Corrosion Engineering",
-        "Powder Metallurgy",
-        "Thin Films and Nano-structure",
-        "Ceramics Technology"
-    ]
-    
-    ,
-
-    "listmtech": [
-        "Advanced Mechanical Metallurgy",
-        "Multiphysics Modelling",
-        "Advances in Iron and Steel Metallurgy",
-        "Quality Assurance in Metallurgy",
-        "Integrated Computational Materials Engineering",
-        "Energy Materials",
-        "Experimental Techniques in Materials",
-        "Thin film and devices",
-        "Materials for Devices",
-        "Applied Surface Science",
-        "Advances in Energy Storage Materials",
-        "Fundamentals and Engineering of Solar Energy Devices"
-    ],
-
-
-    "title2": "Skills and Soft Skills Development",
-    "skills":[
-        "Xpert Highscore",
-        "Python",
-        "C++",
-        "Thermo-Calc Software",
-        "Image J software",
-        "Lammps",
-        "Solid Works",
-        "Autodesk",
-        "Matlab",
-        "Origin Pro",
-        "Comsol",
-        "Ansys",
-        "Tecplot",
-        "SQL",
-        "MS office",
-        "Jmat Pro"
-
-    ]
-
-
-
-
-
-
-
+  "title2": "Skills and Soft Skills Development",
+  "skills": [
+    "Xpert Highscore",
+    "Python",
+    "C++",
+    "Thermo-Calc Software",
+    "Image J software",
+    "Lammps",
+    "Solid Works",
+    "Autodesk",
+    "Matlab",
+    "Origin Pro",
+    "Comsol",
+    "Ansys",
+    "Tecplot",
+    "SQL",
+    "MS office",
+    "Jmat Pro"
+  ]
 }

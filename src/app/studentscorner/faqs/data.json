@@ -1,11 +1,7 @@
 {
-    "starter" : "Students of Indian Institute of Technology Indore (IIT Indore) often have several questions about the placement process, the internships, and the support provided by the Training and Placement (T&P) Cell. Here are some of the most frequently asked questions and their answers:",
-    "finisher": "These FAQs provide a comprehensive overview for students looking to their placements. The T&P Cell is dedicated to facilitating a seamless student experience and ensuring that student find the best placements suited to their skills and talent.",
+  "starter": "Students of Indian Institute of Technology Indore (IIT Indore) often have several questions about the placement process, the internships, and the support provided by the Training and Placement (T&P) Cell. Here are some of the most frequently asked questions and their answers:",
+  "finisher": "These FAQs provide a comprehensive overview for students looking to their placements. The T&P Cell is dedicated to facilitating a seamless student experience and ensuring that student find the best placements suited to their skills and talent.",
 
-    "brochure" : "/data/pdf/brochure.pdf",
-    "achievement" : "/aboutus/achievements"
-
-
-
-
+  "brochure": "/data/pdf/brochure.pdf",
+  "achievement": "/aboutus/achievements"
 }

@@ -1,61 +1,35 @@
 {
-
-    "logos": [
-
-     
-        "/data/recruiters/prorec/l1.png",
-        "/data/recruiters/prorec/l2.png",
-        "/data/recruiters/prorec/l3.png",
-        "/data/recruiters/prorec/l4.png",
-        "/data/recruiters/prorec/l5.png",
-        "/data/recruiters/prorec/l6.png",
-        "/data/recruiters/prorec/l7.png",
-        "/data/recruiters/prorec/l8.png",
-        "/data/recruiters/prorec/l9.png",
-        "/data/recruiters/prorec/l10.png",
-        "/data/recruiters/prorec/l11.png",
-        "/data/recruiters/prorec/l12.png",
-        "/data/recruiters/prorec/l13.png",
-        "/data/recruiters/prorec/l14.png",
-        "/data/recruiters/prorec/l15.png",
-        "/data/recruiters/prorec/l16.png",
-        "/data/recruiters/prorec/l17.png",
-        "/data/recruiters/prorec/l18.png",
-        "/data/recruiters/prorec/l19.png",
-        "/data/recruiters/prorec/l20.png",
-        "/data/recruiters/prorec/l21.png",
-        "/data/recruiters/prorec/l22.png",
-        "/data/recruiters/prorec/l23.png",
-        "/data/recruiters/prorec/l24.png",
-        "/data/recruiters/prorec/l25.png",
-        "/data/recruiters/prorec/l26.png",
-        "/data/recruiters/prorec/l27.png",
-        "/data/recruiters/prorec/l28.png",
-        "/data/recruiters/prorec/l29.png",
-        "/data/recruiters/prorec/l30.png",
-        "/data/recruiters/prorec/l31.png"
-        
-       
-
-    ]
-
-
-
-
-    
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
+  "logos": [
+    "/data/recruiters/prorec/l1.png",
+    "/data/recruiters/prorec/l2.png",
+    "/data/recruiters/prorec/l3.png",
+    "/data/recruiters/prorec/l4.png",
+    "/data/recruiters/prorec/l5.png",
+    "/data/recruiters/prorec/l6.png",
+    "/data/recruiters/prorec/l7.png",
+    "/data/recruiters/prorec/l8.png",
+    "/data/recruiters/prorec/l9.png",
+    "/data/recruiters/prorec/l10.png",
+    "/data/recruiters/prorec/l11.png",
+    "/data/recruiters/prorec/l12.png",
+    "/data/recruiters/prorec/l13.png",
+    "/data/recruiters/prorec/l14.png",
+    "/data/recruiters/prorec/l15.png",
+    "/data/recruiters/prorec/l16.png",
+    "/data/recruiters/prorec/l17.png",
+    "/data/recruiters/prorec/l18.png",
+    "/data/recruiters/prorec/l19.png",
+    "/data/recruiters/prorec/l20.png",
+    "/data/recruiters/prorec/l21.png",
+    "/data/recruiters/prorec/l22.png",
+    "/data/recruiters/prorec/l23.png",
+    "/data/recruiters/prorec/l24.png",
+    "/data/recruiters/prorec/l25.png",
+    "/data/recruiters/prorec/l26.png",
+    "/data/recruiters/prorec/l27.png",
+    "/data/recruiters/prorec/l28.png",
+    "/data/recruiters/prorec/l29.png",
+    "/data/recruiters/prorec/l30.png",
+    "/data/recruiters/prorec/l31.png"
+  ]
 }

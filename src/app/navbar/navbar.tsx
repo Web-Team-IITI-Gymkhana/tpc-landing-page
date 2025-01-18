@@ -53,13 +53,11 @@ export default function NavbarUI(props: any) {
       maxWidth="2xl"
       className={`w-full overflow-hidden z-50 fixed top-0 transition-all duration-300 bg-sky-700 h-[5rem] ${scrolled ? `shadow-md` : ""} `}
     >
-      
       <NavbarContent
         justify="start"
         className={`overflow-hidden min-w-max  hover:scale-105 transition-all duration-300 bg-sky-700  rounded-xl px-3  `}
       >
-          <Link href="/" className="">
-        
+        <Link href="/" className="">
           <Image
             width={60}
             height={45}
@@ -67,18 +65,19 @@ export default function NavbarUI(props: any) {
             alt="iit indore"
             className={`${styles.iitilogo}  invert brightness-0 `}
           />
-        
 
-        <div
-          className={`h-[5rem]  text-white overflow-hidden flex flex-col ml-2 items-start justify-center  transition-all duration-300 poppins  `}
-        >
-          
-              <div className="text-[0.7rem] font-bold leading-4">Training and Placement Cell</div>
-              <div className="text-[0.5rem] font-bold leading-4">Indian Institue of Technology Indore</div>
-            
-        </div>
+          <div
+            className={`h-[5rem]  text-white overflow-hidden flex flex-col ml-2 items-start justify-center  transition-all duration-300 poppins  `}
+          >
+            <div className="text-[0.7rem] font-bold leading-4">
+              Training and Placement Cell
+            </div>
+            <div className="text-[0.5rem] font-bold leading-4">
+              Indian Institue of Technology Indore
+            </div>
+          </div>
 
-        {/* <div
+          {/* <div
           className={`h-[5rem]  overflow-hidden flex flex-col justify-center gap-[0rem] poppins ${
             scrolled ? "text-black" : "text-white"
           }`}
@@ -136,7 +135,7 @@ export default function NavbarUI(props: any) {
             </Link>
           </div>
         </div> */}
-      </Link>
+        </Link>
       </NavbarContent>
       <NavbarContent
         justify="center"
@@ -144,7 +143,10 @@ export default function NavbarUI(props: any) {
         style={{ justifyContent: "space-around" }}
       >
         {props.buttons.map((item: any, index: any) => (
-          <NavbarMenuItem className={`enter1 delay-500`} key={`${item}-${index}`}>
+          <NavbarMenuItem
+            className={`enter1 delay-500`}
+            key={`${item}-${index}`}
+          >
             {item.isdrop ? (
               <Drop {...item}>
                 {item.title == "About Us" ? (

@@ -19,9 +19,9 @@
 // import { useRef, useEffect, useState } from "react";
 
 // export default function Recruiters(props: any) {
-  // const nearbyAttractions = Array.from({ length: 31 }, (_, i) => ({
-  //   path: require(`../../../../public/data/recruiters/prorec/l${i + 1}.png`),
-  // }));
+// const nearbyAttractions = Array.from({ length: 31 }, (_, i) => ({
+//   path: require(`../../../../public/data/recruiters/prorec/l${i + 1}.png`),
+// }));
 
 //   const [currentSlide, setCurrentSlide] = useState(0);
 //   const [itemsPerSlide, setItemsPerSlide] = useState(1);
@@ -135,7 +135,6 @@
 //   );
 // }
 
-
 "use client";
 
 import React from "react";
@@ -144,23 +143,23 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 export default function Recruiters() {
   return (
     <section className="mb-8">
-    <h2 className="text-3xl font-semibold mb-8 text-center text-[#2C3E50]">
-          Our Recruiters
-          </h2>
-    <div className="h-[15rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={recruiters1}
-        direction="right"
-        speed="slow"
-      />
-    </div>
-    <div className="h-[15rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={recruiters2}
-        direction="left"
-        speed="slow"
-      />  
-    </div>
+      <h2 className="text-3xl font-semibold mb-8 text-center text-[#2C3E50]">
+        Our Recruiters
+      </h2>
+      <div className="h-[15rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={recruiters1}
+          direction="right"
+          speed="slow"
+        />
+      </div>
+      <div className="h-[15rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={recruiters2}
+          direction="left"
+          speed="slow"
+        />
+      </div>
     </section>
   );
 }

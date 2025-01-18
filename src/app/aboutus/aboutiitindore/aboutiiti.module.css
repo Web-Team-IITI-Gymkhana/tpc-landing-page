@@ -1,128 +1,118 @@
-.introcard{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro{
-    display: flex;
-    flex-direction: column;
+.introcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-    padding-inline: 1.5rem;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    text-align: justify;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    gap: 20px;
-  height: 100%;
-    
 }
 
-.questitle{
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    background: linear-gradient(to right , #115398, #0488D3);
-    -webkit-background-clip: text;
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 1.5rem;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  gap: 20px;
+  height: 100%;
+}
+
+.questitle {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to right, #115398, #0488d3);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-    margin-top: 3rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transition: .3s ease;
-   
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease;
 }
 
-.questitle:hover{
+.questitle:hover {
   filter: brightness(150%);
 }
 
-.conclude{
-    width: 100%;
-    text-align: justify;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    margin-block: 20px;
-    padding-inline: 10px;
+.conclude {
+  width: 100%;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  margin-block: 20px;
+  padding-inline: 10px;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.cardgrid{
+.cardgrid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   place-items: center;
   row-gap: 2rem;
   margin-block: 2rem;
-  
 }
 
-.infra{
+.infra {
   display: flex;
   flex-direction: row;
   gap: 50px;
 }
 
-.tabname button{
+.tabname button {
   font-size: 1rem;
-
 }
-@media screen and (max-width: 1024px){
-    .cardgrid{
-        grid-template-columns: repeat(2,1fr);
-    }
+@media screen and (max-width: 1024px) {
+  .cardgrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media screen and (max-width: 945px){
-   .academicquery{
+@media screen and (max-width: 945px) {
+  .academicquery {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0;
-    
-   }
-   .tabcontent{
+  }
+  .tabcontent {
     width: 90vw;
- 
-   }
-   .quick{
+  }
+  .quick {
     width: 90vw;
-
-   }
-   .wrapper{
+  }
+  .wrapper {
     max-width: 90vw;
     width: 90vw;
-   }
-   .quick{
+  }
+  .quick {
     width: 90vw;
-   }
+  }
 }
 
-@media screen and (max-width: 768px){
-    .introcard{
-        flex-direction: column;
-    }
-
-    
-  
+@media screen and (max-width: 768px) {
+  .introcard {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width: 690px){
-    .cardgrid{
-        grid-template-columns: repeat(1,1fr);
-    }
+@media screen and (max-width: 690px) {
+  .cardgrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-@media screen and (max-width: 620px){
-    .tabname button{
-      font-size: 2.4vw;
-    }
+@media screen and (max-width: 620px) {
+  .tabname button {
+    font-size: 2.4vw;
+  }
 }
