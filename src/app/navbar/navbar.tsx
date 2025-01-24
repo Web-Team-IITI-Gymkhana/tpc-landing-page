@@ -60,7 +60,7 @@ export default function NavbarUI(props: any) {
         <Link href="/" className="">
           <Image
             width={60}
-            height={45}
+            height={60}
             src={props.logo}
             alt="iit indore"
             className={`${styles.iitilogo}  invert brightness-0 `}
@@ -69,10 +69,10 @@ export default function NavbarUI(props: any) {
           <div
             className={`h-[5rem]  text-white overflow-hidden flex flex-col ml-2 items-start justify-center  transition-all duration-300 poppins  `}
           >
-            <div className="text-[0.7rem] font-bold leading-4">
+            <div className="text-[0.8rem] font-bold leading-4">
               Training and Placement Cell
             </div>
-            <div className="text-[0.5rem] font-bold leading-4">
+            <div className="text-[0.65rem] font-bold leading-4">
               Indian Institue of Technology Indore
             </div>
           </div>
