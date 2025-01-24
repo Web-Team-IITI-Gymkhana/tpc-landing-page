@@ -17,16 +17,17 @@
       "link": "https://www.iiti.ac.in"
     },
     {
-      "title": "TRAINING AND PLACEMENT CELL, IITI",
-      "link": "/"
-    },
-    {
       "title": "STUDENT LOGIN",
-      "link": "studentlogin"
+      "link": "/portal/login"
     },
     {
       "title": "RECRUITER LOGIN",
-      "link": "recruiterlogin"
+      "link": "/portal/recruiter/signup"
+    }
+    ,
+    {
+      "title": "OUR DEVELOPERS",
+      "link": "/developers"
     }
   ],
 

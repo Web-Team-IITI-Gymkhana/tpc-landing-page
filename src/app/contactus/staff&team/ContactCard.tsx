@@ -15,7 +15,7 @@ const ContactCard: React.FC = () => {
           <div className={`${styles.cardside} `}>
             <div className={styles.imageContainer}>
               <Image
-                src="/data/logo/iiti.png"
+                src={person.image}
                 alt={person.name}
                 className={styles.profileImage}
               />

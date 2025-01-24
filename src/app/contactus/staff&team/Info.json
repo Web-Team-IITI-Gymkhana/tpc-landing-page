@@ -242,7 +242,7 @@
 
   "Info": [
     {
-      "name": "Prof. Pavan Kumar Kankar",
+      "name": "Dr. Ankur Miglani",
       "position": "Professor, Mechanical Engineering",
       "department": "Professor-In-Charge, Training and Placement Cell",
       "email": "head-tmp@iiti.ac.in",
@@ -252,7 +252,8 @@
       "social": {
         "linkedin": "https://linkedin.com/in/prof-pavan-kumar-kankar",
         "twitter": "https://twitter.com/prof_pavan_kankar"
-      }
+      },
+      "image": "/data/people/staff/Dr. Ankur Miglani.jpg"
     },
     {
       "name": "Mr. Pushpak Kumar Pemma",
@@ -265,7 +266,8 @@
       "social": {
         "facebook": "https://facebook.com/pushpak.kumar.pemma",
         "instagram": "https://instagram.com/pushpak.pemma"
-      }
+      },
+      "image": "/data/people/staff/Mr. Pushpak Kumar Pemma.jpg"
     },
     {
       "name": "Ms. Apeksha Rajpurohit",
@@ -278,7 +280,8 @@
       "social": {
         "linkedin": "https://linkedin.com/in/apeksha-rajpurohit",
         "twitter": "https://twitter.com/apeksha_rajpurohit"
-      }
+      },
+      "image": "/data/people/staff/Ms. Apeksha Rajpurohit.jpg"
     },
     {
       "name": "Ms. Preeti Sharma",
@@ -291,7 +294,8 @@
       "social": {
         "linkedin": "https://linkedin.com/in/preeti-sharma",
         "twitter": "https://twitter.com/preeti_sharma"
-      }
+      },
+      "image": "/data/people/staff/Ms. Preeti Sharma.jpg"
     }
   ]
 }
