@@ -40,7 +40,7 @@
       "drop": [
         {
           "title": "Student Login",
-          "link": "https://tpc.iiti.ac.in/login"
+          "link": "/portal/login"
         }
       ],
       "modalbutton": "/data/buttonspngs/dropdownbutton.png",
@@ -58,7 +58,7 @@
 
         {
           "title": "Recruiter Login",
-          "link": "https://tpc.iiti.ac.in/login"
+          "link": "/portal/recruiter/signup"
         },
         {
           "title": "Timelines",

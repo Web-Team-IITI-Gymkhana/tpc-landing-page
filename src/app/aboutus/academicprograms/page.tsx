@@ -1,74 +1,79 @@
 'use client'
 
 import React, { useState } from 'react'
-
+import { Button } from "@nextui-org/react";
+import Link from "next/link";
+import LaunchIcon from '@mui/icons-material/Launch';
 const courseData = {
-  btech: [
-    { sno: 1, program: "Computer Science and Engineering", yearStarting: "2009-10" },
-    { sno: 2, program: "Electrical Engineering", yearStarting: "2009-10" },
-    { sno: 3, program: "Mechanical Engineering", yearStarting: "2009-10" },
-    { sno: 4, program: "Civil Engineering", yearStarting: "2016-17" },
-    { sno: 5, program: "Metallurgical Engineering and Materials Science", yearStarting: "2016-17" },
-    { sno: 6, program: "Chemical Engineering", yearStarting: "2023-24" },
-    { sno: 7, program: "Mathematics and Computing", yearStarting: "2023-24" },
-    { sno: 8, program: "Engineering Physics", yearStarting: "2023-24" },
-    { sno: 9, program: "Space Sciences and Engineering (SSE)", yearStarting: "2023-24" },
+  placement: [
+    { sno: 1, program: "Computer Science and Engineering", degree: "BTech" },
+    { sno: 2, program: "Electrical Engineering", degree: "BTech" },
+    { sno: 3, program: "Mechanical Engineering", degree: "BTech" },
+    { sno: 4, program: "Civil Engineering", degree: "BTech" },
+    { sno: 5, program: "Metallurgical Engineering and Materials Science", degree: "BTech" },
+    { sno: 6, program: "Chemical Engineering", degree: "BTech" },
+    { sno: 7, program: "Mathematics and Computing", degree: "BTech" },
+    { sno: 8, program: "Engineering Physics", degree: "BTech" },
+    { sno: 9, program: "Space Sciences and Engineering (SSE)", degree: "BTech" },
+    { sno: 10, program: "Electrical Engineering with specialization in VLSI Design and Nanoelectronics", degree: "MTech" },
+    { sno: 11, program: "Electrical Engineering with specialization in VLSI Design and Nanoelectronics", degree: "MTech" },
+    { sno: 12, program: "Mechanical Engineering with specialization in Advanced Manufacturing (AM) (Formally Production and Industrial Engineering)", degree: "MTech"},
+    { sno: 13, program: "Mechanical Engineering with specialization in Thermal Energy Systems (TES)", degree: "MTech" },
+    { sno: 14, program: "Mechanical Engineering with specialization in Mechanical Systems Design", degree: "MTech" },
+    { sno: 15, program: "Metallurgy Engineering and Materials Science with specialization in Materials Science and Engineering", degree: "MTech" },
+    { sno: 16, program: "Metallurgy Engineering and Materials Science with specialization in Metallurgical Engineering", degree: "MTech" },
+    { sno: 17, program: "M.Tech. in Electric Vehicle Technology from Center for Electric Vehicles Intelligent Transport Systems (CEVITS)", degree: "MTech" },
+    { sno: 18, program: "M.Tech. in Space Engineering from Department of Astronomy, Astrophysics And Space Engineering (DAASE)", degree: "MTech" },
+    { sno: 19, program: "Computer Science and Engineering with specialization in Computer Science and Engineering", degree: "MTech" },
+    { sno: 20, program: "Civil Engineering with specialization in Water, Climate and Sustainability", degree: "MTech" },
+    { sno: 21, program: "Biosciences and Biomedical Engineering with specialization in Biomedical Engineering", degree: "MTech" },
+    { sno: 22, program: "Mechanical Engineering with specialization in Applied Optics and laser Technology", degree: "MTech" },
+    { sno: 23, program: "Civil Engineering with specialization in Structural Engineering", degree: "MTech" },
+    { sno: 24, program: "Center of Futuristic Defence and Space Technology with specialization in Defence Technology", degree: "MTech" },
+    { sno: 25, program: "Chemistry", degree: "MSC" },
+    { sno: 26, program: "Physics", degree: "MSC" },
+    { sno: 27, program: "Mathematics", degree: "MSC" },
+    { sno: 28, program: "Biotechnology", degree: "MSC" },
+    { sno: 29, program: "Astronomy", degree: "MSC" },
+    { sno: 30, program: "B. Tech in Electrical Engineering with MTech in Communication and Signal Processing", degree: "DUAL" },
+    { sno: 31, program: "B. Tech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics", degree: "DUAL" },
+    { sno: 32, program: "B. Tech in Mechanical Engineering with MTech in Production and Industrial Engineering", degree: "DUAL" },
+    { sno: 33, program: "B. Tech in Mechanical Engineering with MTech in Mechanical Systems Design", degree: "DUAL" },
+    { sno: 34, program: "MS (Research) in Computer Science and Engineering", degree: "msResearch" },
+    { sno: 35, program: "MS (Research) in Electrical Engineering", degree: "msResearch" },
+    { sno: 36, program: "MS (Research) in Mechanical Engineering", degree: "msResearch" },
+    { sno: 37, program: "M.S. (Research) in Space Science and Engineering from Department of Astronomy, Astrophysics And Space Engineering(DAASE)", degree: "msResearch" },
+    { sno: 38, program: "M.S. (Research) in Humanities and Social Science from School of Humanities and Social Science (HSS)", degree: "msResearch" },
+    { sno: 39, program: "Master of Science in Data Science and Management (MS-DSM)", degree: "msResearch" },
+
   ],
-  mtech: [
-    { sno: 1, program: "Electrical Engineering with specialization in VLSI Design and Nanoelectronics", yearStarting: "2013-14" },
-    { sno: 2, program: "Electrical Engineering with specialization in VLSI Design and Nanoelectronics", yearStarting: "2017-18" },
-    { sno: 3, program: "Mechanical Engineering with specialization in Advanced Manufacturing (AM) (Formally Production and Industrial Engineering)", yearStarting: "2013-14" },
-    { sno: 4, program: "Mechanical Engineering with specialization in Thermal Energy Systems (TES)", yearStarting: "2022-23" },
-    { sno: 5, program: "Mechanical Engineering with specialization in Mechanical Systems Design", yearStarting: "2018-19" },
-    { sno: 6, program: "Metallurgy Engineering and Materials Science with specialization in Materials Science and Engineering", yearStarting: "2015-16" },
-    { sno: 7, program: "Metallurgy Engineering and Materials Science with specialization in Metallurgical Engineering", yearStarting: "2018-19" },
-    { sno: 8, program: "M.Tech. in Electric Vehicle Technology from Center for Electric Vehicles Intelligent Transport Systems (CEVITS)", yearStarting: "2021-22" },
-    { sno: 9, program: "M.Tech. in Space Engineering from Department of Astronomy, Astrophysics And Space Engineering (DAASE)", yearStarting: "2021-22" },
-    { sno: 10, program: "Computer Science and Engineering with specialization in Computer Science and Engineering", yearStarting: "2023-24" },
-    { sno: 11, program: "Civil Engineering with specialization in Water, Climate and Sustainability", yearStarting: "2023-24" },
-    { sno: 12, program: "Biosciences and Biomedical Engineering with specialization in Biomedical Engineering", yearStarting: "2023-24" },
-    { sno: 13, program: "Mechanical Engineering with specialization in Applied Optics and laser Technology", yearStarting: "2023-24" },
-    { sno: 14, program: "Civil Engineering with specialization in Structural Engineering", yearStarting: "2023-24" },
-    { sno: 15, program: "Center of Futuristic Defence and Space Technology with specialization in Defence Technology", yearStarting: "2023-24" },
+  intern: [
+    { sno: 1, program: "Computer Science and Engineering", degree: "BTech" },
+    { sno: 2, program: "Electrical Engineering", degree: "BTech" },
+    { sno: 3, program: "Mechanical Engineering", degree: "BTech" },
+    { sno: 4, program: "Civil Engineering", degree: "BTech" },
+    { sno: 5, program: "Metallurgical Engineering and Materials Science", degree: "BTech" },
+    { sno: 6, program: "Chemical Engineering", degree: "BTech" },
+    { sno: 7, program: "Mathematics and Computing", degree: "BTech" },
+    { sno: 8, program: "Engineering Physics", degree: "BTech" },
+    { sno: 9, program: "Space Sciences and Engineering (SSE)", degree: "BTech" },
   ],
-  msc: [
-    { sno: 1, program: "Chemistry", yearStarting: "2013-14" },
-    { sno: 2, program: "Physics", yearStarting: "2013-14" },
-    { sno: 3, program: "Mathematics", yearStarting: "2015-16" },
-    { sno: 4, program: "Biotechnology", yearStarting: "2017-18" },
-    { sno: 5, program: "Astronomy", yearStarting: "2018-19" },
-  ],
-  dualDegree: [
-    { sno: 1, program: "B. Tech in Electrical Engineering with MTech in Communication and Signal Processing", yearStarting: "2014-15" },
-    { sno: 2, program: "B. Tech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics", yearStarting: "2017-18" },
-    { sno: 3, program: "B. Tech in Mechanical Engineering with MTech in Production and Industrial Engineering", yearStarting: "2014-15" },
-    { sno: 4, program: "B. Tech in Mechanical Engineering with MTech in Mechanical Systems Design", yearStarting: "2018-19" },
-  ],
-  msResearch: [
-    { sno: 1, program: "MS (Research) in Computer Science and Engineering", yearStarting: "2018-19" },
-    { sno: 2, program: "MS (Research) in Electrical Engineering", yearStarting: "2019-20" },
-    { sno: 3, program: "MS (Research) in Mechanical Engineering", yearStarting: "2019-20" },
-    { sno: 4, program: "M.S. (Research) in Space Science and Engineering from Department of Astronomy, Astrophysics And Space Engineering(DAASE)", yearStarting: "2021-22" },
-    { sno: 5, program: "M.S. (Research) in Humanities and Social Science from School of Humanities and Social Science (HSS)", yearStarting: "2021-22" },
-    { sno: 6, program: "Master of Science in Data Science and Management (MS-DSM)", yearStarting: "2021-22" },
-  ],
+  
+
 }
 
 const tabNames = {
-  btech: 'B.Tech',
-  mtech: 'M.Tech',
-  msc: 'MSc',
-  dualDegree: 'Dual Degree',
-  msResearch: 'MS (Research)',
+  placement: 'Placement Drive',
+  intern: 'Internship Drive',
 }
 
 export default function CourseDetails() {
-  const [activeTab, setActiveTab] = useState<keyof typeof courseData>("btech")
+  const [activeTab, setActiveTab] = useState<keyof typeof courseData>("placement")
 
   interface Course {
     sno: number;
     program: string;
-    yearStarting: string;
+    degree: string;
   }
 
   const renderTable = (data: Course[]) => (
@@ -78,7 +83,7 @@ export default function CourseDetails() {
           <tr className="bg-blue-600 text-white">
             <th className="py-3 px-4 text-left rounded-tl-lg">S.NO</th>
             <th className="py-3 px-4 text-left">PROGRAM</th>
-            <th className="py-3 px-4 text-left rounded-tr-lg">YEAR STARTING</th>
+            <th className="py-3 px-4 text-left rounded-tr-lg">DEGREE</th>
           </tr>
         </thead>
         <tbody>
@@ -86,7 +91,7 @@ export default function CourseDetails() {
             <tr key={item.sno} className="hover:bg-gray-50">
               <td className="py-2 px-4 border-b">{item.sno}</td>
               <td className="py-2 px-4 border-b">{item.program}</td>
-              <td className="py-2 px-4 border-b">{item.yearStarting}</td>
+              <td className="py-2 px-4 border-b">{item.degree}</td>
             </tr>
           ))}
         </tbody>
@@ -96,7 +101,19 @@ export default function CourseDetails() {
 
   return (
     <div className="container mx-auto py-10 px-4">
-      <h1 className="text-3xl font-bold text-center mb-6 text-black">Course Details</h1>
+      <div className=' flex flex-wrap justify-between mb-5'>
+      <h1 className="header2">Course Details</h1>
+      <Link href={"https://academic.iiti.ac.in/"} target="_blank">
+            <Button
+              color="primary"
+              variant="flat"
+              radius="full"
+              className="bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow-lg text-[1.5rem] h-[4rem] uppercase font-bold"
+            >
+              VIEW MORE <LaunchIcon/>
+            </Button>
+          </Link>
+      </div>
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="flex flex-wrap">
           {Object.entries(tabNames).map(([key, name]) => (

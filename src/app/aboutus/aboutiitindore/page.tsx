@@ -43,7 +43,7 @@ export default function AboutIITIndore() {
               color="primary"
               variant="flat"
               radius="full"
-              className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold"
+             className="bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold"
             >
               IIT Indore Home
             </Button>
@@ -186,7 +186,7 @@ export default function AboutIITIndore() {
                 color="primary"
                 variant="flat"
                 radius="full"
-                className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold "
+                className="bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold"
               >
                 Faculties
               </Button>
@@ -204,7 +204,7 @@ export default function AboutIITIndore() {
                 color="primary"
                 variant="flat"
                 radius="full"
-                className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold "
+                className="bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold"
               >
                 Activities
               </Button>
@@ -226,7 +226,7 @@ export default function AboutIITIndore() {
                 color="primary"
                 variant="flat"
                 radius="full"
-                className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold "
+                className="bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow-lg text-[1.5rem] h-[5rem] uppercase font-bold"
               >
                 Recruiters
               </Button>
