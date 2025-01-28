@@ -13,20 +13,20 @@
   ],
   "quicklinks": [
     {
-      "title": "IITI-HOME",
+      "title": "IITI",
       "link": "https://www.iiti.ac.in"
     },
     {
-      "title": "STUDENT LOGIN",
+      "title": "Student Login",
       "link": "/portal/login"
     },
     {
-      "title": "RECRUITER LOGIN",
+      "title": "Recruiter Login",
       "link": "/portal/recruiter/signup"
     }
     ,
     {
-      "title": "OUR DEVELOPERS",
+      "title": "Our Developers",
       "link": "/developers"
     }
   ],
