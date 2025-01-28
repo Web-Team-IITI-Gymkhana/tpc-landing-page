@@ -51,7 +51,7 @@ export default function NavbarUI(props: any) {
       isBlurred={false}
       // isBordered={scrolled ? true : false}
       maxWidth="2xl"
-      className={`w-full overflow-hidden z-50 fixed top-0 transition-all duration-300 bg-sky-700 h-[5rem] ${scrolled ? `shadow-md` : ""} `}
+      className={`w-full overflow-hidden z-50 fixed top-0 transition-all duration-300 bg-sky-700 h-[5rem] shadow-md ${scrolled ? `shadow-md` : ""} `}
     >
       <NavbarContent
         justify="start"

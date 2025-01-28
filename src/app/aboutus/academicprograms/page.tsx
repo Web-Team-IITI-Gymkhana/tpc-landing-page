@@ -80,7 +80,7 @@ export default function CourseDetails() {
     <div className="overflow-x-auto bg-white rounded-b-lg shadow-md">
       <table className="min-w-full">
         <thead>
-          <tr className="bg-blue-600 text-white">
+          <tr className="bg-sky-700 text-white">
             <th className="py-3 px-4 text-left rounded-tl-lg">S.NO</th>
             <th className="py-3 px-4 text-left">PROGRAM</th>
             <th className="py-3 px-4 text-left rounded-tr-lg">DEGREE</th>
@@ -122,8 +122,8 @@ export default function CourseDetails() {
               onClick={() => setActiveTab(key as keyof typeof courseData)}
               className={`cursor-pointer transition-all duration-300 px-6 py-4 text-center flex-grow ${
                 activeTab === key
-                  ? 'bg-blue-600 text-white font-semibold'
-                  : 'bg-gray-100 text-blue-600 hover:bg-gray-200'
+                  ? 'bg-sky-700 text-white font-semibold'
+                  : 'bg-gray-100 text-sky-700 hover:bg-gray-200'
               }`}
             >
               {name}
