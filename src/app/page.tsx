@@ -30,7 +30,7 @@ export default function Home() {
         ></div>
       </div>
       <div className="">
-        <div className=" flex justify-start items-center ">
+        <div className=" flex sm:justify-start sm:items-center sm:flex-row h-[90vh] w-full  ">
           <PortalForm />
           <Carousel {...CarouselData} />
         </div>
