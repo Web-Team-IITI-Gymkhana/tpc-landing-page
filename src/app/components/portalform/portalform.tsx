@@ -38,7 +38,7 @@ export default function PortalForm() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
           onClick={() => {
-            window.location.href = "https://tpc.iiti.ac.in/login";
+            window.location.href = "/portal/login";
           }}
           className="hover:scale-110 transition-all duration-300 bg-pink-500 px-8 py-5 text-white rounded-2xl ease-in-out"
         >
@@ -50,7 +50,7 @@ export default function PortalForm() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut", delay: 0.2 }}
           onClick={() => {
-            window.location.href = "https://tpc.iiti.ac.in/JAF";
+            window.location.href = "/portal/recruiter/signup";
           }}
           className="hover:scale-110 uppercase transition-all duration-300 text-white border-[2px] px-8 py-5 rounded-2xl border-white ease-in-out"
         >
