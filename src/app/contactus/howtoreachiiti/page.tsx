@@ -1,6 +1,6 @@
 "use client";
 
-import { Plane, Train, Bus, Car } from "lucide-react";
+import { Plane, Train, Car } from "lucide-react";
 import { useState } from "react";
 
 export default function HowToReachIITI() {
@@ -24,18 +24,18 @@ export default function HowToReachIITI() {
   };
 
   return (
-    <div className="  pt-12 px-4 sm:px-6 lg:px-8">
+    <div className="pt-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-center header2 mb-8">
           How To Reach IITI
         </h1>
 
         <div className="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
-          <div className="flex border-b">
+          <div className="flex border-b overflow-x-auto">
             {transportModes.map((mode) => (
               <button
                 key={mode.id}
-                className={`flex-1 py-4 px-6 text-center focus:outline-none transition-colors duration-200 ${
+                className={`flex-1 py-4 px-6 text-center focus:outline-none transition-colors duration-200 whitespace-nowrap ${
                   activeTab === mode.id
                     ? "bg-blue-500 text-white"
                     : "text-gray-700 hover:bg-gray-100"
@@ -49,13 +49,11 @@ export default function HowToReachIITI() {
           </div>
 
           <div className="p-6">
-            <p className="text-gray-700 leading-relaxed">
-              {transportInfo[activeTab]}
-            </p>
+            <p className="text-gray-700 leading-relaxed">{transportInfo[activeTab]}</p>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid gap-8 md:grid-cols-2">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -74,15 +72,15 @@ export default function HowToReachIITI() {
           </div>
 
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6750421245495!2d75.91833661495544!3d22.520428585205823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efcccbce7145%3A0x784e8cb69818596b!2sIndian%20Institute%20of%20Technology%20Indore!5e0!3m2!1sen!2sin!4v1635774243689!5m2!1sen!2sin"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen={true}
-              loading="lazy"
-              title="IIT Indore Location Map"
-            ></iframe>
+            <div className="relative w-full h-64 sm:h-80">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6750421245495!2d75.91833661495544!3d22.520428585205823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efcccbce7145%3A0x784e8cb69818596b!2sIndian%20Institute%20of%20Technology%20Indore!5e0!3m2!1sen!2sin!4v1635774243689!5m2!1sen!2sin"
+                className="absolute inset-0 w-full h-full"
+                allowFullScreen={true}
+                loading="lazy"
+                title="IIT Indore Location Map"
+              ></iframe>
+            </div>
           </div>
         </div>
 

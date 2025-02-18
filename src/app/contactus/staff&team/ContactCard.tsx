@@ -3,16 +3,15 @@ import React from "react";
 import styles from "./ContactCard.module.css";
 import info from "./Info.json";
 import { Image } from "@nextui-org/image";
-import Link from "next/link";
 
 const ContactCard: React.FC = () => {
-  console.log("Info data: ", info.Info); // Add this line
+  console.log("Info data: ", info.Info);
 
   return (
-    <div className={styles.cardContainer}>
+    <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-12 mx-auto ">
       {info.Info.map((person, index) => (
-        <div key={index} className={styles.card}>
-          <div className={`${styles.cardside} `}>
+        <div key={index} className={`${styles.card} flex flex-col items-center`}>
+          <div className={`${styles.cardside} w-full max-w-xs`}>
             <div className={styles.imageContainer}>
               <Image
                 src={person.image}

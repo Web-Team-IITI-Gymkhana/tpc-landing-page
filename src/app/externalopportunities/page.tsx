@@ -23,7 +23,10 @@ export default function ExternalOpportunities() {
         <div className="header2">External Job Opportunities</div>
       </div>
 
-      <TableUI {...OpportunitiesData} />
+      <div className=" overflow-x-auto">
+        <div className="min-w-[600px]"> <TableUI {...OpportunitiesData} /></div>
+       
+      </div>
     </div>
   );
-}
+} 
