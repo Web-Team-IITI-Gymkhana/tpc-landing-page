@@ -40,12 +40,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div className="w-full font-sans" ref={containerRef}>
-      <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="header2 mb-16">Placement Process</h2>
 
         <div className="relative">
           <motion.div
-            className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-sky-500"
+            className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-sky-500"
             style={{ scaleY, originY: 0 }}
           />
 
@@ -102,16 +102,18 @@ const TimelineItem = ({
   const iconColor = useTransform(
     progress,
     [start, end],
-    ["#0369a1", "#2563eb"], // From sky-700 to blue-600
+    ["#0369a1", "#2563eb"],
   );
 
   return (
     <div
-      className={`mb-16 flex justify-center items-center ${isLeft ? "flex-row" : "flex-row-reverse"}`}
+      className={`mb-16 flex justify-center items-center flex-col md:flex-row ${
+        isLeft ? "md:flex-row" : "md:flex-row-reverse"
+      }`}
     >
       <motion.div
         ref={ref}
-        className={`w-5/12 ${isLeft ? "pr-8" : "pl-8"}`}
+        className={`w-full md:w-5/12 ${isLeft ? "md:pr-8" : "md:pl-8"}`}
         initial={{ opacity: 0, x: isLeft ? -50 : 50 }}
         animate={
           isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: isLeft ? -50 : 50 }
@@ -144,7 +146,7 @@ const TimelineItem = ({
       >
         {item.icon}
       </motion.div>
-      <div className="w-5/12"></div>
+      <div className="w-full md:w-5/12"></div>
     </div>
   );
 };
