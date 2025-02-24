@@ -9,7 +9,7 @@ export default function Footer(props: any) {
   return (
     <>
       <div
-        className=" bg-[#031324] mt-[calc(5rem + 10px)] text-white flex justify-center "
+        className="mt-2 bg-[#031324] mt-[calc(5rem + 10px)] text-white flex justify-center "
         id="footer"
       >
         <div className=" max-w-[1440px] w-full flex flex-col relative px-3 ">
