@@ -161,27 +161,25 @@ export default function NavbarUI(props: any) {
                 {item.title}
               </Drop>
             ) : (
-              <Button
-                color="default"
-                variant="light"
-                className=" min-w-[155px]  poppins"
+              <Link
+                href={item.link}
+                className={`  flex transition-all duration-200  items-center gap-1 text-sm ${
+                  scrolled ? "opacity-100 " : "opacity-80 "
+                }`}
               >
-                {" "}
-                <Link
-                  href={item.link}
-                  className={` text-white flex transition-all duration-200  items-center gap-1 text-sm ${
-                    scrolled ? "opacity-100 " : "opacity-80 "
-                  }`}
+                <Button
+                  color="default"
+                  variant="light"
+                  className=" text-white min-w-[155px]  poppins"
                 >
-                  {" "}
                   {item.title == "Home" ? (
                     <HomeIcon className=" text-[1rem]" />
                   ) : (
                     <DatasetLinkedIcon className=" text-[1rem]" />
                   )}
                   <div>{item.title}</div>
-                </Link>
-              </Button>
+                </Button>
+              </Link>
             )}
           </NavbarMenuItem>
         ))}
@@ -209,4 +207,3 @@ export default function NavbarUI(props: any) {
     </Navbar>
   );
 }
-
