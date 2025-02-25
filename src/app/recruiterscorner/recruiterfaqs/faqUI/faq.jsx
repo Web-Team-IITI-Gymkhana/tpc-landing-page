@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./faq.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-
+import styles from "../recruiterfaq.module.css";
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [hovered, setHovered] = useState(false);
@@ -57,9 +57,7 @@ const FAQ = () => {
 
   return (
     <div className="main-container font-neueMachina font-normal">
-      <h2 className="border-b border-border text-3xl pb-6">
-        Frequently Asked Questions
-      </h2>
+      <div className={styles.questitle}>General Question</div>=
       {faqs.map((faq, index) => (
         <div key={index} className="faq-container">
           <h3
