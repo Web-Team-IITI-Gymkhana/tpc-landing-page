@@ -14,7 +14,7 @@ import Image from "next/image";
 export default function ModalUI(props: any) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const paragraphs = props.info.split(". ");
-  const signature = props.signature.split(". ");
+  const signature = props.signature.split("# ");
 
   const customClassNames = {
     wrapper: styles.wrapper,
