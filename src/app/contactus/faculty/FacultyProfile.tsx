@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const FacultyProfile: React.FC = () => {
   return (
-    <div className={styles.cardContainer}>
+    <div className={`${styles.cardContainer} p-4 sm:p-8`}>
       {facultyInfo.faculties.map((faculty, index) => (
         <div key={index} className={styles.card}>
           {/* Front Side */}
@@ -15,6 +15,7 @@ const FacultyProfile: React.FC = () => {
             <div className="absolute w-[600px] h-[50px] top-0 -rotate-[18deg] translate-y-[335%] bg-sky-700"></div>
 
             <div className="rounded-md w-[180px] h-[200px] relative z-10">
+
               <div className='content-[""] w-full h-full absolute -z-10 rounded-md bg-[#f2f1f1] rotate-2 flex'></div>
               <Image
                 src={faculty.img}
@@ -27,8 +28,8 @@ const FacultyProfile: React.FC = () => {
             </div>
 
             <div>
-              <h1 className="text-lg font-bold">{faculty.name}</h1>
-              <p className="text-sm opacity-60">{faculty.designation}</p>
+              <h1 className="text-base sm:text-lg font-bold">{faculty.name}</h1>
+              <p className="text-xs sm:text-sm opacity-60">{faculty.designation}</p>
             </div>
 
             <Image
