@@ -8,12 +8,12 @@ const FacultyProfile: React.FC = () => {
     <div className={styles.cardContainer}>
       {facultyInfo.faculties.map((faculty, index) => (
         <div key={index} className={styles.card}>
+          {/* Front Side */}
           <div className={`${styles.cardside} ${styles.front} pt-14 overflow-clip relative flex items-center gap-7 flex-col`}>
             <div className="absolute w-[600px] h-[150px] top-0 -rotate-[18deg] translate-y-[-50%] bg-sky-700"></div>
-            <div className="absolute w-[600px] h-[155px] top-0 -rotate-[18deg] translate-y-[-0%] bg-sky-600"></div>
+            <div className="absolute w-[600px] h-[155px] top-0 -rotate-[18deg] bg-sky-600"></div>
             <div className="absolute w-[600px] h-[50px] top-0 -rotate-[18deg] translate-y-[335%] bg-sky-700"></div>
-            <div className="absolute w-[600px] h-[150px] top-0 -rotate-[18deg] translate-y-[-50%] bg-sky-700"></div>
-            
+
             <div className="rounded-md w-[180px] h-[200px] relative z-10">
               <div className='content-[""] w-full h-full absolute -z-10 rounded-md bg-[#f2f1f1] rotate-2 flex'></div>
               <Image
@@ -34,7 +34,7 @@ const FacultyProfile: React.FC = () => {
             <Image
               src="/data/logo/iitiold.png"
               blurDataURL="/data/logo/iiti.png"
-              alt={faculty.name}
+              alt="IIT Indore Logo"
               className="w-[50px] h-[55px] relative z-10 rounded-md object-cover"
               width={50}
               height={55}
@@ -45,6 +45,7 @@ const FacultyProfile: React.FC = () => {
             </div>
           </div>
 
+          {/* Back Side */}
           <div className={`${styles.cardside} ${styles.back} overflow-clip relative flex items-center pl-8 pt-4 flex-col`}>
             <div className="absolute w-[800px] h-[150px] bottom-0 rotate-[18deg] translate-y-[85%] bg-sky-700"></div>
             <div className="absolute w-[800px] h-[200px] top-0 translate-y-[-70%] -rotate-[35deg] bg-sky-700"></div>
