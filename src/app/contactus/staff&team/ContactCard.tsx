@@ -6,7 +6,6 @@ import { Image } from "@nextui-org/image";
 
 const ContactCard: React.FC = () => {
   console.log("Info data: ", info.Info);
-  console.log("Info data: ", info.Info);
 
   return (
     <div className="flex justify-center">

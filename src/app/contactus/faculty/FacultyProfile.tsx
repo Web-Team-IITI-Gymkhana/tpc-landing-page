@@ -21,7 +21,6 @@ const FacultyProfile: React.FC = () => {
                 blurDataURL={faculty.img}
                 alt={faculty.name}
                 className="w-full h-full scale-[90%] rounded-md object-cover"
-                className="w-full h-full scale-[90%] rounded-md object-cover"
                 width={180}
                 height={200}
               />

@@ -33,8 +33,8 @@ export default function RecruiterFAQS() {
         </div>
       </div>
 
-      
-      <Faq></Faq>
+      <div className={styles.questitle}>General Question</div>
+      <Faq {...ques1}></Faq>
     </div>
   );
 }
