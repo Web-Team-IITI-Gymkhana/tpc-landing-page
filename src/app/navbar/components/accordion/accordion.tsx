@@ -1,13 +1,10 @@
-"use cleint";
+"use client";
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { AnchorIcon } from "../AnchorIcon";
 import Link from "next/link";
 
 export default function AccordionUI(props: any) {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
   return (
     <Accordion variant="bordered" selectionMode="multiple">
       {props.buttons.map((item: any, index: any) => (
@@ -15,12 +12,22 @@ export default function AccordionUI(props: any) {
           key={`${item}-${index}`}
           indicator={<AnchorIcon />}
           aria-label={item.title}
-          title={item.title}
+          title={
+            item.isDrop ? (
+              item.title
+            ) : (
+              <a href={item.link} onClick={(e) => e.stopPropagation()}>
+                {item.title}
+              </a>
+            )
+          }
         >
           <ul>
             {item.drop.map((val: any, index: any) => (
-              <li key={`${item}-${index}`}>
-                <Link href={val.link}>{val.title}</Link>
+              <li key={`${val}-${index}`}>
+                <div onClick={() => (window.location.href = val.link)}>
+                  {val.title}
+                </div>
               </li>
             ))}
           </ul>

@@ -27,6 +27,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/aboutus/whyrecruit/CheckIcon.jsx"
-  ],
+, "src/app/recruiterscorner/recruiterfaqs/faqUI/faq.jsx"  ],
   "exclude": ["node_modules"]
 }

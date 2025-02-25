@@ -15,16 +15,30 @@ import Link from "next/link";
 import { AnchorIcon } from "./AnchorIcon";
 
 export default function TableUI(props: any) {
+  const columns = [
+    {
+      "key": "company",
+      "label": "JOB"
+    },
+    {
+      "key": "lastdate",
+      "label": "LAST DATE"
+    },
+    {
+      "key": "link",
+      "label": "LINK"
+    }
+  ]
   return (
     <Table selectionMode="single" aria-label="External Job Opportunities">
-      <TableHeader columns={props.columns}>
+      <TableHeader columns={columns}>
         {(column: any) => (
           <TableColumn key={column.key}>{column.label}</TableColumn>
         )}
       </TableHeader>
       <TableBody items={props.rows}>
         {(item: any) => (
-          <TableRow key={item.key}>
+          <TableRow key={item.id}>
             {(columnKey) => (
               <TableCell>
                 {columnKey === "link" ? (
@@ -37,6 +51,14 @@ export default function TableUI(props: any) {
                       variant="light"
                     ></Button>
                   </Link>
+                ) : columnKey === "lastdate" ? (
+                  <div>
+                    {new Date(getKeyValue(item, columnKey)).toLocaleString("en-IN", {
+                      dateStyle: "short",
+                      timeStyle: "short",
+                      timeZone: "Asia/Kolkata",
+                    })}
+                  </div>
                 ) : (
                   <div>{getKeyValue(item, columnKey)}</div>
                 )}
