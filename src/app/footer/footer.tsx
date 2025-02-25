@@ -32,7 +32,7 @@ export default function Footer(props: any) {
                 </div>
               </div>
               <div className=" min-w-max">
-                <div className="  mb-4 mt-5 text-sky-400 font-bold text-[1.2rem]">
+                <div className="  mb-4  text-sky-400 font-bold text-[1.2rem]">
                   Social
                 </div>
                 <div className=" flex gap-3">
@@ -63,10 +63,9 @@ export default function Footer(props: any) {
                 <div className=" flex flex-col">
                   <span>{"Phone Number"}</span>
                   <span className=" text-white opacity-60">
-                    {"0731-660333"}
+                    {"0731-660 (Extn. 3572)"}
                   </span>
-                  <span>{"Extn."}</span>
-                  <span className=" text-white opacity-60">{"3431"}</span>
+                  
                 </div>
               </div>
               <div className=" flex flex-row gap-3">
