@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const FacultyProfile: React.FC = () => {
   return (
-    <div className={styles.cardContainer}>
+    <div className={`${styles.cardContainer} p-4 sm:p-8`}>
       {facultyInfo.faculties.map((faculty, index) => (
         <div key={index} className={styles.card}>
           <div className={`${styles.cardside} ${styles.front} pt-14 overflow-clip relative flex items-center gap-7 flex-col`}>
@@ -15,6 +15,7 @@ const FacultyProfile: React.FC = () => {
             <div className="absolute w-[600px] h-[150px] top-0 -rotate-[18deg] translate-y-[-50%] bg-sky-700"></div>
             
             <div className="rounded-md w-[180px] h-[200px] relative z-10">
+
               <div className='content-[""] w-full h-full absolute -z-10 rounded-md bg-[#f2f1f1] rotate-2 flex'></div>
               <Image
                 src={faculty.img}
@@ -22,14 +23,15 @@ const FacultyProfile: React.FC = () => {
                 alt={faculty.name}
                 className="w-full h-full scale-[90%] rounded-md object-cover"
                 className="w-full h-full scale-[90%] rounded-md object-cover"
+
                 width={180}
                 height={200}
               />
             </div>
 
             <div>
-              <h1 className="text-lg font-bold">{faculty.name}</h1>
-              <p className="text-sm opacity-60">{faculty.designation}</p>
+              <h1 className="text-base sm:text-lg font-bold">{faculty.name}</h1>
+              <p className="text-xs sm:text-sm opacity-60">{faculty.designation}</p>
             </div>
 
             <Image
