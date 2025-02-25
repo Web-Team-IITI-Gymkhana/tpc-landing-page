@@ -57,7 +57,7 @@ const FAQ = () => {
 
   return (
     <div className="main-container font-neueMachina font-normal">
-      <div className={styles.questitle}>General Question</div>=
+      <div className={styles.questitle}>General Question</div>
       {faqs.map((faq, index) => (
         <div key={index} className="faq-container">
           <h3
