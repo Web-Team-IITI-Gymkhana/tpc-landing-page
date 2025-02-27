@@ -18,30 +18,30 @@ import Link from "next/link";
 
 export default function App() {
   let tabs = [
-    {
-      id: "home",
-      label: "Home",
-    },
-    {
-      id: "contacts",
-      label: "Contacts",
-    },
-    {
-      id: "team",
-      label: "Placement Team",
-    },
+    // {
+    //   id: "home",
+    //   label: "Home",
+    // },
+    // {
+    //   id: "contacts",
+    //   label: "Contacts",
+    // },
+    // {
+    //   id: "team",
+    //   label: "Placement Team",
+    // },
     {
       id: "job",
       label: "External Opportunities",
     },
-    {
-      id: "faculty",
-      label: "Faculty Coordinators",
-    },
-    {
-      id: "password",
-      label: "Change Password",
-    },
+    // {
+    //   id: "faculty",
+    //   label: "Faculty Coordinators",
+    // },
+    // {
+    //   id: "password",
+    //   label: "Change Password",
+    // },
     {
       id: "exit",
       label: "Exit",

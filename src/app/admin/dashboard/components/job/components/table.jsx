@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React  from "react";
 import {
   Table,
   TableHeader,
@@ -15,7 +15,6 @@ import {
 import { EditIcon } from "./EditIcon";
 import { DeleteIcon } from "./DeleteIcon";
 import { EyeIcon } from "./EyeIcon";
-import { columns, users } from "./data";
 
 const statusColorMap = {
   active: "success",
@@ -23,39 +22,54 @@ const statusColorMap = {
   unknown: "warning",
 };
 
-export default function TableUI() {
-  const renderCell = React.useCallback((user, columnKey) => {
-    const cellValue = user[columnKey];
+const columns = [
+  { name: "JOB", uid: "company" },
+  { name: "LAST DATE", uid: "lastdate" },
+  { name: "STATUS", uid: "status" },
+  { name: "ACTIONS", uid: "actions" },
+];
+
+export default function TableUI({data}) {
+
+
+  
+
+  const renderCell = React.useCallback((job, columnKey) => {
+    const cellValue = job[columnKey];
 
     switch (columnKey) {
       case "name":
         return (
-          <User
-            avatarProps={{ radius: "lg", src: user.avatar }}
-            description={user.email}
+          <job
+            avatarProps={{ radius: "lg", src: job.avatar }}
+            description={job.email}
             name={cellValue}
           >
-            {user.email}
-          </User>
+            {job.email}
+          </job>
         );
-      case "role":
+      case "lastdate":
         return (
-          <div className="flex flex-col">
-            <p className="text-bold text-sm capitalize">{cellValue}</p>
-            <p className="text-bold text-sm capitalize text-default-400">
-              {user.team}
-            </p>
-          </div>
+          <div>
+                              {new Date(cellValue).toLocaleString("en-IN", {
+                                dateStyle: "short",
+                                timeStyle: "short",
+                                timeZone: "Asia/Kolkata",
+                              })}
+                            </div>
         );
       case "status":
+        const isExpired = new Date(job.lastdate) < new Date();
+        const computedStatus = isExpired ? "expired" : "active";
+
         return (
           <Chip
             className="capitalize"
-            color={statusColorMap[user.status]}
+            color={statusColorMap[computedStatus]}
             size="sm"
             variant="flat"
           >
-            {cellValue}
+            {computedStatus}
           </Chip>
         );
       case "actions":
@@ -84,7 +98,7 @@ export default function TableUI() {
   }, []);
 
   return (
-    <Table aria-label="Example table with custom cells">
+    <Table aria-label="Example table with custom cells" className="min-h-[300px]">
       <TableHeader columns={columns}>
         {(column) => (
           <TableColumn
@@ -95,7 +109,7 @@ export default function TableUI() {
           </TableColumn>
         )}
       </TableHeader>
-      <TableBody items={users}>
+      <TableBody items={data}>
         {(item) => (
           <TableRow key={item.id}>
             {(columnKey) => (

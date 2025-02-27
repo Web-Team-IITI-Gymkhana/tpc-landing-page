@@ -1,10 +1,5 @@
 import React from "react";
-const columns = [
-  { name: "JOB", uid: "job" },
-  { name: "LAST DATE", uid: "lastDate" },
-  { name: "STATUS", uid: "status" },
-  { name: "ACTIONS", uid: "actions" },
-];
+
 
 const users = [
   {
@@ -44,4 +39,4 @@ const users = [
   },
 ];
 
-export { columns, users };
+export { users };
