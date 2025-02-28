@@ -19,12 +19,18 @@ export default function PortalForm() {
       <div className="flex flex-wrap justify-start gap-4 my-8">
         <motion.button
           className="hover:scale-110 transition-all duration-300 bg-pink-500 px-6 py-3 sm:px-8 sm:py-4 text-white rounded-2xl"
+          onClick={() => {
+            window.location.href = "/portal/login";
+          }}
         >
           <div>{"PORTAL LOGIN"}</div>
         </motion.button>
 
         <motion.button
           className="hover:scale-110 transition-all duration-300 text-white border-2 px-6 py-3 sm:px-8 sm:py-4 rounded-2xl border-white"
+          onClick={() => {
+            window.location.href = "/portal/recruiter/signup";
+          }}
         >
           <div>{"Recruit from IITI"}</div>
         </motion.button>
