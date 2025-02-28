@@ -11,27 +11,27 @@ const FAQ = () => {
   const faqs = [
     {
       "Question": "When does the recruitment process start at IIT Indore? ",
-      "Answer": "Recruiters can register for campus recruitment by contacting the Training and Placement (T&P) Cell through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
+      "Answer": "IIT Indore initiates full-time placement OAs in mid-October, with interviews starting in December, while the summer internship process begins in August."
     },
     {
       "Question": "In what ways can a company recruit students from IITI campus?",
-      "Answer": "Once registered, the T&P Cell will coordinate with the recruiters to schedule a suitable date for the pre-placement talks (PPTs), written tests, interviews, and other recruitment activities."
+      "Answer": "Companies can recruit from IIT Indore through campus placements, internships, research collaborations, and off-campus hiring, coordinated by the Placement Cell."
     },
     {
       "Question": "Are companies required to pay any fee to participate in the campus recruitment program at IIT Indore? / Is there any fee associated with the process?",
-      "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+      "Answer": "No, there is no fee for companies to participate in the campus recruitment program at IIT Indore."
     },
     {
       "Question": "How to reach the campus? ",
-      "Answer": "Recruiters can register for campus recruitment by contacting the Training and Placement (T&P) Cell through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
+      "Answer": "IIT Indore campus can be reached by taxi, auto, or bus from Indore Railway Station (24 km) or Indore Airport (35 km). For more information, check how to reach IIT Indore page from contact us section."
     },
     {
       "Question": "Are multiple companies allowed to share a single slot/day? If yes, please explain the process",
-      "Answer": "Once registered, the T&P Cell will coordinate with the recruiters to schedule a suitable date for the pre-placement talks (PPTs), written tests, interviews, and other recruitment activities."
+      "Answer": "Yes, companies can share a slot, with TPC minimizing overlaps; if shared, the company releasing results first gets priority, and some may offer slot offers to secure students."
     },
     {
       "Question": "On what basis is the slot allotted to a company for final placement?",
-      "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+      "Answer": "The slot allotment for final placement at IIT Indore is based on the company's brand value, compensation package offered, and the level of student interest in that company."
     },
     {
       "Question": "How many companies can be accommodated in a single slot/day?",
@@ -39,15 +39,11 @@ const FAQ = () => {
     },
     {
       "Question": "Does IITI have a DREAM job policy? If yes, please explain",
-      "Answer": "Once registered, the T&P Cell will coordinate with the recruiters to schedule a suitable date for the pre-placement talks (PPTs), written tests, interviews, and other recruitment activities."
+      "Answer": "Yes, IIT Indore has a DREAM job policy. A DREAM job offer is defined as one with a first-year CTC of 55 LPA (Lakhs Per Annum) and above. Any student without a DREAM offer can participate in the recruitment process for a DREAM company. If a student receives a DREAM offer, they will be frozen from further participation in the placement process."
     },
     {
       "Question": "What are the infrastructural facilities available on campus to facilitate the recruitment process?",
-      "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
-    },
-    {
-      "Question": "Is there any facility for the accommodation available on campus?",
-      "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+      "Answer": "IIT Indore provides seminar halls for pre-placement talks (PPTs) and online assessments (OAs), and dedicated interview rooms for the recruitment process."
     }
   ];
 
