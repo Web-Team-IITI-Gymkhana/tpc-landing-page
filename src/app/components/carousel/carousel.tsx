@@ -32,7 +32,7 @@ export default function Carousel(props: any) {
   }, [props.images.length]);
 
   return (
-    <div className="  z-20 h-[min(80vh,700px)] mb-10">
+    <div className=" z-20 h-[min(80vh,700px)] mb-10">
       <Image
         height={500}
         width={500}
@@ -40,7 +40,7 @@ export default function Carousel(props: any) {
         src={props.images[currentIndex]}
         alt="tpc images"
         style={{ right: `${-scrollY * 0.5 - 5}px`, top: "40px" }} // Dynamically update the right position
-        className={`  object-cover 2xl:w-[700px] xl:w-[650px] ld:w-[600px] md:w-[400px] sm:w-[350px] w-[300px] rounded-l-[100px] aspect-square absolute   border-[5px] border-white  `}
+        className={`  object-cover 2xl:w-[700px] xl:w-[650px] ld:w-[600px] md:w-[400px] sm:w-[350px] w-[300px] rounded-l-[100px] aspect-square absolute -mt-6   border-[5px] border-white  `}
       />
     </div>
   );
