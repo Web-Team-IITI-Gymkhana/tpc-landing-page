@@ -153,13 +153,6 @@ export default function Recruiters() {
           speed="slow"
         />
       </div>
-      <div className="h-[15rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards
-          items={recruiters2}
-          direction="left"
-          speed="slow"
-        />
-      </div>
     </section>
   );
 }

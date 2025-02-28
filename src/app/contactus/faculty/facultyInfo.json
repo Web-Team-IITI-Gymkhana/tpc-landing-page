@@ -2,7 +2,7 @@
   "faculties": [
     {
       "name": "Dr. Mayur Shirish Jain",
-      "designation": "Assistant Professor-I",
+      "designation": "Assistant Professor",
       "email": "mayur.jain@iiti.ac.in",
       "phone": "+91-731-660-3384",
       "office": "Room No. 605, POD 1A, Silicon Building",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Dr. Chandresh Kumar Maurya",
-      "designation": "Assistant Professor-I",
+      "designation": "Assistant Professor",
       "email": "chandresh@iiti.ac.in",
       "phone": "+91-731-660-3223",
       "department": "CSE",
@@ -27,7 +27,7 @@
     },
     {
       "name": "Dr. Nisheeth Kumar Prasad",
-      "designation": "Assistant Professor-II",
+      "designation": "Assistant Professor",
       "email": "nisheeth@iiti.ac.in",
       "phone": "+91-731-660-3175",
       "office": "211(h), Hub Building (CITC)",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Dr. Narendra Nath Patra",
-      "designation": "Assistant Professor-I",
+      "designation": "Assistant Professor",
       "email": "naren@iiti.ac.in",
       "phone": "+91-731-660-3385",
       "department": "ASTRONOMY",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Dr. Shomik Dasgupta",
-      "designation": "Assistant Professor-I",
+      "designation": "Assistant Professor",
       "email": "shomikdasgupta@iiti.ac.in",
       "phone": "+91-731-660-3296",
       "office": "Chromium POD, Room No. 517, Simrol",
@@ -63,7 +63,7 @@
     },
     {
       "name": "Dr. Onkar Sharad Game",
-      "designation": "Assistant Professor-I",
+      "designation": "Assistant Professor",
       "email": "ogame@iiti.ac.in",
       "phone": "+91-731-660-3183",
       "office": "Room 413, POD: 1A, IIT Indore Campus, Khandwa Rd, Simrol, Indore-453552",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Dr. Charitha Cherugondi",
-      "designation": "Assistant Professor-I",
+      "designation": "Assistant Professor",
       "email": "charithac@iiti.ac.in",
       "phone": "+91-731-660-3205",
       "research_area": "Optimization theory",

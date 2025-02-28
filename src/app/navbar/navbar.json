@@ -19,10 +19,6 @@
           "link": "/aboutus/academicprograms"
         },
         {
-          "title": "Why Recruit from IITI",
-          "link": "/aboutus/whyrecruit"
-        },
-        {
           "title": "Student Activities",
           "link": "/aboutus/studentactivities"
         },
@@ -61,8 +57,8 @@
           "link": "/portal/recruiter/login"
         },
         {
-          "title": "Timelines",
-          "link": "/recruiterscorner/timelines"
+          "title": "Placement Process",
+          "link": "/recruiterscorner/process"
         },
         {
           "title": "Demographics",

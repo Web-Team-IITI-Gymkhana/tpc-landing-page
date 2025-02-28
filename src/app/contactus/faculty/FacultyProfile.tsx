@@ -42,8 +42,8 @@ const FacultyProfile: React.FC = () => {
               height={200}
             ></Image>
 
-            <div className="rounded-b-xl text-white h-[30px] sm:h-[40px] bg-sky-700 text-[0.6rem] sm:text-[0.7rem] font-black tracking-widest flex items-center justify-center absolute bottom-0 w-full">
-              {"IIT INDORE"}
+            <div className="rounded-b-xl uppercase text-white h-[30px] sm:h-[40px] bg-sky-700 text-[0.8rem] sm:text-[0.9rem] font-black tracking-widest flex items-center justify-center absolute bottom-0 w-full">
+              {faculty.department}
             </div>
           </div>
 
