@@ -51,11 +51,11 @@ export default function NavbarUI(props: any) {
       isBlurred={false}
       // isBordered={scrolled ? true : false}
       maxWidth="2xl"
-      className={`w-full overflow-hidden z-50 fixed top-0 transition-all duration-300 bg-sky-700 h-[5rem] shadow-md ${scrolled ? `shadow-md` : ""} `}
+      className={`w-full overflow-hidden z-50 fixed top-0 transition-all duration-300 bg-sky-900 h-[5rem] shadow-md ${scrolled ? `shadow-md` : ""} `}
     >
       <NavbarContent
         justify="start"
-        className={`overflow-hidden min-w-max  hover:scale-105 transition-all duration-300 bg-sky-700  rounded-xl px-3  `}
+        className={`overflow-hidden min-w-max  hover:scale-105 transition-all duration-300 bg-sky-900  rounded-xl px-3  `}
       >
         <Link href="/" className="">
           <Image
