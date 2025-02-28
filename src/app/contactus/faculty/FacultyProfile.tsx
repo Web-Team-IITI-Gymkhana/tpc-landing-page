@@ -68,6 +68,7 @@ const FacultyProfile: React.FC = () => {
                   <span className="font-light uppercase text-[0.8rem] opacity-60">Email</span>
                 </div>
                 <div className="flex flex-col">
+
                   <span className="text-[1.2rem]">{faculty.phone}</span>
                   <span className="font-light uppercase text-[0.8rem] opacity-60">Phone</span>
                 </div>
