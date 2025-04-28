@@ -3,6 +3,7 @@ import TableUI from "./components/table";
 import styles from "./job.module.css";
 import { Button, Input } from "@nextui-org/react";
 
+const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 export default function Job() {
   const [OpportunitiesData, setOpportunitiesData] = React.useState<{ id: string; company: string; lastdate: string; link: string }[]>([]);
   const [jobName, setJobName] = React.useState("");
@@ -14,7 +15,7 @@ export default function Job() {
       try {
         console.log("hello");
         const response = await fetch(
-          "https://tpc.iiti.ac.in/api/v1/external-opportunities",
+          `${baseUrl}/api/v1/external-opportunities`,
         );
         const data = await response.json();
         console.log(data);

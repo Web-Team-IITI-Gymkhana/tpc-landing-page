@@ -3,16 +3,17 @@ import React, { useEffect } from "react";
 import styles from "./externalopportunities.module.css";
 
 import TableUI from "./components/table";
-// import OpportunitiesData from "./opportunities.json";
+
+const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default function ExternalOpportunities() {
   const [OpportunitiesData, setOpportunitiesData] = React.useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log("hello");
         const response = await fetch(
-          "https://tpc.iiti.ac.in/api/v1/external-opportunities",
+          `${baseUrl}/api/v1/external-opportunities`,
         );
         const data = await response.json();
         console.log(data);
