@@ -10,6 +10,7 @@ export default function ExternalOpportunities() {
   const [OpportunitiesData, setOpportunitiesData] = React.useState([]);
 
   useEffect(() => {
+    console.log(baseUrl)
     const fetchData = async () => {
       try {
         const response = await fetch(
