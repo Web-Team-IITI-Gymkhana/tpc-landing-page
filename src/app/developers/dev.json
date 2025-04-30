@@ -1,37 +1,44 @@
 [
-        {
-            "name": "Jai Pannu",
-            "image": "/data/developers/jai.png",
-            "linkedin": "https://www.linkedin.com/in/jaipannu-iiti/",
-            "github": "https://github.com/JaiPannu-IITI",
-            "email":"pannujai06iiti@gmail.com"
-        },
-        {
-            "name": "Aryan Kullkarni",
-            "image": "/data/developers/aryan.jpg",
-            "linkedin": "https://www.linkedin.com/in/aryan-kulkarni-5b2182231/",
-            "github": "https://github.com/AryanGKulkarni",
-            "email":"aryangkulkarni@gmail.com"
-        },
-        {
-            "name": "Harsh Soni",
-            "image": "/data/developers/harshsoni.png",
-            "linkedin": "https://www.linkedin.com/in/harsh-soni15",
-            "github": "https://github.com/SoniHarsh1",
-            "email":"soniharsh1511@gmail.com"
-        },
-        {
-            "name": "Harsh Talati",
-            "image": "/data/developers/harshtalati.png",
-            "linkedin": "https://www.linkedin.com/in/harsh-talati-1486b6228/",
-            "github": "https://github.com/harshtalati2410",
-            "email":"harsht241003@gmail.com"
-        },
-        {
-            "name": "",
-            "image": "",
-            "linkedin": "",
-            "github": "",
-            "email":""
-        }
+  {
+    "name": "Jai Pannu",
+    "image": "/data/developers/jai.png",
+    "linkedin": "https://www.linkedin.com/in/jaipannu-iiti/",
+    "github": "https://github.com/JaiPannu-IITI",
+    "email": "pannujai06iiti@gmail.com"
+  },
+  {
+    "name": "Prince Kumar",
+    "image": "/data/developers/prince.jpg",
+    "linkedin": "https://www.linkedin.com/in/k07prince/",
+    "github": "https://github.com/princekumarofficial",
+    "email": "k07prince@gmail.com"
+  },
+  {
+    "name": "Aryan Kullkarni",
+    "image": "/data/developers/aryan.jpg",
+    "linkedin": "https://www.linkedin.com/in/aryan-kulkarni-5b2182231/",
+    "github": "https://github.com/AryanGKulkarni",
+    "email": "aryangkulkarni@gmail.com"
+  },
+  {
+    "name": "Harsh Soni",
+    "image": "/data/developers/harshsoni.png",
+    "linkedin": "https://www.linkedin.com/in/harsh-soni15",
+    "github": "https://github.com/SoniHarsh1",
+    "email": "soniharsh1511@gmail.com"
+  },
+  {
+    "name": "Harsh Talati",
+    "image": "/data/developers/harshtalati.png",
+    "linkedin": "https://www.linkedin.com/in/harsh-talati-1486b6228/",
+    "github": "https://github.com/harshtalati2410",
+    "email": "harsht241003@gmail.com"
+  },
+  {
+    "name": "",
+    "image": "",
+    "linkedin": "",
+    "github": "",
+    "email": ""
+  }
 ]
