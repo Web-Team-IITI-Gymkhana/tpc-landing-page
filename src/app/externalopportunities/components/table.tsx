@@ -51,23 +51,6 @@ export default function TableUI(props: any) {
                       variant="light"
                     ></Button>
                   </Link>
-                ) : columnKey === "lastdate" ? (
-                  <div>
-                    {getKeyValue(item, columnKey) ? (
-                      <div>
-                        {new Date(getKeyValue(item, columnKey)).toLocaleString(
-                          "en-IN",
-                          {
-                            dateStyle: "short",
-                            timeStyle: "short",
-                            timeZone: "Asia/Kolkata",
-                          },
-                        )}
-                      </div>
-                    ) : (
-                      <div>Not Available</div>
-                    )}
-                  </div>
                 ) : (
                   <div>{getKeyValue(item, columnKey)}</div>
                 )}
