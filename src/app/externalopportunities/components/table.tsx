@@ -17,18 +17,18 @@ import { AnchorIcon } from "./AnchorIcon";
 export default function TableUI(props: any) {
   const columns = [
     {
-      "key": "company",
-      "label": "JOB"
+      key: "company",
+      label: "JOB",
     },
     {
-      "key": "lastdate",
-      "label": "LAST DATE"
+      key: "lastdate",
+      label: "LAST DATE",
     },
     {
-      "key": "link",
-      "label": "LINK"
-    }
-  ]
+      key: "link",
+      label: "LINK",
+    },
+  ];
   return (
     <Table selectionMode="single" aria-label="External Job Opportunities">
       <TableHeader columns={columns}>
@@ -53,11 +53,20 @@ export default function TableUI(props: any) {
                   </Link>
                 ) : columnKey === "lastdate" ? (
                   <div>
-                    {new Date(getKeyValue(item, columnKey)).toLocaleString("en-IN", {
-                      dateStyle: "short",
-                      timeStyle: "short",
-                      timeZone: "Asia/Kolkata",
-                    })}
+                    {getKeyValue(item, columnKey) ? (
+                      <div>
+                        {new Date(getKeyValue(item, columnKey)).toLocaleString(
+                          "en-IN",
+                          {
+                            dateStyle: "short",
+                            timeStyle: "short",
+                            timeZone: "Asia/Kolkata",
+                          },
+                        )}
+                      </div>
+                    ) : (
+                      <div>Not Available</div>
+                    )}
                   </div>
                 ) : (
                   <div>{getKeyValue(item, columnKey)}</div>
