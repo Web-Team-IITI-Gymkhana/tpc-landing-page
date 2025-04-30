@@ -26,11 +26,11 @@
       "img": "/data/faculty/2.jpg"
     },
     {
-      "name": "Dr. Nisheeth Kumar Prasad",
+      "name": "Dr. K. V. Vamsi",
       "designation": "Assistant Professor",
-      "email": "nisheeth@iiti.ac.in",
-      "phone": "+91-731-660-3175",
-      "office": "211(h), Hub Building (CITC)",
+      "email": "kvvamsi@iiti.ac.in",
+      "phone": "+91-7316603333",
+      "office": "Room No. FC 502, Learning Resource Center",
       "department": "MEMS",
       "img": "/data/faculty/3.jpg"
     },
@@ -87,6 +87,23 @@
       "research_area": "Optimization theory",
       "department": "Mathematics",
       "img": "/data/faculty/10.jpg"
+    },
+    {
+      "name": "Dr. R. Kailasham",
+      "designation": "Assistant Professor",
+      "email": "rkailasham@iiti.ac.in",
+      "office": "POD 1C 501",
+      "phone": "+91-731-2438 700",
+      "department": "Chemical Engineering",
+      "img": "/data/faculty/11.jpg"
+    },
+    {
+      "name": "Dr. Prakash Suryakant Gaikwad",
+      "designation": "Assistant Professor",
+      "email": "gaikwad@iiti.ac.in",
+      "phone": "+91-731-2438 700",
+      "department": "Cosmology",
+      "img": "/data/faculty/12.jpg"
     }
   ]
 }

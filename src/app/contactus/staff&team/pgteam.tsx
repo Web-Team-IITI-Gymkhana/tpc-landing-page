@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./FacultyProfile.module.css";
-import facultyInfo from "./facultyInfo.json";
+
 
 export default function FacultyProfile(props: any) {
   return (
