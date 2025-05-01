@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import styles from "./externalopportunities.module.css";
-
+import qs from "qs";
 import TableUI from "./components/table";
 
 export default function ExternalOpportunities() {
@@ -10,8 +10,19 @@ export default function ExternalOpportunities() {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        const query = {
+          q: {
+            orderBy: {
+              createdAt: "DESC",
+            },
+          }
+        }
+        const encodedQueryString = qs.stringify(query, {
+          encodeValuesOnly: true,
+          encode: false,
+        });
         const response = await fetch(
-          `api/v1/external-opportunities`,
+          `api/v1/external-opportunities?${encodedQueryString}`,
         );
         const data = await response.json();
         console.log(data);
