@@ -1,10 +1,10 @@
 "use client";
-import Carousel from "./components/carousel/carousel";
-import PortalForm from "./components/portalform/portalform";
-import Recruiters from "./components/recruiters/recruiters";
-import Messages from "./components/messages/messages";
+import Carousel from "../components/home/carousel/carousel";
+import PortalForm from "../components/home/portalform/portalform";
+import Recruiters from "../components/home/recruiters/recruiters";
+import Messages from "../components/home/messages/messages";
 
-import CarouselData from "./components/carousel/carousel.json";
+import CarouselData from "../components/home/carousel/carousel.json";
 import { useState, useEffect } from "react";
 
 export default function Home() {
