@@ -94,3 +94,15 @@
     font-size: 1rem;
   }
 }
+.rotate {
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+.answer.open {
+  max-height: 200px; /* or auto if you're animating height differently */
+}
