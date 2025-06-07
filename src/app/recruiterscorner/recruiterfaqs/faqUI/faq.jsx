@@ -56,35 +56,24 @@ const FAQ = () => {
       <div className={styles.questitle}>General Question</div>
       {faqs.map((faq, index) => (
         <div key={index} className="faq-container">
-          <h3
+          <button
             onClick={() => toggleFAQ(index)}
-            onMouseEnter={(event) => {
-              setHoveredIndex(event._targetInst.return.key);
+            onMouseEnter={() => {
+              setHoveredIndex(index);
               setHovered(true);
             }}
             onMouseLeave={() => setHovered(false)}
-            className={`main-content font-[var(--font-neue-machina)] ${
-              hovered && hoveredIndex != index ? "blurred" : ""
-            }`}
+            className={`main-content font-[var(--font-neue-machina)] ${hovered && hoveredIndex != index ? "blurred" : ""
+              } `}
           >
             {faq.Question}
             <span
-              style={{
-                transform:
-                  activeIndex === index ? "rotate(45deg)" : "rotate(0deg)",
-                transition: "transform 0.3s ease",
-              }}
+              className={activeIndex === index ? "rotate" : ""}
             >
               <ArrowForwardIcon />
             </span>
-          </h3>
-          <div
-            style={{
-              maxHeight: activeIndex === index ? "200px" : "0",
-              overflow: "hidden",
-              transition: "max-height 1s ease",
-            }}
-          >
+          </button>
+          <div className={`${activeIndex === index ? "answer open" : "answer"} 'text-left' `}>
             {activeIndex === index && <p>{faq.Answer}</p>}
           </div>
         </div>
