@@ -58,8 +58,8 @@ export default function Messages() {
                 className={` object-contain border-sky-700 bg-white text-white shadow-xl w-[250px]   border-[2px] rounded-3xl `}
               />
               <motion.div
-                initial={{ opacity: 0, y: 50 }} // Start with opacity 0 and 50px to the right
-                animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate to opacity 1 and its original position
+                initial={{ opacity: 0, y: 50 }} 
+                animate={isInView ? { opacity: 1, y: 0 } : {}} 
                 transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
               >
                 <Modal {...message}></Modal>
@@ -67,14 +67,19 @@ export default function Messages() {
             </div>
             <div
               style={{
+                transition: "left 0.4s ease-out, right 0.4s ease-out",
                 right:
-                  scrollY < 870 && index % 2 != 0
-                    ? `${-scrollY * 0.45 + 390}px`
-                    : ``,
+                  index % 2 !== 0
+                    ? scrollY < 870
+                      ? `${Math.max(-scrollY * 0.7 + 280, 10)}px`
+                      : "10px" // Fixed position after scrollY > 870
+                    : undefined,
                 left:
-                  scrollY < 870 && index % 2 === 0
-                    ? `${-scrollY * 0.3 + 260}px`
-                    : ``,
+                  index % 2 === 0
+                    ? scrollY < 870
+                      ? `${Math.max(-scrollY * 0.3 + 200, 10)}px`
+                      : "10px"
+                    : undefined,
               }}
               className={` ${
                 index % 2 === 0
