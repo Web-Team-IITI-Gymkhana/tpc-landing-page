@@ -7,7 +7,7 @@ export default function PortalForm() {
   const words = `Training and Placement Cell IIT Indore, is the organization which handles all activities related to the campus placement of the graduating batch.`;
 
   return (
-    <div className="w-[90%] sm:w-full md:w-[45%] relative z-10 h-full flex flex-col items-start justify-center px-4 sm:px-6 mt-10 md:mb-0">
+    <div className="w-[90%] sm:w-full md:w-[45%] relative z-10 h-full flex flex-col items-start justify-center px-4 sm:px-6 mt-0 md:mb-0">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
