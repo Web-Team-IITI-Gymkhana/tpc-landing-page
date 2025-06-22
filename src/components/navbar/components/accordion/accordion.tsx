@@ -13,24 +13,26 @@ export default function AccordionUI(props: any) {
           indicator={<AnchorIcon />}
           aria-label={item.title}
           title={
-            item.isDrop ? (
+            item.isdrop ? (
               item.title
             ) : (
-              <a href={item.link} onClick={(e) => e.stopPropagation()}>
+              <Link href={item.link} onClick={(e) => e.stopPropagation()}>
                 {item.title}
-              </a>
+              </Link>
             )
           }
         >
-          <ul>
-            {item.drop.map((val: any, index: any) => (
-              <li key={`${val}-${index}`}>
-                <div onClick={() => (window.location.href = val.link)}>
-                  {val.title}
-                </div>
-              </li>
-            ))}
-          </ul>
+          {item.isdrop && item.drop && (
+            <ul>
+              {item.drop.map((val: any, index: any) => (
+                <li key={`${val}-${index}`}>
+                  <Link href={val.link} className="block py-1 hover:text-blue-600 transition-colors">
+                    {val.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </AccordionItem>
       ))}
     </Accordion>

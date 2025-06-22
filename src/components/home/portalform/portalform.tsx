@@ -43,7 +43,7 @@ export default function PortalForm() {
           transition={{ duration: 0.5, ease: "easeInOut", delay: 0.6 }}
           onClick={() =>
             (window.location.href =
-              "https://iiti.pod.ai/pages/campus-placements/")
+              "/portal/recruiter/signin")
           }
           className="hover:scale-110 transition-all duration-300 text-white border-2 px-6 py-3 sm:px-8 sm:py-4 rounded-2xl border-white"
         >
