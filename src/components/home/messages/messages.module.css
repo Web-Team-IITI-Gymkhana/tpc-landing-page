@@ -124,6 +124,8 @@
 
   .summary {
     padding: 5px;
+    word-wrap: break-word;
+    white-space: pre-line;
   }
   .para {
     width: 100%;
