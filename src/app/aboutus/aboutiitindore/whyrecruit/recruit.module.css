@@ -1,6 +1,6 @@
 .hover4 {
-  --b: 0.1em; /* the thickness of the line */
-  --c: #115398; /* the color */
+  --b: 0.1em;
+  --c: #115398;
   text-transform: uppercase;
   filter: brightness(150%);
   font-weight: bold;
@@ -17,6 +17,7 @@
     0.3s var(--_s, 0s) linear,
     background-size 0.3s calc(0.3s - var(--_s, 0s));
 }
+
 .hover4:hover {
   --_p: 100%;
   --_s: 0.3s;
@@ -25,15 +26,14 @@
 
 .block {
   width: 100%;
-
   padding: 1rem;
   font-size: 1.5rem;
   display: flex;
   justify-content: flex-start;
   border-radius: 10px;
   align-items: center;
-  /* font-weight: 900; */
 }
+
 .grid {
   display: grid;
   width: 55%;
@@ -56,16 +56,141 @@
     -2px -2px 5px #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   position: relative;
   overflow: hidden;
   width: 350px;
   height: 350px;
+  transform: translateX(-40px);
 }
 
 .card:hover {
   box-shadow:
     inset 2px 2px 5px #aaa,
     -2px -2px 5px #fff;
+}
+
+/* Text overflow fix classes */
+.textContainer {
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: inherit;
+}
+
+.highlightText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Comprehensive responsive breakpoints */
+@media (max-width: 1200px) {
+  .grid {
+    width: 50%;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 3rem;
+    padding: 1.5rem;
+  }
+  .card {
+    width: 300px;
+    height: 300px;
+    transform: translateX(-35px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    width: 48%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2.5rem;
+    padding: 1.2rem;
+    top: 80px;
+  }
+  .card {
+    width: 260px;
+    height: 260px;
+    transform: translateX(-30px);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+    position: static;
+    top: unset;
+  }
+  .card {
+    width: 180px;
+    height: 180px;
+    transform: translateX(-20px);
+  }
+  .textContainer {
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.8rem;
+  }
+  .card {
+    width: 150px;
+    height: 150px;
+    transform: translateX(-15px);
+  }
+  .textContainer {
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    padding: 0.5rem;
+  }
+  .card {
+    width: 130px;
+    height: 130px;
+    transform: translateX(-12px);
+  }
+  .textContainer {
+    line-height: 1.0;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+    padding: 0.3rem;
+  }
+  .card {
+    width: 140px;
+    height: 140px;
+    transform: translateX(-10px);
+  }
+  .textContainer {
+    line-height: 1.0;
+  }
 }

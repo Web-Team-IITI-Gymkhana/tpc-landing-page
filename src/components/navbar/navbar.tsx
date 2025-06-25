@@ -139,7 +139,7 @@ export default function NavbarUI(props: any) {
       </NavbarContent>
       <NavbarContent
         justify="center"
-        className="hidden  w-full md:flex justify-around  "
+        className="hidden custom:flex w-full justify-around"
         style={{ justifyContent: "space-around" }}
       >
         {props.buttons.map((item: any, index: any) => (
@@ -196,7 +196,7 @@ export default function NavbarUI(props: any) {
 
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="lg:hidden"
+        className="custom:hidden"
       />
 
       <NavbarMenu>

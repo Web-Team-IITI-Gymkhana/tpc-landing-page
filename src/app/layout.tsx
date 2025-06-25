@@ -35,15 +35,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body
-        className={`${inter.className} max-w-[100dvw] overflow-x-clip pt-[6rem]`}
-      >
+      <body className={`${inter.className} max-w-[100dvw] overflow-x-clip pt-[2rem] md:pt-[6rem]`}>
+
         <Navbar {...NavbarData} />
 
         <div className="wrapper max-w-[100dvw] overflow-x-clip">
           <div className="unexpendable">{children}</div>
         </div>
-
         <Footer {...FooterData} />
       </body>
     </html>
