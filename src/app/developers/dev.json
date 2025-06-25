@@ -11,7 +11,8 @@
     "image": "/data/developers/prince.jpg",
     "linkedin": "https://www.linkedin.com/in/k07prince/",
     "github": "https://github.com/princekumarofficial",
-    "email": "k07prince@gmail.com"
+    "email": "k07prince@gmail.com",
+    "website": "https://www.princecodes.online/"
   },
   {
     "name": "Aryan Kullkarni",
@@ -33,12 +34,5 @@
     "linkedin": "https://www.linkedin.com/in/harsh-talati-1486b6228/",
     "github": "https://github.com/harshtalati2410",
     "email": "harsht241003@gmail.com"
-  },
-  {
-    "name": "",
-    "image": "",
-    "linkedin": "",
-    "github": "",
-    "email": ""
   }
 ]
