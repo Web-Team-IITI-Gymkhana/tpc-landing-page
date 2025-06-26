@@ -196,7 +196,7 @@ export default function NavbarUI(props: any) {
 
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="custom:hidden"
+        className="custom:hidden text-white"
       />
 
       <NavbarMenu>
