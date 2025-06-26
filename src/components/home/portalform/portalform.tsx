@@ -43,14 +43,7 @@ export default function PortalForm() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut", delay: 0.6 }}
-          onClick={() =>
-            (window.location.href =
-
-              "/signup")
-
-              "/portal/recruiter/signin")
-
-          }
+          onClick={() => (window.location.href = "/portal/recruiter/signup")}
           className="hover:scale-110 transition-all duration-300 text-white border-2 px-6 py-3 sm:px-8 sm:py-4 rounded-2xl border-white"
         >
           <div>{"Recruit from IITI"}</div>
