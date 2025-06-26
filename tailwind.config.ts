@@ -18,9 +18,6 @@ const config: Config = {
     //   'drkblue' : "#115398",
     // },
     extend: {
-      screens: {
-        custom: "1025px",
-      },
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
