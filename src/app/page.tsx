@@ -30,11 +30,13 @@ export default function Home() {
         ></div>
       </div>
       <div className="">
-  <div className="flex sm:justify-start sm:items-center sm:flex-col md:flex-row h-[90vh] w-full lg:px-5   gap-12 sm:gap-[5rem]">
-    <PortalForm />
-    <Carousel {...CarouselData} />
-  </div>
-</div>
+        <div className="flex sm:justify-start sm:items-center sm:flex-col md:flex-row h-[90vh] w-full lg:px-5   gap-12 sm:gap-[5rem]">
+          <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
+            <PortalForm />
+            <Carousel {...CarouselData} />
+          </div>
+        </div>
+      </div>
 
       <Messages />
       <Recruiters />

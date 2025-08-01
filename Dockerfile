@@ -11,6 +11,9 @@ COPY ./ ./
 
 RUN yarn build
 
+RUN mkdir -p /usr/app/.next/cache/images && \
+    chown -R node:node /usr/app/.next
+
 USER node
 
 CMD [ "yarn", "start" ]
