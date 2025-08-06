@@ -45,14 +45,6 @@
       "img": "/data/faculty/5.jpg"
     },
     {
-      "name": "Dr. Narendra Nath Patra",
-      "designation": "Assistant Professor",
-      "email": "naren@iiti.ac.in",
-      "phone": "+91-731-660-3385",
-      "department": "ASTRONOMY",
-      "img": "/data/faculty/6.jpg"
-    },
-    {
       "name": "Dr. Shomik Dasgupta",
       "designation": "Assistant Professor",
       "email": "shomikdasgupta@iiti.ac.in",
@@ -93,7 +85,7 @@
       "designation": "Assistant Professor",
       "email": "rkailasham@iiti.ac.in",
       "office": "POD 1C 501",
-      "phone": "+91-731-2438 700",
+      "phone": "+91-731-660-5226",
       "department": "Chemical Engineering",
       "img": "/data/faculty/11.jpg"
     },
@@ -102,7 +94,7 @@
       "designation": "Assistant Professor",
       "email": "gaikwad@iiti.ac.in",
       "phone": "+91-731-2438 700",
-      "department": "Cosmology",
+      "department": "DAASE",
       "img": "/data/faculty/12.jpg"
     }
   ]
