@@ -45,14 +45,6 @@
       "img": "/data/faculty/5.jpg"
     },
     {
-      "name": "Dr. Narendra Nath Patra",
-      "designation": "Assistant Professor",
-      "email": "naren@iiti.ac.in",
-      "phone": "+91-731-660-3385",
-      "department": "ASTRONOMY",
-      "img": "/data/faculty/6.jpg"
-    },
-    {
       "name": "Dr. Shomik Dasgupta",
       "designation": "Assistant Professor",
       "email": "shomikdasgupta@iiti.ac.in",
