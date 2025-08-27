@@ -58,6 +58,38 @@ const StaffTeam: React.FC = () => {
           <FacultyProfile key={index} {...member} />
         ))}
       </div>
+       <Button color="danger" variant="light" size="lg">
+        <div className={`para my-3 text-wrap`}>Mathematics & Computing</div>
+      </Button>
+      <div className="flex flex-wrap gap-10 justify-between">
+        {data.teamug[5].map((member: any, index: number) => (
+          <FacultyProfile key={index} {...member} />
+        ))}
+      </div>
+      <Button color="danger" variant="light" size="lg">
+        <div className={`para my-3 text-wrap`}>Engineering Physics</div>
+      </Button>
+      <div className="flex flex-wrap gap-10 justify-between">
+        {data.teamug[6].map((member: any, index: number) => (
+          <FacultyProfile key={index} {...member} />
+        ))}
+      </div>
+       <Button color="danger" variant="light" size="lg">
+        <div className={`para my-3 text-wrap`}>Space Science & Engineering</div>
+      </Button>
+      <div className="flex flex-wrap gap-10 justify-between">
+        {data.teamug[7].map((member: any, index: number) => (
+          <FacultyProfile key={index} {...member} />
+        ))}
+      </div>
+       <Button color="danger" variant="light" size="lg">
+        <div className={`para my-3 text-wrap`}>Chemical Engineering</div>
+      </Button>
+      <div className="flex flex-wrap gap-10 justify-between">
+        {data.teamug[8].map((member: any, index: number) => (
+          <FacultyProfile key={index} {...member} />
+        ))}
+      </div>
       <div className="header3">postgraduate</div>
       <div className={styles.cardContainer}>
         {data.teampg.map((item: any, index: number) => (
