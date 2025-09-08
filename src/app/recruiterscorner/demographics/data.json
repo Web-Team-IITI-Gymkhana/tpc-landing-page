@@ -107,6 +107,17 @@
         "labels": ["M.Tech","M.S. Research(Space Science and Engineering)","M.Sc. (Astronomy)"],
         "data": [21]
       }
+    },
+    {
+      "short": "CEVITS",
+      "departmentName": "Center for Electric Vehicle and Intelligent Transport Systems (CEVITS) ",
+      "labels": ["M.Tech - Electric Vehicle Technology (EVT)"],
+      "data": [8],
+      "description": "Our institute offers a comprehensive M.Sc. program and a robust research program leading to the coveted Doctor of Philosophy degree. At IIT Indore, we pride ourselves on our diverse and dynamic research portfolio, which spans across various frontier areas of basic sciences, catering to the ever-evolving demands of scientific exploration and societal needs. Students gain technical and teaching skills, enabling success in academia, research, and industry. The curriculum includes core courses, electives, and a final-year project for the practical application of mathematics. Notably, the syllabi of the laboratory courses have been meticulously revised from traditional standards. Students engage in seminars and departmental activities to bridge theory with real-world applications.",
+      "pieLabels": {
+        "labels": ["M.Tech"],
+        "data": [8]
+      }
     }
   ]
 }
