@@ -68,11 +68,13 @@ const FacultyProfile: React.FC = () => {
                   <span className="text-[1.2rem]">{faculty.email}</span>
                   <span className="font-light uppercase text-[0.8rem] opacity-60">Email</span>
                 </div>
+                {faculty.phone && (
                 <div className="flex flex-col">
 
                   <span className="text-[1.2rem]">{faculty.phone}</span>
                   <span className="font-light uppercase text-[0.8rem] opacity-60">Phone</span>
                 </div>
+                )}
               </div>
             </div>
           </div>
