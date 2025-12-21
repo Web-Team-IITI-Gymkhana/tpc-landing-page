@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import "./faq.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -15,7 +15,7 @@ const FAQ = () => {
     },
     {
       "Question": "In what ways can a company recruit students from IITI campus?",
-      "Answer": "Companies can recruit from IIT Indore through campus placements, internships, research collaborations, and off-campus hiring, coordinated by the Placement Cell."
+      "Answer": "Companies can recruit from IIT Indore through campus placements, internships, research collaborations, and off-campus hiring, coordinated by the Career Advancement & Mentoring Centre ."
     },
     {
       "Question": "Are companies required to pay any fee to participate in the campus recruitment program at IIT Indore? / Is there any fee associated with the process?",
@@ -27,7 +27,7 @@ const FAQ = () => {
     },
     {
       "Question": "Are multiple companies allowed to share a single slot/day? If yes, please explain the process",
-      "Answer": "Yes, companies can share a slot, with TPC minimizing overlaps; if shared, the company releasing results first gets priority, and some may offer slot offers to secure students."
+      "Answer": "Yes, companies can share a slot, with tpc minimizing overlaps; if shared, the company releasing results first gets priority, and some may offer slot offers to secure students."
     },
     {
       "Question": "On what basis is the slot allotted to a company for final placement?",
@@ -35,7 +35,7 @@ const FAQ = () => {
     },
     {
       "Question": "How many companies can be accommodated in a single slot/day?",
-      "Answer": "Recruiters can register for campus recruitment by contacting the Training and Placement (T&P) Cell through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
+      "Answer": "Recruiters can register for campus recruitment by contacting the Career Advancement & Mentoring Centre through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
     },
     {
       "Question": "Does IITI have a DREAM job policy? If yes, please explain",

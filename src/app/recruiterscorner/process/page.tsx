@@ -9,7 +9,7 @@ export default function Timelines() {
             {
               title: "Company Invitations",
               content:
-                "The Training & Placement Cell (TPC), IIT Indore sends invitations to companies along with relevant information and Job Announcement Form (JAF). The recruiters also can send an email expressing their interest to participate in the campus recruitment program of IIT Indore on placementofficer@iiti.ac.in / apo@iiti.ac.in.",
+                "The Career Advancement & Mentoring Centre , IIT Indore sends invitations to companies along with relevant information and Job Announcement Form (JAF). The recruiters also can send an email expressing their interest to participate in the campus recruitment program of IIT Indore on placementofficer@iiti.ac.in / apo@iiti.ac.in.",
             },
             {
               title: "Job Announcement Form Submission",
@@ -39,12 +39,12 @@ export default function Timelines() {
             {
               title: "Campus Interview Scheduling",
               content:
-                "Further, the TPC office allots the dates for campus interviews considering factors like student preference, job profile, compensation, association with the institution, etc.",
+                "Further, the tpc office allots the dates for campus interviews considering factors like student preference, job profile, compensation, association with the institution, etc.",
             },
             {
               title: "Final Selection List Submission",
               content:
-                "The company is required to submit the list of selected and waitlisted (if any) candidates to the TPC office on the same day itself.",
+                "The company is required to submit the list of selected and waitlisted (if any) candidates to the tpc office on the same day itself.",
             },
           ]}
         />

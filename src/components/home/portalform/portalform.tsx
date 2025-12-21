@@ -4,7 +4,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 
 export default function PortalForm() {
-  const words = `Training and Placement Cell IIT Indore, is the organization which handles all activities related to the campus placement of the graduating batch.`;
+  const words = `Career Advancement and Mentoring Centre  IIT Indore, is the organization which handles all activities related to the campus placement of the graduating batch.`;
 
   return (
     <div className="w-[90%] sm:w-full md:w-[45%] relative z-10 h-full flex flex-col items-start justify-start px-4 sm:px-6 py-12 md:py-0">
@@ -12,9 +12,9 @@ export default function PortalForm() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="text-[1.8rem] sm:text-[2rem] lg:text-[3rem] xl:text-[3.5rem] 2xl:text-[4rem] uppercase text-white font-bold"
+        className="text-[1.1rem] sm:text-[1.2rem] lg:text-[1.1rem] xl:text-[1.5rem] 2xl:text-[2.5rem] uppercase text-white font-bold"
       >
-        Training And Placement Cell
+        Career Advancement and Mentoring Centre
       </motion.div>
 
       <motion.div
