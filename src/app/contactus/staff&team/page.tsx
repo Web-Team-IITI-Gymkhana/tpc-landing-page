@@ -9,7 +9,7 @@ import ContactCard from "./ContactCard";
 const StaffTeam: React.FC = () => {
   return (
     <div className="flex flex-col gap-[35px]">
-      <div className="questitle">tpc staff</div>
+      <div className="questitle">CAMC staff</div>
       <ContactCard></ContactCard>
       <div className="questitle">placement team</div>
       <div className="header3">undergraduate</div>

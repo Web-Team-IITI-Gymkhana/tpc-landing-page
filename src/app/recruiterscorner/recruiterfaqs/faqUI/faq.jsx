@@ -27,7 +27,7 @@ const FAQ = () => {
     },
     {
       "Question": "Are multiple companies allowed to share a single slot/day? If yes, please explain the process",
-      "Answer": "Yes, companies can share a slot, with tpc minimizing overlaps; if shared, the company releasing results first gets priority, and some may offer slot offers to secure students."
+      "Answer": "Yes, companies can share a slot, with CAMC minimizing overlaps; if shared, the company releasing results first gets priority, and some may offer slot offers to secure students."
     },
     {
       "Question": "On what basis is the slot allotted to a company for final placement?",

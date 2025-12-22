@@ -39,12 +39,12 @@ export default function Timelines() {
             {
               title: "Campus Interview Scheduling",
               content:
-                "Further, the tpc office allots the dates for campus interviews considering factors like student preference, job profile, compensation, association with the institution, etc.",
+                "Further, the CAMC office allots the dates for campus interviews considering factors like student preference, job profile, compensation, association with the institution, etc.",
             },
             {
               title: "Final Selection List Submission",
               content:
-                "The company is required to submit the list of selected and waitlisted (if any) candidates to the tpc office on the same day itself.",
+                "The company is required to submit the list of selected and waitlisted (if any) candidates to the CAMC office on the same day itself.",
             },
           ]}
         />
