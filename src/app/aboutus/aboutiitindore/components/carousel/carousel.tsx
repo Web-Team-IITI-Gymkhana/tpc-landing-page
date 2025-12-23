@@ -26,7 +26,7 @@ export default function Carousel(props: any) {
             <Image
               isZoomed
               src={props.images[currentIndex]}
-              alt="tpc images"
+              alt="CAMC images"
               className={styles.displaypic}
             />
           </div>

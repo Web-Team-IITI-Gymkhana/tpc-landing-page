@@ -38,7 +38,7 @@ export default function Carousel(props: any) {
         width={500}
         blurDataURL={props.images[currentIndex]}
         src={props.images[currentIndex]}
-        alt="tpc images"
+        alt="CAMC images"
         style={{ right: `${-scrollY * 0.5 - 5}px`, top: "40px" }} // Dynamically update the right position
         className={`  object-cover 2xl:w-[700px] xl:w-[650px] ld:w-[600px] md:w-[400px] sm:w-[350px] w-[300px] rounded-l-[100px] aspect-square absolute -mt-6   border-[5px] border-white  `}
       />

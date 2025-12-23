@@ -98,10 +98,10 @@ export default function NavbarUI(props: any) {
           />
 
           <div className="h-[5rem] text-white flex flex-col ml-2 items-start justify-center transition-all duration-300 poppins">
-            <div className="text-[0.8rem] font-bold leading-4">
-              Training and Placement Cell
+            <div className="text-[0.55rem] sm:text-[0.5rem] lg:text-[0.6rem] xl:text-[0.8rem] 2xl:text-[0.8rem] font-bold leading-4">
+              Career Advancement and Mentoring Centre
             </div>
-            <div className="text-[0.65rem] font-bold leading-4">
+            <div className="text-[0.5rem] lg:text-[0.6rem] xl:text-[0.68rem] 2xl:text-[0.68rem] font-bold leading-4">
               Indian Institute of Technology Indore
             </div>
           </div>
