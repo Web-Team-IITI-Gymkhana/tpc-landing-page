@@ -27,7 +27,7 @@ const courseData = {
     { sno: 19, program: "Computer Science and Engineering with specialization in Computer Science and Engineering", degree: "MTech" },
     { sno: 20, program: "Civil Engineering with specialization in Water, Climate and Sustainability", degree: "MTech" },
     { sno: 21, program: "Biosciences and Biomedical Engineering with specialization in Biomedical Engineering", degree: "MTech" },
-    { sno: 22, program: "Mechanical Engineering with specialization in Applied Optics and laser Technology", degree: "MTech" },
+    { sno: 22, program: "M.Tech in Applied Optics and laser Technology from  Department of Astronomy, Astrophysics And Space Engineering (DAASE)", degree: "MTech" },
     { sno: 23, program: "Civil Engineering with specialization in Structural Engineering", degree: "MTech" },
     { sno: 24, program: "Center of Futuristic Defence and Space Technology with specialization in Defence Technology", degree: "MTech" },
     { sno: 25, program: "Chemistry", degree: "MSC" },
