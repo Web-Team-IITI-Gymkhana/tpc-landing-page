@@ -67,7 +67,7 @@ const StaffTeam: React.FC = () => {
         ))}
       </div>
       <Button color="danger" variant="light" size="lg">
-        <div className={`para my-3 text-wrap`}>Mathemattics and Computing</div>
+        <div className={`para my-3 text-wrap`}>Mathematics and Computing</div>
       </Button>
       <div className="flex flex-wrap gap-10 justify-between">
         {data.teamug[6].map((member: any, index: number) => (
