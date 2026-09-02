@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
+import { useRouter } from 'next/router'
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 
 export default function PortalForm() {
-
+  const router = useRouter()
   const words = `Career Advancement and Mentoring Centre of IIT Indore facilitates internships, placements and career readiness activities for all it's students.`;
 
   return (
@@ -32,7 +33,7 @@ export default function PortalForm() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut", delay: 0.4 }}
-          onClick={() => (window.location.href = "/portal/login")}
+          onClick={() => router.push("/portal/login")}
           className="hover:scale-110 transition-all duration-300 bg-pink-500 px-6 py-3 sm:px-8 sm:py-4 text-white rounded-2xl"
         >
           <div>{"PORTAL LOGIN"}</div>
@@ -42,7 +43,8 @@ export default function PortalForm() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut", delay: 0.6 }}
-          onClick={() => (window.location.href = "/portal/recruiter/signup")}
+          onClick={() => router.push("/portal/recruiter/signup")}
+
           className="hover:scale-110 transition-all duration-300 text-white border-2 px-6 py-3 sm:px-8 sm:py-4 rounded-2xl border-white"
         >
           <div>{"Recruit from IITI"}</div>
