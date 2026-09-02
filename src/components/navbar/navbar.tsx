@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -10,7 +10,6 @@ import {
   NavbarMenuItem,
   Link,
   Button,
-  Divider,
   Accordion,
   AccordionItem,
 } from "@nextui-org/react";
@@ -29,28 +28,6 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function NavbarUI(props: any) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [hidden, setHidden] = useState(false);
-
-  useEffect(() => {
-    let lastScrollTop = 0;
-
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-
-      if (scrollTop > lastScrollTop && scrollTop > 100) {
-        // Scrolling down
-        setHidden(true);
-      } else {
-        // Scrolling up
-        setHidden(false);
-      }
-
-      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const handleMobileNavClick = () => {
     setIsMenuOpen(false);
@@ -79,9 +56,7 @@ export default function NavbarUI(props: any) {
       isMenuOpen={isMenuOpen}
       isBlurred={false}
       maxWidth="2xl"
-      className={`w-full fixed top-0 z-50 transition-all duration-500 h-[5rem] shadow-md
-        ${hidden ? "bg-opacity-0 backdrop-blur-sm opacity-0 pointer-events-none" : "bg-sky-900 bg-opacity-100 opacity-100"}
-      `}
+      className="w-full fixed top-0 z-50 transition-all duration-300 h-[5rem] shadow-md bg-sky-900 bg-opacity-100 opacity-100"
     >
       {/* Brand */}
       <NavbarContent
@@ -132,9 +107,7 @@ export default function NavbarUI(props: any) {
             ) : (
               <Link
                 href={item.link}
-                className={`flex items-center gap-1 text-sm transition-all duration-200 ${
-                  hidden ? "opacity-0" : "opacity-80"
-                }`}
+                className="flex items-center gap-1 text-sm transition-all duration-200 opacity-80 hover:opacity-100"
               >
                 <Button
                   color="default"
@@ -166,7 +139,6 @@ export default function NavbarUI(props: any) {
           {props.buttons.map((item: any, index: any) => (
             <NavbarMenuItem key={`mobile-${item}-${index}`} className="w-full">
               {item.isdrop ? (
-                // Dropdown items rendered as accordion in mobile
                 <div className="w-full">
                   <Accordion variant="light" className="px-0 shadow-none">
                     <AccordionItem
@@ -185,7 +157,7 @@ export default function NavbarUI(props: any) {
                         title: "text-white px-0",
                         trigger: "py-2 px-4 hover:bg-white/5 rounded-lg transition-colors border-none shadow-none data-[hover=true]:bg-white/5",
                         content: "px-0 pb-2 pt-0",
-                        indicator: "text-white/70"
+                        indicator: "text-white/70",
                       }}
                     >
                       <div className="flex flex-col ml-7 space-y-1">
@@ -206,7 +178,6 @@ export default function NavbarUI(props: any) {
                   <div className="border-b border-white/10 mx-4"></div>
                 </div>
               ) : (
-                // Regular navigation items
                 <div className="w-full">
                   <Link
                     href={item.link}

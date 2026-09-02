@@ -95,6 +95,15 @@
       "phone": "+91-731-2438 700",
       "department": "DAASE",
       "img": "/data/faculty/12.jpg"
+    },
+    {
+      "name": "Dr. Santanu Manna",
+      "designation": "Assosciate Professor",
+      "email": "santanu@iiti.ac.in",
+      "office": "POD 1A 512",
+      "phone": "+91-731-660-3319",
+      "department": "Mathematics",
+      "img": "/data/faculty/13.jpg"
     }
   ]
 }
