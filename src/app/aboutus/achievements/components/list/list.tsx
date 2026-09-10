@@ -29,7 +29,7 @@ export default function List(props: any) {
               The 14th Inter IIT Tech Meet, hosted by IIT Patna, brought together the brightest technical minds from 23 IITs to compete on industry-driven and research-oriented challenges across cutting-edge domains like AI, Robotics, Cybersecurity, Aerospace, and Product Development.
             </p>
             <p>
-              IIT Indore delivered its strongest-ever performance, securing <strong className="text-black font-bold">3rd place overall</strong> among 23 IITs and becoming the first second-generation IIT to achieve an overall podium finish at any Inter-IIT competition.
+              IIT Indore delievered its strongest-ever performance, securing <strong className="text-black font-bold">3rd place overall</strong> among 23 IITs and becoming the first second-generation IIT to achieve an overall podium finish at any Inter-IIT competition.
             </p>
             <p className="text-gray-600">
               The institute recorded one of its most comprehensive performances, with every participating team securing points in their respective event—winning 2 Gold, 2 Silver, and 3 Bronze medals.
