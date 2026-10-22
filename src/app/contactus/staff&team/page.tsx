@@ -19,7 +19,7 @@ const StaffTeam: React.FC = () => {
           Computer Science and Engineering
         </div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[0].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -27,7 +27,7 @@ const StaffTeam: React.FC = () => {
       <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Electrical Engineering</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+     <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[1].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -35,7 +35,7 @@ const StaffTeam: React.FC = () => {
       <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Civil Engineering</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[2].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -45,7 +45,7 @@ const StaffTeam: React.FC = () => {
           Mechanical Engineering
         </div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[3].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -53,7 +53,7 @@ const StaffTeam: React.FC = () => {
       <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Metallurgical Engineering and Materials Science</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[4].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -61,7 +61,7 @@ const StaffTeam: React.FC = () => {
        <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Chemical Engineering</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[5].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -69,7 +69,7 @@ const StaffTeam: React.FC = () => {
       <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Mathematics and Computing</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[6].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -77,7 +77,7 @@ const StaffTeam: React.FC = () => {
        <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Engineering Physics</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[7].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -85,7 +85,7 @@ const StaffTeam: React.FC = () => {
        <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Space Science and Engineering</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[8].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}
@@ -93,7 +93,7 @@ const StaffTeam: React.FC = () => {
       <Button color="danger" variant="light" size="lg">
         <div className={`para my-3 text-wrap`}>Non-Core</div>
       </Button>
-      <div className="flex flex-wrap gap-10 justify-between">
+      <div className="flex flex-wrap justify-center gap-12">
         {data.teamug[9].map((member: any, index: number) => (
           <FacultyProfile key={index} {...member} />
         ))}

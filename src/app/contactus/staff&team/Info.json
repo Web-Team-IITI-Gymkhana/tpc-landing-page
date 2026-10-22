@@ -5,19 +5,22 @@
         "name": "Anmol Joshi",
         "email": "cse230001007@iiti.ac.in",
         "phone": "8668991445",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Anmol Joshi.jpeg"
       },
       {
         "name": "Manan Jiwnani",
         "email": "cse230001049@iiti.ac.in",
         "phone": "7014649539",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/default.png"
       },
       {
         "name": "Tripti Anand",
         "email": "cse230001078@iiti.ac.in",
         "phone": "9263511498",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Tripti Anand.jpg"
       }
     ],
     [
@@ -25,19 +28,22 @@
         "name": "Prashant Narang",
         "email": "ee230002056@iiti.ac.in",
         "phone": "7986128956",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Prashant Narang.jpg"
       },
       {
         "name": "Kuvam Bhutani",
         "email": "ee230002037@iiti.ac.in",
         "phone": "7289916012",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Kuvam Bhutani.jpeg"
       },
       {
         "name": "Bharath Varma",
         "email": "ee230002032@iiti.ac.in",
         "phone": "8712200709",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Kalidindi Bharath Varma.jpeg"
       }
     ],
     [
@@ -45,19 +51,22 @@
         "name": "Yagyaparna Mandwale",
         "email": "ce230004052@iiti.ac.in",
         "phone": "9303138437",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Yagyaparna Mandwale.jpg"
       },
       {
         "name": "Ashutosh Diyewar",
         "email": "ce230004010@iiti.ac.in",
         "phone": "9850607972",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Ashutosh Diyewar.jpeg"
       },
       {
         "name": "Sai Chathura Alam",
         "email": "ce230004004@iiti.ac.in",
         "phone": "9182794408",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/default.png"
       }
     ],
     [
@@ -65,19 +74,22 @@
         "name": "Suryansh Nagar",
         "email": "me230003077@iiti.ac.in",
         "phone": "9082388554",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/default.png"
       },
       {
         "name": "Harsh Anand",
         "email": "mems230005016@iiti.ac.in",
         "phone": "9572396507",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Harsh Anand.jpg"
       },
       {
         "name": "Varsha",
         "email": "me230003074@iiti.ac.in",
         "phone": "9701399946",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Sri Varsha Dodda.jpg"
       }
     ],
     [
@@ -85,19 +97,22 @@
         "name": "Mohit Garhewal",
         "email": "mems230005028@iiti.ac.in",
         "phone": "7898460527",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Mohit Garhewal.jpg"
       },
       {
         "name": "Utkarsh Mittal",
         "email": "mems230005049@iiti.ac.in",
         "phone": "9929522265",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Utkarsh Mittal.jpg"
       },
       {
         "name": "Sahajmeet Kaur",
         "email": "mems230005040@iiti.ac.in",
         "phone": "9310905055",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/default.png"
       }
     ],
     [
@@ -105,19 +120,22 @@
         "name": "Vedika Butle",
         "email": "che230008012@iiti.ac.in",
         "phone": "9112229222",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Butle Vedika Ashirwad.jpg"
       },
       {
         "name": "Ved Pathak",
         "email": "che230008037@iiti.ac.in",
         "phone": "6260807744",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/default.png"
       },
       {
         "name": "Mustafa",
         "email": "che230008027@iiti.ac.in",
         "phone": "9586786052",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Rayliwala Mustafa.JPG"
       }
     ],
     [
@@ -125,13 +143,15 @@
         "name": "Md. Asif Hussain",
         "email": "mc230041021@iiti.ac.in",
         "phone": "9989073010",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Md. Asif Hussain.png"
       },
       {
         "name": "Rishabh Anand",
         "email": "mc230041029@iiti.ac.in",
         "phone": "9560965280",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Rishab Anand.png"
       }
     ],
      [
@@ -139,13 +159,15 @@
         "name": "Aarushi Singh",
         "email": "ep230051001@iiti.ac.in",
         "phone": "9664070168",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Aarushi Singh.jpeg"
       },
       {
         "name": "Prince Kumar",
         "email": "ep230051013@iiti.ac.in",
         "phone": "9973938636",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Prince Kumar.jpeg"
       }
     ],
     [
@@ -153,13 +175,15 @@
         "name": "Prem pratik",
         "email": "sse230021012@iiti.ac.in",
         "phone": "9142558530",
-        "domain": "Core"
+        "domain": "Core",
+        "img": "/data/managers/Prem Pratik.jpg"
       },
       {
         "name": "Anuvab mandal",
         "email": "sse230021003@iiti.ac.in",
         "phone": "8109109508",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Anuvab Mandal.jpeg"
       }
     ],
     [
@@ -167,25 +191,29 @@
         "name": "Anmol Jain",
         "email": "che230008009@iiti.ac.in",
         "phone": "9425656973",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Anmol Jain.jpg"
       },
       {
         "name": "Ayush Sharma",
         "email": "me230003012@iiti.ac.in",
         "phone": "8839137604",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/default.png"
       },
       {
         "name": "Varad Pendse",
         "email": "me230003084@iiti.ac.in",
         "phone": "9967721357",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/default.png"
       },
       {
         "name": "Nirdosh Kumar",
         "email": "ce230004032@iiti.ac.in",
         "phone": "9311678891",
-        "domain": "Core & Non-Core"
+        "domain": "Core & Non-Core",
+        "img": "/data/managers/Nirdosh Kumar.png"
       }
     ]
   ],
@@ -196,7 +224,8 @@
       "branch": "Water, Climate and Sustainability",
       "course": "MTech",
       "department": "Civil Engineering",
-      "phone": "8102220646"
+      "phone": "8102220646",
+      "img": "/data/managers/Anirban Roy.png"
     },
     {
       "name": "Arka Biswas",
@@ -204,7 +233,8 @@
       "branch": "Applied Optics and Laser Technology (AOLT)",
       "course": "MTech",
       "department": "DAASE",
-      "phone": "8910138703"
+      "phone": "8910138703",
+      "img": "/data/managers/Arka Biswas.jpg"
     },
     {
       "name": "Unnati Manohar Dhingriya",
@@ -212,7 +242,8 @@
       "branch": "Space Engineering",
       "course": "MTech",
       "department": "DAASE",
-      "phone": "9359057443"
+      "phone": "9359057443",
+      "img": "/data/managers/Unnati Manohar Dhingriya.jpg"
     },
     {
       "name": "Ashutosh Mishra",
@@ -220,7 +251,8 @@
       "branch": "Thermal Energy System",
       "course": "MTech",
       "department": "Mechanical Engineering",
-      "phone": "9265685938"
+      "phone": "9265685938",
+      "img": "/data/managers/Ashutosh Mishra.jpg"
     },
     {
       "name": "Aditya Garg",
@@ -228,7 +260,8 @@
       "branch": "Power Systems and Power Electronics",
       "course": "MTech",
       "department": "Electrical Engineering",
-      "phone": "7876804125"
+      "phone": "7876804125",
+      "img": "/data/managers/Aditya Garg.jpg"
     },
     {
       "name": "Suriyan T",
@@ -236,7 +269,8 @@
       "branch": "Biomedical Devices",
       "course": "MTech",
       "department": "Biosciences and Biomedical Engineering",
-      "phone": "8754800162"
+      "phone": "8754800162",
+      "img": "/data/managers/default.png"
     },
     {
       "name": "TAMANNA DESWAL",
@@ -244,7 +278,8 @@
       "branch": "Chemistry",
       "course": "MSc",
       "department": "Chemistry",
-      "phone": "7988798556"
+      "phone": "7988798556",
+      "img": "/data/managers/Tamanna Deswal.jpg"
     },
     {
       "name": "Tarun Sharma",
@@ -252,7 +287,8 @@
       "branch": "Mathematics",
       "course": "MSc",
       "department": "Mathematics",
-      "phone": "8076951735"
+      "phone": "8076951735",
+      "img": "/data/managers/Tarun Sharma.jpg"
     },
     {
       "name": "Saket Jain",
@@ -260,7 +296,8 @@
       "branch": "Computer Science and Engineering (CSE)",
       "course": "MTech / MS(Research)",
       "department": "Computer Science and Engineering",
-      "phone": "9131198210"
+      "phone": "9131198210",
+      "img": "/data/managers/default.png"
     },
     {
       "name": "Aryan Raj",
@@ -268,7 +305,8 @@
       "branch": "Materials Science and Engineering ",
       "course": "MTech",
       "department": "Metallurgical Engineering and Materials Science",
-      "phone": "9024252579"
+      "phone": "9024252579",
+      "img": "/data/managers/aryan raj.jpg"
     },
     {
       "name": "Utkarsh Dubey",
@@ -276,7 +314,8 @@
       "branch": "Mechanical Systems Design",
       "course": "MTech",
       "department": "Mechanical Engineering",
-      "phone": "8299724273"
+      "phone": "8299724273",
+      "img": "/data/managers/Utkarsh Dubey.jpg"
     },
     {
       "name": "Arnab Nandi",
@@ -284,7 +323,8 @@
       "branch": "Electric Vehicle Technology",
       "course": "MTech",
       "department": "Center for Electric Vehicles Intelligent Transport Systems",
-      "phone": "8877398860"
+      "phone": "8877398860",
+      "img": "/data/managers/Arnab Nandi.png"
     },
     {
       "name": "Divyanshu Naugai",
@@ -292,7 +332,8 @@
       "branch": "Communication & Signal Processing",
       "course": "MTech",
       "department": "Electrical Engineering",
-      "phone": "7409429600"
+      "phone": "7409429600",
+      "img": "/data/managers/Divyanshu Naugai.jpg"
     }
   ],
 
