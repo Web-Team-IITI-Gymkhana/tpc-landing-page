@@ -20,6 +20,20 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Landing page content
+
+Set the server environment variable `LANDING_CONFIG_DJANGO_URL` to the Django
+origin, such as `http://localhost:8000`. The dev and prod Compose configs use
+`http://agents:8000`. Apply the `landing_config` migration on Django before
+releasing the frontend, then edit the seeded row under **Landing page config**
+in Django admin.
+
+Next.js caches successful config responses for five minutes. A failed refresh
+keeps the last successful response. With no cached response, the site uses the
+bundled snapshot and retries Django on a later request. The snapshot is also
+used when the Django URL is unset. Its initial content matches the agents
+app's `landing_config/migrations/initial_content.json`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

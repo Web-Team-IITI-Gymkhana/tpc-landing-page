@@ -1,14 +1,14 @@
+import { getLandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import { Button } from "@nextui-org/react";
 
 import Faq from "./faqUI/faq";
 import styles from "./recruiterfaq.module.css";
-import data from "./data.json";
-import ques1 from "./generalques.json";
 
 import Link from "next/link";
 
-export default function RecruiterFAQS() {
+export default async function RecruiterFAQS() {
+  const { recruiterFaq: { data, general: ques1 } } = await getLandingPageConfig();
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>

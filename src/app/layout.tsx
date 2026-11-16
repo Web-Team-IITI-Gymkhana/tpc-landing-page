@@ -1,3 +1,4 @@
+import { getLandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
@@ -5,8 +6,6 @@ import "./globals.css";
 
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import FooterData from "../components/footer/footer.json";
-import NavbarData from "../components/navbar/navbar.json";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -15,17 +14,17 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-export const metadata: Metadata = {
-  title: "Career Advancement and Mentoring Centre , IIT Indore",
-  description:
-    "Students' Placement Office of IIT Indore, is the organization which handles all activities related to the campus placement of the graduating batch.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const { metadata } = await getLandingPageConfig();
+  return metadata;
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { navbar, footer } = await getLandingPageConfig();
   return (
     <html lang="en">
       <head />
@@ -38,7 +37,7 @@ export default function RootLayout({
           {children}
         </main>
 
-        <Footer {...FooterData} />
+        <Footer {...footer} />
       </body>
     </html>
   );

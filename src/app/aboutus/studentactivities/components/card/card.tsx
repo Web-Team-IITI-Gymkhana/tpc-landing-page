@@ -1,4 +1,5 @@
 "use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import styles from "../../gymkhana.module.css";
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
@@ -6,15 +7,14 @@ import { motion, useInView } from "framer-motion";
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import { Image } from "@nextui-org/image";
-import data from "../../data.json";
 
-export default function CardUI(props: any) {
+export default function CardUI({ Clubs, instagramIcon }: LandingPageConfig["studentActivities"]["tech"] & { instagramIcon: string }) {
   const ref = useRef(null); // Reference for the div
   const isInView = useInView(ref, { amount: 0.2 }); //
 
   return (
     <section ref={ref} className={styles.table}>
-      {props.Clubs.map(
+      {Clubs.map(
         (club: { img: string; title: string; link: string }, index: number) => (
           <motion.div
             key={index}
@@ -31,7 +31,7 @@ export default function CardUI(props: any) {
                 <div className={styles.insta}>
                   <div>
                     <Image
-                      src={data.insta}
+                      src={instagramIcon}
                       alt="instagram"
                       className=" brightness-0 invert-[1] "
                     />
