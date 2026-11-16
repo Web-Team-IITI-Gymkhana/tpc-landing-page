@@ -55,42 +55,36 @@ export default function NavbarUI(props: any) {
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}
       isBlurred={false}
-      maxWidth="2xl"
-      className="w-full fixed top-0 z-50 transition-all duration-300 h-[5rem] shadow-md bg-sky-900 bg-opacity-100 opacity-100"
+      maxWidth="full"
+      className="w-full h-[5rem] shadow-md bg-sky-900 bg-opacity-100 opacity-100 px-2 sm:px-6"
     >
-      {/* Brand */}
-      <NavbarContent
-        justify="start"
-        className="overflow-hidden min-w-max hover:scale-105 transition-all duration-300 bg-sky-900 rounded-xl px-3"
-      >
-        <Link href="/" className="" onClick={handleMobileNavClick}>
+      <NavbarContent justify="start" className="shrink-0">
+        <Link href="/" className="flex items-center gap-2 hover:scale-105 transition-all duration-300" onClick={handleMobileNavClick}>
           <Image
-            width={60}
-            height={60}
+            width={52}
+            height={52}
             src={props.logo}
             alt="iit indore"
-            className={`${styles.iitilogo} invert brightness-0`}
+            className={`${styles.iitilogo} invert brightness-0 shrink-0`}
           />
 
-          <div className="h-[5rem] text-white flex flex-col ml-2 items-start justify-center transition-all duration-300 poppins">
-            <div className="text-[0.55rem] sm:text-[0.5rem] lg:text-[0.6rem] xl:text-[0.8rem] 2xl:text-[0.8rem] font-bold leading-4">
+          <div className="text-white flex flex-col justify-center poppins leading-tight">
+            <span className="text-[0.65rem] sm:text-xs lg:text-[0.78rem] font-bold">
               Career Advancement and Mentoring Centre
-            </div>
-            <div className="text-[0.5rem] lg:text-[0.6rem] xl:text-[0.68rem] 2xl:text-[0.68rem] font-bold leading-4">
+            </span>
+            <span className="text-[0.55rem] sm:text-[0.68rem] font-medium text-white/80">
               Indian Institute of Technology Indore
-            </div>
+            </span>
           </div>
         </Link>
       </NavbarContent>
 
-      {/* Desktop Nav */}
       <NavbarContent
-        justify="center"
-        className="hidden w-full md:flex justify-around"
-        style={{ justifyContent: "space-around" }}
+        justify="end"
+        className="hidden xl:flex gap-1 2xl:gap-3 shrink-0"
       >
         {props.buttons.map((item: any, index: any) => (
-          <NavbarMenuItem className="enter1 delay-500" key={`${item}-${index}`}>
+          <NavbarItem key={`${item.title}-${index}`}>
             {item.isdrop ? (
               <Drop {...item}>
                 {item.title === "About Us" ? (
@@ -107,37 +101,37 @@ export default function NavbarUI(props: any) {
             ) : (
               <Link
                 href={item.link}
-                className="flex items-center gap-1 text-sm transition-all duration-200 opacity-80 hover:opacity-100"
+                className="opacity-85 hover:opacity-100 transition-opacity"
               >
                 <Button
                   color="default"
                   variant="light"
-                  className="text-white min-w-[155px] poppins"
+                  className="text-white px-3 h-9 text-xs 2xl:text-sm font-medium poppins flex items-center gap-1.5"
                 >
                   {item.title === "Home" ? (
                     <HomeIcon className="text-[1rem]" />
                   ) : (
                     <DatasetLinkedIcon className="text-[1rem]" />
                   )}
-                  <div>{item.title}</div>
+                  <span>{item.title}</span>
                 </Button>
               </Link>
             )}
-          </NavbarMenuItem>
+          </NavbarItem>
         ))}
       </NavbarContent>
 
-      {/* Mobile Toggle */}
-      <NavbarMenuToggle
-        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="lg:hidden text-white"
-      />
+      <NavbarContent className="xl:hidden" justify="end">
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="text-white"
+        />
+      </NavbarContent>
 
-      {/* Mobile Menu Content */}
       <NavbarMenu className="bg-sky-900 pt-6">
         <div className="flex flex-col">
           {props.buttons.map((item: any, index: any) => (
-            <NavbarMenuItem key={`mobile-${item}-${index}`} className="w-full">
+            <NavbarMenuItem key={`mobile-${item.title}-${index}`} className="w-full">
               {item.isdrop ? (
                 <div className="w-full">
                   <Accordion variant="light" className="px-0 shadow-none">

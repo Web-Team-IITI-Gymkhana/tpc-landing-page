@@ -1,0 +1,100 @@
+{
+  "faculties": [
+    {
+      "name": "Dr. Mayur Shirish Jain",
+      "designation": "Assistant Professor",
+      "email": "mayur.jain@iiti.ac.in",
+      "phone": "+91-731-660-3384",
+      "office": "Room No. 605, POD 1A, Silicon Building",
+      "department": "CE",
+      "img": "/data/faculty/4.jpg"
+    },
+    {
+      "name": "Dr. Chandresh Kumar Maurya",
+      "designation": "Assistant Professor",
+      "email": "chandresh@iiti.ac.in",
+      "phone": "+91-731-660-3223",
+      "department": "CSE",
+      "img": "/data/faculty/1.jpg"
+    },
+    {
+      "name": " Dr. Appina Balasubŕamanyam",
+      "designation": "Assistant Professor",
+      "email": "appina@iiti.ac.in",
+      "department": "EE",
+      "img": "/data/faculty/2.jpg"
+    },
+    {
+      "name": "Dr. Abhijit Ghosh",
+      "designation": "Assistant Professor",
+      "email": "aghosh@iiti.ac.in",
+      "phone": "+91-731-660-3287",
+      "office": "Room No. 1D- 608",
+      "department": "MEMS",
+      "img": "/data/faculty/3.jpg"
+    },
+
+    {
+      "name": "Prof. Mirza S. Baig",
+      "designation": "Professor",
+      "email": "msb.iit@iiti.ac.in",
+      "phone": "+91-731-660-3331",
+      "office": "Room No. 709, Silicon, IIT Indore",
+      "department": "BSBE",
+      "img": "/data/faculty/5.jpg"
+    },
+    {
+      "name": "Dr. Shomik Dasgupta",
+      "designation": "Assistant Professor",
+      "email": "shomikdasgupta@iiti.ac.in",
+      "phone": "+91-731-660-3296",
+      "office": "Chromium POD, Room No. 517, Simrol",
+      "department": "HUMANITY",
+      "img": "/data/faculty/7.jpg"
+    },
+    {
+      "name": "Dr. Onkar Sharad Game",
+      "designation": "Assistant Professor",
+      "email": "ogame@iiti.ac.in",
+      "phone": "+91-731-660-3183",
+      "office": "Room 413, POD: 1A, IIT Indore Campus, Khandwa Rd, Simrol, Indore-453552",
+      "department": "PHYSICS",
+      "img": "/data/faculty/8.jpg"
+    },
+    {
+      "name": "Prof. Debayan Sarkar",
+      "designation": "Professor",
+      "email": "sarkard@iiti.ac.in",
+      "phone": "+91-731-660-3179",
+      "office": "1D-408, POD Building",
+      "department": "Chemistry",
+      "img": "/data/faculty/9.jpg"
+    },
+    {
+      "name": "Dr. R. Kailasham",
+      "designation": "Assistant Professor",
+      "email": "rkailasham@iiti.ac.in",
+      "office": "POD 1C 501",
+      "phone": "+91-731-660-5226",
+      "department": "Chemical Engineering",
+      "img": "/data/faculty/11.jpg"
+    },
+    {
+      "name": "Dr. Prakash Suryakant Gaikwad",
+      "designation": "Assistant Professor",
+      "email": "gaikwad@iiti.ac.in",
+      "phone": "+91-731-2438 700",
+      "department": "DAASE",
+      "img": "/data/faculty/12.jpg"
+    },
+    {
+      "name": "Dr. Santanu Manna",
+      "designation": "Assosciate Professor",
+      "email": "santanu@iiti.ac.in",
+      "office": "POD 1A 512",
+      "phone": "+91-731-660-3319",
+      "department": "Mathematics",
+      "img": "/data/faculty/13.jpg"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ export default async function Home() {
   const { home } = await getLandingPageConfig();
   return (
     <>
-      <section className="relative w-full h-screen min-h-[650px] flex items-center justify-center overflow-hidden bg-slate-950">
+      <section className="relative w-full h-[calc(100vh-5rem)] min-h-[600px] flex items-center justify-center overflow-hidden bg-slate-950">
 
         <div className="absolute inset-0 z-0">
           <Carousel {...home.carousel} />
@@ -18,7 +18,7 @@ export default async function Home() {
 
         <div className="absolute -top-32 -left-32 w-96 h-96 bg-sky-500/20 rounded-full blur-3xl pointer-events-none z-10" />
 
-        <div className="relative z-20 w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 pt-24 pb-12 flex items-center h-full">
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-8 flex items-center h-full">
           <div className="w-full max-w-2xl">
             <PortalForm {...home.hero} />
           </div>

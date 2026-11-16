@@ -29,9 +29,8 @@ export default async function RootLayout({
     <html lang="en">
       <head />
       <body className={`${inter.className} ${poppins.variable} m-0 p-0 w-full overflow-x-clip bg-slate-50`}>
-        {/* Float navbar on top of the hero section */}
-        <header className="absolute top-0 left-0 w-full z-50 bg-transparent">
-          <Navbar {...navbar} />
+        <header className="sticky top-0 z-50 w-full">
+          <Navbar {...NavbarData} />
         </header>
 
         <main className="w-full min-h-screen m-0 p-0">
