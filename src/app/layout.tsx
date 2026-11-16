@@ -30,7 +30,7 @@ export default async function RootLayout({
       <head />
       <body className={`${inter.className} ${poppins.variable} m-0 p-0 w-full overflow-x-clip bg-slate-50`}>
         <header className="sticky top-0 z-50 w-full">
-          <Navbar {...NavbarData} />
+          <Navbar {...navbar} />
         </header>
 
         <main className="w-full min-h-screen m-0 p-0">
