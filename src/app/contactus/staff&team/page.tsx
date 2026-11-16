@@ -1,16 +1,17 @@
+import { getLandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import { Button } from "@nextui-org/react";
-import data from "./Info.json";
 import FacultyProfile from "./FacultyProfile";
 import FacultyProfile2 from "./pgteam";
 import styles from "./FacultyProfile.module.css";
 import ContactCard from "./ContactCard";
 
-const StaffTeam: React.FC = () => {
+export default async function StaffTeam() {
+  const { staff: data } = await getLandingPageConfig();
   return (
     <div className="flex flex-col gap-[35px]">
       <div className="questitle">CAMC staff</div>
-      <ContactCard></ContactCard>
+      <ContactCard info={data} />
       <div className="questitle">placement team</div>
       <div className="header3">undergraduate</div>
 
@@ -106,6 +107,4 @@ const StaffTeam: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default StaffTeam;
+}

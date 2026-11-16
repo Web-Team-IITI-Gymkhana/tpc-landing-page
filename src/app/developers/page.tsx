@@ -1,5 +1,5 @@
+import { getLandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
-import data from "./dev.json";
 import Image from "next/image";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -7,7 +7,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import Link from "next/link";
 import LanguageIcon from "@mui/icons-material/Language";
 
-export default function Page() {
+export default async function Page() {
+  const { developers: data } = await getLandingPageConfig();
   return (
     <div className=" mb-8 flex flex-wrap justify-start gap-10">
       {data.map((value, index) => (

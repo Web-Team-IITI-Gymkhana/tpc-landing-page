@@ -1,9 +1,9 @@
 "use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 
-export default function PortalForm() {
-  const words = `Career Advancement and Mentoring Centre of IIT Indore facilitates internships, placements and career readiness activities for all it's students.`;
+export default function PortalForm({ heading, description }: LandingPageConfig["home"]["hero"]) {
 
   return (
     <div className="w-full max-w-2xl relative z-10 flex flex-col items-start justify-center text-white">
@@ -13,7 +13,7 @@ export default function PortalForm() {
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase tracking-wide leading-[1.2] drop-shadow-md"
       >
-        Career Advancement and Mentoring Centre
+        {heading}
       </motion.h1>
 
       <motion.div
@@ -22,7 +22,7 @@ export default function PortalForm() {
         transition={{ duration: 0.5, ease: "easeInOut", delay: 0.2 }}
         className="mt-5 text-slate-200 text-sm sm:text-base leading-relaxed max-w-xl drop-shadow"
       >
-        <TextGenerateEffect words={words} />
+        <TextGenerateEffect words={description} />
       </motion.div>
 
       <div className="flex flex-wrap items-center gap-4 mt-8">
