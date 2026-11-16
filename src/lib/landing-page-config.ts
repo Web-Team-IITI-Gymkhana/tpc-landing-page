@@ -6,20 +6,33 @@ import snapshot from "./landing-page-config.snapshot.json";
 
 export type LandingPageConfig = typeof snapshot;
 
-function matchesSnapshot(value: unknown, example: unknown): boolean {
+const optionalFields: Record<string, Record<string, string>> = {
+  "navbar.buttons[]": { link: "", modalbutton: "" },
+  "navbar.buttons[].drop[]": { target: "" },
+  "faculty.faculties[]": { phone: "", office: "" },
+  "staff.Info[].social": { linkedin: "", twitter: "", facebook: "", instagram: "" },
+  "developers[]": { website: "" },
+};
+
+function matchesSnapshot(value: unknown, example: unknown, path = ""): boolean {
   if (Array.isArray(example)) {
     return Array.isArray(value) && value.every((item) =>
-      example.some((sample) => matchesSnapshot(item, sample)),
+      example.some((sample) => matchesSnapshot(item, sample, `${path}[]`)),
     );
   }
   if (example && typeof example === "object") {
     if (!value || typeof value !== "object" || Array.isArray(value)) {
       return false;
     }
-    const entries = Object.entries(example);
+    const fields = example as Record<string, unknown>;
     const data = value as Record<string, unknown>;
-    return Object.keys(data).length === entries.length &&
-      entries.every(([key, sample]) => Object.hasOwn(data, key) && matchesSnapshot(data[key], sample));
+    const optional = optionalFields[path] ?? {};
+    return Object.keys(fields).every((key) => Object.hasOwn(data, key) || Object.hasOwn(optional, key)) &&
+      Object.entries(data).every(([key, item]) => {
+        const childPath = path ? `${path}.${key}` : key;
+        if (Object.hasOwn(fields, key)) return matchesSnapshot(item, fields[key], childPath);
+        return Object.hasOwn(optional, key) && matchesSnapshot(item, optional[key], childPath);
+      });
   }
   return typeof value === typeof example;
 }
