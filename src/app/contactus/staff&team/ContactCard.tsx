@@ -1,10 +1,10 @@
 "use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import styles from "./ContactCard.module.css";
-import info from "./Info.json";
 import { Image } from "@nextui-org/image";
 
-const ContactCard: React.FC = () => {
+const ContactCard = ({ info }: { info: LandingPageConfig["staff"] }) => {
   console.log("Info data: ", info.Info);
 
   return (

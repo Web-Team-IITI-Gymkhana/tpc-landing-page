@@ -20,6 +20,27 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Landing page content
+
+Set the server environment variable `LANDING_CONFIG_DJANGO_URL` to the Django
+origin, such as `http://localhost:8000`. The dev and prod Compose configs use
+`http://agents:8000`. Apply the `landing_config` migration on Django before
+releasing the frontend. In Django admin, open **Landing page config** and choose
+a section to edit its fields and ordered entries.
+
+Open **Landing page config → Placement brochure** to replace the PDF used by
+the navbar and both FAQ pages. During a Django outage, Next.js serves a
+read-only copy of the latest admin upload from the shared `agents-media`
+volume. If the shared copy is unavailable, Next.js serves the original PDF
+bundled with the landing page. A standalone Next.js installation can use
+`LANDING_BROCHURE_FALLBACK_FILE` to point to the published copy.
+
+Next.js caches successful config responses for five minutes. A failed refresh
+keeps the last successful response. With no cached response, the site uses the
+bundled snapshot and retries Django on a later request. The snapshot is also
+used when the Django URL is unset. Its initial content matches the agents
+app's `landing_config/migrations/initial_content.json`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

@@ -1,9 +1,10 @@
+import { getLandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import styles from "./studentactivities.module.css";
-import data from "./data.json";
 import { Image } from "@nextui-org/image";
 
-export default function Activities() {
+export default async function Activities() {
+  const { studentActivities: data } = await getLandingPageConfig();
   return (
     <>
       <div className={styles.cardContainer}>

@@ -1,12 +1,14 @@
 "use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import styles from "./recruit.module.css";
 import { useState, useEffect } from "react";
-import data from "./data.json";
 import { Image } from "@nextui-org/image";
 import { motion } from "framer-motion";
 
-export default function WhyRecruit() {
+const rankingOffsets = [{ x: -50 }, { y: -50 }, { y: 50 }, { x: 50 }];
+
+export default function WhyRecruit({ whyRecruit, rankings }: Pick<LandingPageConfig["about"], "whyRecruit" | "rankings">) {
   const [color, setColor] = useState("text-[#115398]");
 
   const handleMouseEnter = (newColor: any) => setColor(newColor);
@@ -28,74 +30,26 @@ export default function WhyRecruit() {
   return (
     <div className="flex relative flex-wrap gap-2 sm:gap-3 md:gap-5 justify-around px-1 sm:px-2">
       <div className={styles.grid}>
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <div
-            className={styles.card}
-            onMouseEnter={() => handleMouseEnter("text-[#67a8ac]")}
-            onMouseLeave={handleMouseLeave}
+        {rankings.map((image, index) => (
+          <motion.div
+            key={image}
+            initial={{ opacity: 0, ...rankingOffsets[index % rankingOffsets.length] }}
+            animate={{ opacity: 1, x: 0, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.5 }}
           >
-            <Image 
-              src="/data/rankings/1.png" 
-              alt="" 
-              className="scale-[0.6] sm:scale-[0.65] md:scale-[0.7] lg:scale-[0.75] xl:scale-[0.8] max-w-full max-h-full object-contain" 
-            />
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-        >
-          <div
-            className={styles.card}
-            onMouseEnter={() => handleMouseEnter("text-[#67a8ac]")}
-            onMouseLeave={handleMouseLeave}
-          >
-            <Image 
-              src="/data/rankings/2.png" 
-              alt="" 
-              className="scale-[0.6] sm:scale-[0.65] md:scale-[0.7] lg:scale-[0.75] xl:scale-[0.8] max-w-full max-h-full object-contain" 
-            />
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.5 }}
-        >
-          <div
-            className={styles.card}
-            onMouseEnter={() => handleMouseEnter("text-[#67a8ac]")}
-            onMouseLeave={handleMouseLeave}
-          >
-            <Image 
-              src="/data/rankings/3.png" 
-              alt="" 
-              className="scale-[0.6] sm:scale-[0.65] md:scale-[0.7] lg:scale-[0.75] xl:scale-[0.8] max-w-full max-h-full object-contain" 
-            />
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 1 }}
-        >
-          <div
-            className={styles.card}
-            onMouseEnter={() => handleMouseEnter("text-[#67a8ac]")}
-            onMouseLeave={handleMouseLeave}
-          >
-            <Image 
-              src="/data/rankings/4.png" 
-              alt="" 
-              className="scale-[0.6] sm:scale-[0.65] md:scale-[0.7] lg:scale-[0.75] xl:scale-[0.8] max-w-full max-h-full object-contain" 
-            />
-          </div>
-        </motion.div>
+            <div
+              className={styles.card}
+              onMouseEnter={() => handleMouseEnter("text-[#67a8ac]")}
+              onMouseLeave={handleMouseLeave}
+            >
+              <Image
+                src={image}
+                alt=""
+                className="scale-[0.6] sm:scale-[0.65] md:scale-[0.7] lg:scale-[0.75] xl:scale-[0.8] max-w-full max-h-full object-contain"
+              />
+            </div>
+          </motion.div>
+        ))}
       </div>
 
       <div className="flex w-full md:w-[40%] lg:w-[45%] xl:w-[40%] flex-wrap justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-8 xl:gap-10 mt-6 sm:mt-7 md:mt-8 lg:mt-9 xl:mt-10 px-1 sm:px-2">
@@ -111,7 +65,7 @@ export default function WhyRecruit() {
             </div>
           </div>
         </motion.div>
-        {data.map((item, index) => (
+        {whyRecruit.map((item, index) => (
           <React.Fragment key={index}>
             <motion.div
               initial={{ opacity: 0, x: 50 }}

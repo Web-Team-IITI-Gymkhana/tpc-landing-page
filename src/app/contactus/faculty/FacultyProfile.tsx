@@ -1,9 +1,10 @@
+import { getLandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import styles from "./FacultyProfile.module.css";
-import facultyInfo from "./facultyInfo.json";
 import Image from "next/image";
 
-const FacultyProfile: React.FC = () => {
+export default async function FacultyProfile() {
+  const { faculty: facultyInfo } = await getLandingPageConfig();
   return (
     <div className={styles.cardContainer}>
       {facultyInfo.faculties.map((faculty, index) => (
@@ -82,6 +83,4 @@ const FacultyProfile: React.FC = () => {
       ))}
     </div>
   );
-};
-
-export default FacultyProfile;
+}

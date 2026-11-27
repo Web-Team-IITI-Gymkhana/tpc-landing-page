@@ -1,33 +1,24 @@
-"use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import styles from "./gymkhana.module.css";
 
 import React from "react";
-import dataTech from "./TechClubs.json";
-import dataCultural from "./CulturalClubs.json";
 import Card from "./components/card/card";
-import dataSport from "./SportsClubs.json";
 
-export default function Gymkhana() {
+export default function Gymkhana({ tech, cultural, sports, insta, gymkhanaIntro }: Pick<LandingPageConfig["studentActivities"], "tech" | "cultural" | "sports" | "insta" | "gymkhanaIntro">) {
   return (
     <div className={styles.wrapper}>
       <div>
         <h1 className="header2"> Student&#39;s Gymkhana</h1>
-        <div className="para">
-          The Student Gymkhana at IIT Indore is led by the Senate, consisting of
-          executives and councillors. Elected representatives focus on fostering
-          student development and leadership through coordinating events and
-          maximizing individual potential. Numerous clubs and groups cater to
-          diverse co-curricular interests.
-        </div>
+        <div className="para">{gymkhanaIntro}</div>
       </div>
       <div className="questitle">Tech Clubs</div>
-      <Card {...dataTech}></Card>
+      <Card {...tech} instagramIcon={insta} />
 
       <div className="questitle">Cultural Clubs</div>
-      <Card {...dataCultural}></Card>
+      <Card {...cultural} instagramIcon={insta} />
 
       <div className="questitle">Sports Clubs</div>
-      <Card {...dataSport}></Card>
+      <Card {...sports} instagramIcon={insta} />
     </div>
   );
 }

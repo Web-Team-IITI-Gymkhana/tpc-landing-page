@@ -1,3 +1,4 @@
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import Image from "next/image";
 import Link from "next/link";
 import CallIcon from "@mui/icons-material/Call";
@@ -6,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
 
-export default function Footer(props: any) {
+export default function Footer(props: LandingPageConfig["footer"]) {
   return (
     <div className="bg-[#031324] text-white flex justify-center mt-[calc(5rem+10px)]" id="footer">
       <div className="max-w-[1440px] w-full flex flex-col px-4 sm:px-6 lg:px-10 relative">
@@ -47,22 +48,20 @@ export default function Footer(props: any) {
               <CallIcon />
               <div>
                 <div>Phone Number</div>
-                <div className="opacity-60 break-words">0731-660 (Extn. 3572)</div>
+                <div className="opacity-60 break-words">{props.phone}</div>
               </div>
             </div>
             <div className="flex items-start gap-3 mb-4">
               <PlaceIcon />
               <div className="opacity-60">
-                <div>Indian Institute of Technology Indore</div>
-                <div>Khandwa Road, Simrol, Indore Pin-453552</div>
-                <div>Madhya Pradesh - India</div>
+                {props.address.map((line, index) => <div key={index}>{line}</div>)}
               </div>
             </div>
             <div className="flex items-start gap-3">
               <EmailIcon />
               <div>
                 <div>Email</div>
-                <div className="opacity-60 break-all">placementofficer@iiti.ac.in</div>
+                <div className="opacity-60 break-all">{props.email}</div>
               </div>
             </div>
           </div>
@@ -70,7 +69,7 @@ export default function Footer(props: any) {
           {/* Map */}
           <div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.330526493356!2d75.92317729999999!3d22.529287999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efb7df4ad60b%3A0xb51ea33269875e24!2sIIT%20Indore%20Simrol%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1717103018656!5m2!1sen!2sin"
+              src={props.mapUrl}
               width="100%"
               height="260"
               loading="lazy"

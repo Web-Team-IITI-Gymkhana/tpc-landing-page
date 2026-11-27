@@ -1,15 +1,15 @@
 "use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 
 import styles from "./messages.module.css";
 import { useRef, useEffect, useState } from "react";
 import Modal from "../modal/modal";
-import messagesData from "./messages.json";
 import React from "react";
 import { motion, useInView } from "framer-motion";
 
 import Image from "next/image";
 
-export default function Messages() {
+export default function Messages({ messages }: Pick<LandingPageConfig["home"], "messages">) {
   const modalRef = useRef<HTMLDialogElement>(null);
   const [selectedMessage, setSelectedMessage] = useState<{
     heading: string;
@@ -40,7 +40,7 @@ export default function Messages() {
 
   return (
     <>
-      {messagesData.messages.map((message: any, index: any) => (
+      {messages.map((message, index) => (
         <div key={index} className="  flex flex-col items-start">
           <h2
             ref={ref}

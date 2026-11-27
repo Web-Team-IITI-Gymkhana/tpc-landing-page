@@ -1,0 +1,1970 @@
+{
+  "navbar": {
+    "logo": "/data/logo/iiti.png",
+    "buttons": [
+      {
+        "title": "Home",
+        "drop": [],
+        "isdrop": false,
+        "link": "/"
+      },
+      {
+        "title": "About Us",
+        "drop": [
+          {
+            "title": "About IITI",
+            "link": "/aboutus/aboutiitindore"
+          },
+          {
+            "title": "Academic Programs",
+            "link": "/aboutus/academicprograms"
+          },
+          {
+            "title": "Student Activities",
+            "link": "/aboutus/studentactivities"
+          },
+          {
+            "title": "Achievements",
+            "link": "/aboutus/achievements"
+          }
+        ],
+        "modalbutton": "/data/buttonspngs/dropdownbutton.png",
+        "isdrop": true
+      },
+      {
+        "title": "Students' Corner",
+        "drop": [
+          {
+            "title": "Student Login",
+            "link": "/portal/login"
+          }
+        ],
+        "modalbutton": "/data/buttonspngs/dropdownbutton.png",
+        "isdrop": true
+      },
+      {
+        "title": "Recruiters' Corner",
+        "drop": [
+          {
+            "title": "Brochure",
+            "link": "/django/api/landing-config/brochure.pdf",
+            "target": "_blank"
+          },
+          {
+            "title": "Recruiter Login",
+            "link": "/portal/recruiter/signin"
+          },
+          {
+            "title": "Placement Process",
+            "link": "/recruiterscorner/process"
+          },
+          {
+            "title": "Demographics",
+            "link": "/recruiterscorner/demographics"
+          },
+          {
+            "title": "FAQs",
+            "link": "/recruiterscorner/recruiterfaqs"
+          },
+          {
+            "title": "AIPC Guidelines",
+            "link": "/data/pdf/AIPC_Guidelines_Updated.pdf",
+            "target": "_blank"
+          }
+        ],
+        "modalbutton": "/data/buttonspngs/dropdownbutton.png",
+        "isdrop": true
+      },
+      {
+        "title": "External Opportunities",
+        "drop": [],
+        "isdrop": false,
+        "link": "/externalopportunities"
+      },
+      {
+        "title": "Contact Us",
+        "drop": [
+          {
+            "title": "Staff & Team",
+            "link": "/contactus/staff&team"
+          },
+          {
+            "title": "Faculty",
+            "link": "/contactus/faculty"
+          },
+          {
+            "title": "How to Reach IITI?",
+            "link": "/contactus/howtoreachiiti"
+          },
+          {
+            "title": "Developers",
+            "link": "/developers"
+          }
+        ],
+        "modalbutton": "/data/buttonspngs/dropdownbutton.png",
+        "isdrop": true
+      }
+    ]
+  },
+  "footer": {
+    "stayconnected": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/company/training-and-placement-cell-iit-indore/",
+        "logo": "/data/logo/linkedin.png"
+      },
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/iitindore?lang=en",
+        "logo": "/data/logo/twitterlogo.png"
+      }
+    ],
+    "quicklinks": [
+      {
+        "title": "IITI",
+        "link": "https://www.iiti.ac.in"
+      },
+      {
+        "title": "Student Login",
+        "link": "/portal/login"
+      },
+      {
+        "title": "Recruiter Login",
+        "link": "/portal/recruiter/signup"
+      },
+      {
+        "title": "Our Developers",
+        "link": "/developers"
+      }
+    ],
+    "contact": [
+      {
+        "title": "Address",
+        "description": "Indian Institute of Technology Indore,Khandwa Road,Simrol,Indore Pin-453552,Madhya Pradesh-India"
+      },
+      {
+        "title": "Phone",
+        "description": "Phone: 0731-660 (Extn), Extn. 3431"
+      },
+      {
+        "title": "Email",
+        "description": "Email: placementofficer@iiti.ac.in"
+      }
+    ],
+    "copyright": "© Copyright 2024 CAMC, IIT INDORE",
+    "location": "https://www.google.com/maps/place/IIT+Indore+Simrol+Madhya+Pradesh/@22.530993,75.9187342,17.01z/data=!4m14!1m7!3m6!1s0x3962efcccbce7145:0x784e8cb69818596b!2sIndian+Institute+of+Technology+Indore!8m2!3d22.5203597!4d75.9207231!16s%2Fm%2F04yf6vy!3m5!1s0x3962efb7df4ad60b:0xb51ea33269875e24!8m2!3d22.529288!4d75.9231773!16s%2Fg%2F11g8whtjl_?entry=ttu",
+    "locationlink": "https://maps.app.goo.gl/4jrgtG4dhTkJHD4V7",
+    "phone": "0731-660 (Extn. 3572)",
+    "address": [
+      "Indian Institute of Technology Indore",
+      "Khandwa Road, Simrol, Indore Pin-453552",
+      "Madhya Pradesh - India"
+    ],
+    "email": "placementofficer@iiti.ac.in",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.330526493356!2d75.92317729999999!3d22.529287999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efb7df4ad60b%3A0xb51ea33269875e24!2sIIT%20Indore%20Simrol%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1717103018656!5m2!1sen!2sin"
+  },
+  "metadata": {
+    "title": "Career Advancement and Mentoring Centre , IIT Indore",
+    "description": "Students' Placement Office of IIT Indore, is the organization which handles all activities related to the campus placement of the graduating batch."
+  },
+  "home": {
+    "carousel": {
+      "images": [
+        "/data/carousel/1.jpg",
+        "/data/carousel/2.jpg",
+        "/data/carousel/3.jpg",
+        "/data/carousel/4.jpg",
+        "/data/carousel/5.jpg"
+      ],
+      "locationicon": "./data/buttonspngs/locationicon.png"
+    },
+    "messages": [
+      {
+        "title": "From the Director's Desk",
+        "image": "/data/people/message/suhas_s_joshi.png",
+        "summary": "At the outset, I would like to thank and congratulate IIT Indore community and our esteemed recruiters for the contribution and support to the Institute. I commend the students for living up to the expectations of our recruiters, especially during the pandemic over the last two years. I firmly believe that the Institute has certainly carved a niche for itself and is poised to scale even greater heights in the near future. It is evident from the distinguished list of Overseas and Indian companies including PSUs who have showed trust in our students. The conducive academic and research environment of the Institute has ensured the behavioral development of inquisitiveness, innovativeness, and entrepreneurship amongst students. Through our experienced faculty, world-class facilities, and higher teaching standards, IIT Indore graduates are excelling socially, technically, and humanely.",
+        "info": "Indian Institute of Technology Indore (IIT Indore), established in 2009 as a second-generation IIT in Indore, India, is renowned for its excellence ineducation and research.Offering a diverse array ofprograms, the institution’s hallmark is its rigorous curriculum, which blends theory and practical and strongly emphasizes research and innovation. IIT Indore maintains a strong global presence, having established over 100 MoUs worldwide and securing more than 35 bilateral research grants with foreign institutes.IIT Indore has around 210 Faculty members, including experienced senior members from established IITs and young, vibrant scholars with global academic backgrounds, many of whom are listed among the top 2% of scientists in the world.Additionally, a mega project worth Rs 100 Cr under the DST National Mission on Cyber-Physical Systems is dedicated to developing cutting- edge technologies and training a skilled workforce in this domain.This project stands as a testament to IIT Indore’s commitment to fostering advancements in critical technological spheres. In alignment with the New Education Policy (NEP) objectives, IIT Indore has embraced a flexible approach to its BTech programs, welcoming qualified industry professionals and allowing flexibility in course selection and program duration.A joint MS degree program in Data Science and Management, conducted in collaboration with the Indian Institute of Management Indore, has garnered significant popularity.To further support entrepreneurial endeavors, the institute has registered the Section 8 Company Advanced Centre for Entrepreneurship (ACE) Foundation, which has incubated 52 startups till date.IIT Indore has actively fostered collaborations on national and international fronts through Memoranda of Understanding (MoUs).Notable partnerships include one with the Maker Bhavan Foundation and the Centre for Translational Research (CTR) which aims to modernize STEM education in Indian science and engineering by promoting a culture of making and active learning and nurturing talent. IIT Indore stands as a beacon of academic excellence, looking forward to collaborations with leading Indian and multinational companies, public sector organizations, financial institutions, and others.Our commitment to fostering partnerships and pushing the boundaries of knowledge ensures its position as a premier institution in India’s educational landscape.We place high importance on our relationship with the industry and are dedicated to making your time spent interviewing at IIT Indore fruitful and enjoyable.",
+        "signature": "Prof. Suhas Joshi# Director"
+      },
+      {
+        "title": "From the Professor-In-Charge, Career Advancement & Mentoring Centre ",
+        "image": "/data/people/message/dr Ankur Miglani.jpg",
+        "summary": "On behalf of IIT Indore, I take this opportunity to invite corporates, academia, and research organizations to interact with our vibrant students for Internships, Training, and conducting Campus Placements. The institute focuses on producing top-quality technocrats and scientists for the growth of our modern society and caters to the needs of corporates and institutions alike.",
+        "info": "On behalf of IIT Indore, I extend a cordial invitation to all corporates, academic institutions, and research organizations to engage with our vibrant students for internships, training, and campus placements. At IIT Indore, we prioritize holistic student development by providing a conducive learning environment that sets our students up for success in their chosen professions.Our dynamic curriculum empowers students to grasp and innovate across various technologies and conduct research that aligns with industry and societal needs.Beyond academics, our students actively participate in a wide range of technical, sporting, and literary activities throughout the year. Our institute boasts state-of-the-art research labs bolstered by national and international collaborations and funding that support our undergraduate and research students.Within a span of 15 years, IIT Indore is ranked 8th among all IITs in India (source: QS World Rankings 2024) and has established itself through the exceptional skills of our students and our commitment to rigorous research.We now seek to build enduring partnerships with companies through campus recruitment initiatives. I warmly invite your company to visit our campus and leverage this opportunity to discover some of the nation's brightest minds.We are committed to ensuring a seamless and mutually beneficial recruitment process for both the institute and our corporate partners.",
+        "signature": "Dr. Ankur Miglani# Professor-In-Charge# Career Advancement & Mentoring Centre "
+      }
+    ],
+    "recruiterLogos": [
+      {
+        "path": "/data/recruiters/prorec/l1.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l2.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l3.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l4.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l5.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l6.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l7.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l8.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l9.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l10.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l11.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l12.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l13.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l14.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l15.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l16.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l17.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l18.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l19.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l20.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l21.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l22.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l23.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l24.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l25.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l26.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l27.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l28.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l29.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l30.png"
+      },
+      {
+        "path": "/data/recruiters/prorec/l31.png"
+      }
+    ],
+    "hero": {
+      "heading": "Career Advancement and Mentoring Centre",
+      "description": "Career Advancement and Mentoring Centre of IIT Indore facilitates internships, placements and career readiness activities for all it's students."
+    }
+  },
+  "about": {
+    "carousel": {
+      "images": [
+        "/data/carouseliiti/1.jpg",
+        "/data/carouseliiti/2.jpg",
+        "/data/carouseliiti/3.jpg",
+        "/data/carouseliiti/4.jpg",
+        "/data/carouseliiti/5.jpg"
+      ],
+      "locationicon": "./data/buttonspngs/locationicon.png"
+    },
+    "intro": "Established in 2009, the Indian Institute of Technology Indore (IIT Indore) is a prestigious institution in India, recognized for its excellence in engineering, science, and humanities education and research. Situated in Indore, Madhya Pradesh, IIT Indore boasts a robust global presence, having formed over 100 Memoranda of Understanding (MoUs) and secured more than 35 bilateral research grants. The faculty comprises approximately 210 members, including esteemed scientists and emerging scholars. The institute has made significant contributions to research, with over 7,500 journal publications and 150 patents filed. Furthermore, IIT Indore is committed to providing a flexible, industry-responsive curriculum and fostering entrepreneurship through its Advanced Centre for Entrepreneurship. The institute celebrates its students' achievements on global platforms, notably at the Global Best M-GOV Awards 2023 and in various competitive programming contests. With a strong dedication to advancing knowledge and promoting collaborative efforts, IIT Indore offers a modern academic environment conducive to innovation and academic excellence.",
+    "iitihome": "https://www.iiti.ac.in/",
+    "academicsstarter": "IIT Indore offers a range of undergraduate, postgraduate, and doctoral programs across various disciplines. The academic structure is designed to foster interdisciplinary learning and research. The key programs include:",
+    "academicsend": "The curriculum at IIT Indore emphasizes both theoretical knowledge and practical application, encouraging students to engage in research projects and internships.",
+    "reasearchstarting": "IIT Indore has made significant strides in research and development, establishing itself as a hub for innovation. The institute boasts numerous research centers and labs equipped with state-of-the-art facilities, fostering an environment conducive to cutting-edge research. Key research areas include:",
+    "research": [
+      {
+        "title": "Nanotechnology",
+        "link": "/data/research/nanotech.png"
+      },
+      {
+        "title": "Artificial Intelligence and Machine Learning",
+        "link": "/data/research/ai.png"
+      },
+      {
+        "title": "Renewable Energy",
+        "link": "/data/research/renew.png"
+      },
+      {
+        "title": "Biomedical Engineering",
+        "link": "/data/research/biomedical.png"
+      },
+      {
+        "title": "Environmental Science and Engineering",
+        "link": "/data/research/evs.png"
+      }
+    ],
+    "reaseachend": "The institute also collaborates with various national and international organizations, enhancing its research capabilities and providing students and faculty with opportunities to work on globally relevant projects.",
+    "infrastructure": "The IIT Indore campus is spread over a sprawling area with modern infrastructure, including:",
+    "infrabody": [
+      {
+        "images": [
+          "/data/carouseliiti/acad/classroom1.jpeg"
+        ],
+        "title": "Academic Buildings",
+        "description": "Equipped with advanced classrooms, lecture halls, and labs."
+      },
+      {
+        "images": [
+          "/data/carouseliiti/lib/lrc1.jpeg"
+        ],
+        "title": "Central Library",
+        "description": "A vast collection of books, journals, and digital resources, supporting academic and research activities."
+      },
+      {
+        "images": [
+          "/data/carouseliiti/hostel/hostel1.jpg"
+        ],
+        "title": "Hostels and Housing",
+        "description": "Comfortable accommodation facilities for students, faculty, and staff."
+      },
+      {
+        "images": [
+          "/data/carouseliiti/facil/sprts1.jpeg"
+        ],
+        "title": "Recreational Facilities",
+        "description": "Sports complexes, gymnasiums, and cultural centers to promote extracurricular activities."
+      }
+    ],
+    "faculty": "The faculty at IIT Indore comprises experienced and distinguished professors, many of whom are recognized for their contributions to their respective fields. The faculty members are actively involved in research, publishing in reputed journals, and participating in international conferences.",
+    "student": "Life at IIT Indore is vibrant and diverse, with numerous student clubs and organizations catering to a wide range of interests, including technical, cultural, and sports activities. Annual events like Fluxus (the cultural fest) and Concours (the tech fest) are highly anticipated, providing students with opportunities to showcase their talents and interact with peers from other institutions.",
+    "industry": "IIT Indore maintains strong ties with the industry, facilitating internships, collaborative projects, and placements. The institute's placement cell works tirelessly to ensure that students have access to job opportunities in leading companies across various sectors. Graduates from IIT Indore have secured positions in top-tier firms globally, reflecting the institute's commitment to excellence in education and professional development.",
+    "whyRecruit": [
+      "Characterized by a steady rise in rankings across all categories.",
+      "Promotes an industry-responsive curriculum coupled with a modern infrastructure.",
+      "Has an admirable allocation of educational resources due to an optimum teacher-student ratio.",
+      "Holds over 100 sustained and ever-increasing MoUs with national and international corporate firms, universities, and industries.",
+      "Facilitates regular interaction of the talent pool with industry personnel through various engagement activities.",
+      "Has significant contributions to research, with more than 7500 journal publications, sponsored projects worth more than 585 crore, and the filing of 150 patents (62 granted).",
+      "Students at IIT Indore consistently excel on global stages. They recently won a gold medal at the Global Best M-GOV Awards 2023 for their blockchain-based receipt application, Blockbill. Their competitive programming skills earned them a spot in the ICPC World Finals in 2023 and 1st place in India at the CSAW CTF finals.",
+      "IIT Indore is known for its research prowess with frequent selection for the Mitacs Globalink Research Internship. The students also contributed to reputed open-source contributions through opportunities, including GSoC, leading to their holistic development.",
+      "IIT Indore has obtained top positions in Inter-IIT Tech meets."
+    ],
+    "rankings": [
+      "/data/rankings/1.png",
+      "/data/rankings/2.png",
+      "/data/rankings/3.png",
+      "/data/rankings/4.png"
+    ]
+  },
+  "academicPrograms": {
+    "courseData": {
+      "placement": [
+        {
+          "sno": 1,
+          "program": "Computer Science and Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 2,
+          "program": "Electrical Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 3,
+          "program": "Mechanical Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 4,
+          "program": "Civil Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 5,
+          "program": "Metallurgical Engineering and Materials Science",
+          "degree": "BTech"
+        },
+        {
+          "sno": 6,
+          "program": "Chemical Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 7,
+          "program": "Mathematics and Computing",
+          "degree": "BTech"
+        },
+        {
+          "sno": 8,
+          "program": "Engineering Physics",
+          "degree": "BTech"
+        },
+        {
+          "sno": 9,
+          "program": "Space Sciences and Engineering (SSE)",
+          "degree": "BTech"
+        },
+        {
+          "sno": 10,
+          "program": "Electrical Engineering with specialization in Communication and Signal Processing ",
+          "degree": "MTech"
+        },
+        {
+          "sno": 11,
+          "program": "Electrical Engineering with specialization in VLSI Design and Nanoelectronics",
+          "degree": "MTech"
+        },
+        {
+          "sno": 12,
+          "program": "Mechanical Engineering with specialization in Advanced Manufacturing (AM) (Formally Production and Industrial Engineering)",
+          "degree": "MTech"
+        },
+        {
+          "sno": 13,
+          "program": "Mechanical Engineering with specialization in Thermal Energy Systems (TES)",
+          "degree": "MTech"
+        },
+        {
+          "sno": 14,
+          "program": "Mechanical Engineering with specialization in Mechanical Systems Design",
+          "degree": "MTech"
+        },
+        {
+          "sno": 15,
+          "program": "Metallurgy Engineering and Materials Science with specialization in Materials Science and Engineering",
+          "degree": "MTech"
+        },
+        {
+          "sno": 16,
+          "program": "Metallurgy Engineering and Materials Science with specialization in Metallurgical Engineering",
+          "degree": "MTech"
+        },
+        {
+          "sno": 17,
+          "program": "M.Tech. in Electric Vehicle Technology from Center for Electric Vehicles Intelligent Transport Systems (CEVITS)",
+          "degree": "MTech"
+        },
+        {
+          "sno": 18,
+          "program": "M.Tech. in Space Engineering from Department of Astronomy, Astrophysics And Space Engineering (DAASE)",
+          "degree": "MTech"
+        },
+        {
+          "sno": 19,
+          "program": "Computer Science and Engineering with specialization in Computer Science and Engineering",
+          "degree": "MTech"
+        },
+        {
+          "sno": 20,
+          "program": "Civil Engineering with specialization in Water, Climate and Sustainability",
+          "degree": "MTech"
+        },
+        {
+          "sno": 21,
+          "program": "Biosciences and Biomedical Engineering with specialization in Biomedical Engineering",
+          "degree": "MTech"
+        },
+        {
+          "sno": 22,
+          "program": "M.Tech in Applied Optics and laser Technology from  Department of Astronomy, Astrophysics And Space Engineering (DAASE)",
+          "degree": "MTech"
+        },
+        {
+          "sno": 23,
+          "program": "Civil Engineering with specialization in Structural Engineering",
+          "degree": "MTech"
+        },
+        {
+          "sno": 24,
+          "program": "Center of Futuristic Defence and Space Technology with specialization in Defence Technology",
+          "degree": "MTech"
+        },
+        {
+          "sno": 25,
+          "program": "Chemistry",
+          "degree": "MSC"
+        },
+        {
+          "sno": 26,
+          "program": "Physics",
+          "degree": "MSC"
+        },
+        {
+          "sno": 27,
+          "program": "Mathematics",
+          "degree": "MSC"
+        },
+        {
+          "sno": 28,
+          "program": "Biotechnology",
+          "degree": "MSC"
+        },
+        {
+          "sno": 29,
+          "program": "Astronomy",
+          "degree": "MSC"
+        },
+        {
+          "sno": 30,
+          "program": "B. Tech in Electrical Engineering with MTech in Communication and Signal Processing",
+          "degree": "DUAL"
+        },
+        {
+          "sno": 31,
+          "program": "B. Tech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics",
+          "degree": "DUAL"
+        },
+        {
+          "sno": 32,
+          "program": "B. Tech in Mechanical Engineering with MTech in Production and Industrial Engineering",
+          "degree": "DUAL"
+        },
+        {
+          "sno": 33,
+          "program": "B. Tech in Mechanical Engineering with MTech in Mechanical Systems Design",
+          "degree": "DUAL"
+        },
+        {
+          "sno": 34,
+          "program": "MS (Research) in Computer Science and Engineering",
+          "degree": "MS(Research)"
+        },
+        {
+          "sno": 35,
+          "program": "MS (Research) in Electrical Engineering",
+          "degree": "MS(Research)"
+        },
+        {
+          "sno": 36,
+          "program": "MS (Research) in Mechanical Engineering",
+          "degree": "MS(Research)"
+        },
+        {
+          "sno": 37,
+          "program": "M.S. (Research) in Space Science and Engineering from Department of Astronomy, Astrophysics And Space Engineering(DAASE)",
+          "degree": "MS(Research)"
+        },
+        {
+          "sno": 38,
+          "program": "M.S. (Research) in Humanities and Social Science from School of Humanities and Social Science (HSS)",
+          "degree": "MS(Research)"
+        }
+      ],
+      "intern": [
+        {
+          "sno": 1,
+          "program": "Computer Science and Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 2,
+          "program": "Electrical Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 3,
+          "program": "Mechanical Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 4,
+          "program": "Civil Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 5,
+          "program": "Metallurgical Engineering and Materials Science",
+          "degree": "BTech"
+        },
+        {
+          "sno": 6,
+          "program": "Chemical Engineering",
+          "degree": "BTech"
+        },
+        {
+          "sno": 7,
+          "program": "Mathematics and Computing",
+          "degree": "BTech"
+        },
+        {
+          "sno": 8,
+          "program": "Engineering Physics",
+          "degree": "BTech"
+        },
+        {
+          "sno": 9,
+          "program": "Space Sciences and Engineering (SSE)",
+          "degree": "BTech"
+        }
+      ]
+    },
+    "tabNames": {
+      "placement": "Placement Drive",
+      "intern": "Internship Drive"
+    },
+    "website": "https://academic.iiti.ac.in/"
+  },
+  "studentActivities": {
+    "activities": [
+      {
+        "img": "/data/activity/fluxus.jpg",
+        "title": "Fluxus",
+        "link": "https://www.instagram.com/fluxus_iit_indore/",
+        "description": "IIT Indore's Annual Techno-Cultural Festival endeavors to promote technical innovation and artistic spirit among each and every individual. Fluxus has seen elating performances from both Indian and global artists alike."
+      },
+      {
+        "img": "/data/activity/ric.png",
+        "title": "Research and Industrial Conclave",
+        "link": "",
+        "description": "Held in January, with an exciting theme each year, this event brings together esteemed experts from diverse domains to foster innovation and knowledge exchange."
+      },
+      {
+        "img": "/data/activity/esummit.png",
+        "title": "E-Summit",
+        "link": "https://www.instagram.com/ecelliitindore/",
+        "description": "The event features inspiring speakers, interactive sessions, and opportunities for networking, showcasing ideas, and connecting with mentors. With a unique theme every year, E-Summit addresses the challenges of decision-making in entrepreneurship, emphasizing the need to make informed choices amidst many options for success."
+      },
+      {
+        "img": "/data/activity/tedx.jpg",
+        "title": "TEDxIITIndore",
+        "link": "https://www.instagram.com/tedxiiti/",
+        "description": "A day-long event wherein the speakers, leaders and champions of their respective fields give inspirational speeches based on the theme chosen for that year. This provides food for thought for the audience and nurtures their ideas."
+      },
+      {
+        "img": "/data/activity/mun.jpg",
+        "title": "Model United Nations, IIT Indore",
+        "link": "https://www.instagram.com/muniiti/",
+        "description": "MUN focuses on giving a stage to youthful, budding pioneers and aims to address some of the grave issues of the world. It endeavors to promote healthy conversation and discussion on different conflicts and obstructions from a young perspective and give reasonable and attainable fixes to the same."
+      },
+      {
+        "img": "/data/activity/tvm.png",
+        "title": "T vs M",
+        "link": "",
+        "description": "It's a platform where the worlds of technology and management meet, collide, and intertwine in the most creative and artistic ways. This event aims to bring together our IIT Indore and IIM Indore communities for an unforgettable evening of entertainment, innovation and inspiration."
+      },
+      {
+        "img": "/data/activity/sports.png",
+        "title": "Sports",
+        "link": "https://www.instagram.com/sports_iit_indore/",
+        "description": "IIT Indore conducts various sports events like Josh(for freshers), Shaurya (inter-hostel event), Lakshya (annual inter-college sports meet) and General Championship (year-long sports event). IIT Indore has received the tremendous responsibility of hosting the 38th Inter IIT Aquatics meet and co-host the 57th Inter IIT Sports meet in collaboration with IIT Kanpur as the host."
+      }
+    ],
+    "insta": "/data/logo/instagram.png",
+    "tech": {
+      "Clubs": [
+        {
+          "title": "Google Developer Student Club",
+          "link": "https://www.instagram.com/gdsc_iiti/",
+          "img": "/data/Gymkhana/Tech/GDSC_Club.png"
+        },
+        {
+          "title": "Programming Club",
+          "link": "https://www.instagram.com/pclub_iiti/",
+          "img": "/data/Gymkhana/Tech/Pclub.png"
+        },
+        {
+          "title": "The Aeromodelling club",
+          "link": "https://www.instagram.com/aeroclub_iiti/",
+          "img": "/data/Gymkhana/Tech/Aeromodelling_Club.jpg"
+        },
+        {
+          "title": "Electronics Club",
+          "link": "https://www.instagram.com/electronics_club_iiti/",
+          "img": "/data/Gymkhana/Tech/Electronics_Club.png"
+        },
+        {
+          "title": "IEEE",
+          "link": "https://www.instagram.com/ieeesbiiti/",
+          "img": "/data/Gymkhana/Tech/IEEE_Club.jpeg"
+        },
+        {
+          "title": "Robotics Club",
+          "link": "https://www.instagram.com/roboticsclub_iitindore/",
+          "img": "/data/Gymkhana/Tech/Robotics_Club.jpg"
+        },
+        {
+          "title": "CAE Club",
+          "link": "https://www.instagram.com/caeclub_iiti/",
+          "img": "/data/Gymkhana/Tech/CAE_Club.png"
+        },
+        {
+          "title": "Cynaptics Club",
+          "link": "https://www.instagram.com/cynapticsclubiiti/",
+          "img": "/data/Gymkhana/Tech/Cynaptics_Club.jpg"
+        },
+        {
+          "title": "Concrete Club",
+          "link": "https://www.instagram.com/concreate_iiti/",
+          "img": "/data/Gymkhana/Tech/Concreate_Club.jpg"
+        },
+        {
+          "title": "Astronomy Club",
+          "link": "https://www.instagram.com/astronomyclub_iiti/",
+          "img": "/data/Gymkhana/Tech/Astronomy_Club.jpg"
+        },
+        {
+          "title": "IVDC Club",
+          "link": "https://www.instagram.com/ivdc_iiti/",
+          "img": "/data/Gymkhana/Tech/IVDC_Club.jpg"
+        },
+        {
+          "title": "CFA Club",
+          "link": "https://www.instagram.com/cfaclub_iiti/",
+          "img": "/data/Gymkhana/Tech/CFA_Club.jpg"
+        },
+        {
+          "title": "Metacryst",
+          "link": "https://www.instagram.com/metacryst_iiti/",
+          "img": "/data/Gymkhana/Tech/MetaCryst.png"
+        },
+        {
+          "title": "Quantum Computing",
+          "link": "https://www.instagram.com/quantum_computing_iiti/",
+          "img": "/data/Gymkhana/Tech/Quantum_Computing.jpg"
+        },
+        {
+          "title": "VLR",
+          "link": "https://www.instagram.com/vlr_iiti/",
+          "img": "/data/Gymkhana/Tech/VLR.png"
+        }
+      ]
+    },
+    "cultural": {
+      "Clubs": [
+        {
+          "title": "Kalakriti Club",
+          "link": "https://www.instagram.com/kalakriti_iiti/",
+          "img": "/data/Gymkhana/Cultural/Kalakriti_Club.png"
+        },
+        {
+          "title": "The Music Club",
+          "link": "https://www.instagram.com/themusicclub.iiti/",
+          "img": "/data/Gymkhana/Cultural/Music_Club.jpg"
+        },
+        {
+          "title": "D_alphazcrew Club",
+          "link": "",
+          "img": "/data/Gymkhana/Cultural/D_Alpha_Crewz.jpg"
+        },
+        {
+          "title": "Mystic Hues",
+          "link": "https://www.instagram.com/mystichues/",
+          "img": "/data/Gymkhana/Cultural/Mystichues.png"
+        },
+        {
+          "title": "Aaina club",
+          "link": "https://www.instagram.com/dramaticsclubiiti/",
+          "img": "/data/Gymkhana/Cultural/Aaina_Club.png"
+        },
+        {
+          "title": "Literary Club",
+          "link": "https://www.instagram.com/thelitclub.iiti/",
+          "img": "/data/Gymkhana/Cultural/Literary_Club.jpg"
+        },
+        {
+          "title": "Prakrati Club (Wildlife)",
+          "link": "https://www.instagram.com/prakriti.iiti/",
+          "img": "/data/Gymkhana/Cultural/Prakriti.jpg"
+        },
+        {
+          "title": "Cinephiles (Movie Making)",
+          "link": "https://www.instagram.com/cinephiles_iiti/",
+          "img": "/data/Gymkhana/Cultural/Cinephiles_Club.jpg"
+        },
+        {
+          "title": "Debating Society",
+          "link": "https://www.instagram.com/debsociiti/",
+          "img": "/data/Gymkhana/Cultural/Debsoc.jpg"
+        },
+        {
+          "title": "Avana Club (Social Welfare)",
+          "link": "https://www.instagram.com/avana_iiti/",
+          "img": "/data/Gymkhana/Cultural/Avana_Club.png"
+        }
+      ]
+    },
+    "sports": {
+      "Clubs": [
+        {
+          "title": "Aquatics Club",
+          "link": "",
+          "img": ""
+        },
+        {
+          "title": "Basketball Club",
+          "link": "https://www.instagram.com/club_basketball_iiti/",
+          "img": "/data/Gymkhana/Sports/basketball.png"
+        },
+        {
+          "title": "Cricket Club",
+          "link": "https://www.instagram.com/cricket_iiti/",
+          "img": "/data/Gymkhana/Sports/cricket.jpg"
+        },
+        {
+          "title": "Volleyball Club",
+          "link": "https://www.instagram.com/volleyball.iiti/",
+          "img": "/data/Gymkhana/Sports/volleyball.png"
+        },
+        {
+          "title": "Squash Club",
+          "link": "",
+          "img": ""
+        },
+        {
+          "title": "Chess Club",
+          "link": "https://www.instagram.com/theberserkers_iiti/",
+          "img": "/data/Gymkhana/Sports/chess.jpg"
+        },
+        {
+          "title": "Athletics Club",
+          "link": "https://www.instagram.com/athletics_iiti/",
+          "img": "/data/Gymkhana/Sports/athletics.png"
+        },
+        {
+          "title": "Football Club",
+          "link": "https://www.instagram.com/football_club_iiti/",
+          "img": "/data/Gymkhana/Sports/football.jpg"
+        },
+        {
+          "title": "Table Tennis Club",
+          "link": "https://www.instagram.com/table_tennis_iiti/",
+          "img": "/data/Gymkhana/Sports/tabletennis.png"
+        },
+        {
+          "title": "Badminton Club",
+          "link": "https://www.instagram.com/badmintonclub_iiti/",
+          "img": "/data/Gymkhana/Sports/badminton.png"
+        }
+      ]
+    },
+    "gymkhanaIntro": "The Student Gymkhana at IIT Indore is led by the Senate, consisting of executives and councillors. Elected representatives focus on fostering student development and leadership through coordinating events and maximizing individual potential. Numerous clubs and groups cater to diverse co-curricular interests."
+  },
+  "achievements": {
+    "achieve": [
+      "Represented India at the ICPC World Finals in 2023",
+      "Bagged the gold medal at the Global Best M-GOV Awards 2023 ceremony during the World Government Summit",
+      "Achieved 1st place in India in CSAW CTF Finals and Top 10 ranks globally",
+      "6th Position in Inter IIT Tech Meet 11.0 and won Gold and Silver Medals",
+      "Selection in Google Summer of Code and other Open Source Events.",
+      "Finalist in Findoc' AlgoNinjas, Techfest IITB",
+      "1 team in the top 10 and 2 teams as finalists in Dark Pattern Buster Hackathon IITBHU",
+      "1 Gold 1 Silver, and 2 Bronze in InterIIT tech meet 12.0",
+      "2 cleared GSOC",
+      "Finalist in the Indian Web Browser Development Challenge",
+      "ICPC Kanpur regionals AIR 15, AIR20, AIR 21",
+      "ICPC Asia West finals AIR 32",
+      "CSAW finals AIR 7th ",
+      "Finalists in IIT Guwahati Aquawars 2023",
+      "Semifinalists in IIT Guwahati Escalade 2023",
+      "NXP Campus Connect Workshop held in the Campus for students.",
+      "VLSI-expert talk by Puneet Mittal on Basics on Static Time Analysis.",
+      "Instruction enhancement Program for hands-on experience on EDA tools",
+      "MAC and PUF Chip fabricated by NSDCS Lab through EFabLess under open shuttle program",
+      "NOMA workshop on Signal Processing",
+      "Student research group under Prof I A Palani won the Best Technology Award in the Institute's foundation day celebration ",
+      "Team members from Finalist of IIT Guwahati Aquawars 2023",
+      "Members in the winning team of Inter IIT Tech meet 12.0",
+      "Best oral presentation award AIMTDR conference held  in IIT BHU",
+      "Participation in Boeing National Aeromodelling Competition ",
+      "Undergraduate students of Mechanical Engineering Department have received best BTP project Award and best Working Prototype Award in 1st Annual Student Research Symposium (SRS)",
+      "IIT Inodre's Smart Manufacturing Team won the best Student Project Demo award (under technology category) in “Manufacturing Today Summit” organized by Aditya Birla Group and ITP publishing",
+      "Inter IIT Civil Conclave: Two-time winner of the prestigious Inter IIT Civil Conclave, showcasing excellence in civil engineering projects and innovation.",
+      "Research Excellence: Significant contributions to research, including the GOBAIR project focused on advanced civil engineering solutions.",
+      "Industry Collaborations: Partnerships with leading industry players for collaborative projects and internships.",
+      "Student Success: Graduates securing prestigious positions in top companies and pursuing advanced studies at renowned institutions globally.",
+      "Innovative Projects: Successful implementation of projects in structural engineering, transportation systems, and environmental sustainability.",
+      "Awards and Recognitions: Faculty and students receiving accolades and awards at national and international levels for their contributions to civil engineering.",
+      "Significant contributions in research in areas of nanotechnology, energy storage, smart materials, energy and sustainability, alloy design, electrochemistry and hydrogen synthesis.",
+      "Student achievements and awards include- PMRF, Best Oral Presentation Award, Raman Charpak Fellowship.",
+      "11 students visited foreign universities and 10 international visitors visited IIT Indore MEMS Department",
+      "Graduates securing prestigious positions in top companies, top ranks in exams like GATE and CAT, pursuing advanced studies at renowned institutions globally.",
+      "Materials Advantage Student Chapter of MEMS Department IIT Indore organized an International Symposium on Physical Metallurgy of High-Entropy Alloys. The symposium featured six expert talks, delivered by distinguished speakers from foreign universities."
+    ],
+    "medal": "/data/buttonspngs/medal.png"
+  },
+  "faculty": {
+    "faculties": [
+      {
+        "name": "Dr. Mayur Shirish Jain",
+        "designation": "Assistant Professor",
+        "email": "mayur.jain@iiti.ac.in",
+        "phone": "+91-731-660-3384",
+        "office": "Room No. 605, POD 1A, Silicon Building",
+        "department": "CE",
+        "img": "/data/faculty/4.jpg"
+      },
+      {
+        "name": "Dr. Chandresh Kumar Maurya",
+        "designation": "Assistant Professor",
+        "email": "chandresh@iiti.ac.in",
+        "phone": "+91-731-660-3223",
+        "department": "CSE",
+        "img": "/data/faculty/1.jpg"
+      },
+      {
+        "name": " Dr. Appina Balasubŕamanyam",
+        "designation": "Assistant Professor",
+        "email": "appina@iiti.ac.in",
+        "department": "EE",
+        "img": "/data/faculty/2.jpg"
+      },
+      {
+        "name": "Dr. K. V. Vamsi",
+        "designation": "Assistant Professor",
+        "email": "kvvamsi@iiti.ac.in",
+        "phone": "+91-7316603333",
+        "office": "Room No. FC 502, Learning Resource Center",
+        "department": "MEMS",
+        "img": "/data/faculty/3.jpg"
+      },
+      {
+        "name": "Prof. Mirza S. Baig",
+        "designation": "Professor",
+        "email": "msb.iit@iiti.ac.in",
+        "phone": "+91-731-660-3331",
+        "office": "Room No. 709, Silicon, IIT Indore",
+        "department": "BSBE",
+        "img": "/data/faculty/5.jpg"
+      },
+      {
+        "name": "Dr. Shomik Dasgupta",
+        "designation": "Assistant Professor",
+        "email": "shomikdasgupta@iiti.ac.in",
+        "phone": "+91-731-660-3296",
+        "office": "Chromium POD, Room No. 517, Simrol",
+        "department": "HUMANITY",
+        "img": "/data/faculty/7.jpg"
+      },
+      {
+        "name": "Dr. Onkar Sharad Game",
+        "designation": "Assistant Professor",
+        "email": "ogame@iiti.ac.in",
+        "phone": "+91-731-660-3183",
+        "office": "Room 413, POD: 1A, IIT Indore Campus, Khandwa Rd, Simrol, Indore-453552",
+        "department": "PHYSICS",
+        "img": "/data/faculty/8.jpg"
+      },
+      {
+        "name": "Prof. Debayan Sarkar",
+        "designation": "Professor",
+        "email": "sarkard@iiti.ac.in",
+        "phone": "+91-731-660-3179",
+        "office": "1D-408, POD Building",
+        "department": "Chemistry",
+        "img": "/data/faculty/9.jpg"
+      },
+      {
+        "name": "Dr. R. Kailasham",
+        "designation": "Assistant Professor",
+        "email": "rkailasham@iiti.ac.in",
+        "office": "POD 1C 501",
+        "phone": "+91-731-660-5226",
+        "department": "Chemical Engineering",
+        "img": "/data/faculty/11.jpg"
+      },
+      {
+        "name": "Dr. Prakash Suryakant Gaikwad",
+        "designation": "Assistant Professor",
+        "email": "gaikwad@iiti.ac.in",
+        "phone": "+91-731-2438 700",
+        "department": "DAASE",
+        "img": "/data/faculty/12.jpg"
+      },
+      {
+        "name": "Dr. Santanu Manna",
+        "designation": "Assosciate Professor",
+        "email": "santanu@iiti.ac.in",
+        "office": "POD 1A 512",
+        "phone": "+91-731-660-3319",
+        "department": "Mathematics",
+        "img": "/data/faculty/13.jpg"
+      }
+    ]
+  },
+  "staff": {
+    "teamug": [
+      [
+        {
+          "name": "Anmol Joshi",
+          "email": "cse230001007@iiti.ac.in",
+          "phone": "8668991445",
+          "domain": "Core",
+          "img": "/data/managers/Anmol Joshi.jpeg"
+        },
+        {
+          "name": "Manan Jiwnani",
+          "email": "cse230001049@iiti.ac.in",
+          "phone": "7014649539",
+          "domain": "Core",
+          "img": "/data/managers/default.png"
+        },
+        {
+          "name": "Tripti Anand",
+          "email": "cse230001078@iiti.ac.in",
+          "phone": "9263511498",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Tripti Anand.jpg"
+        }
+      ],
+      [
+        {
+          "name": "Prashant Narang",
+          "email": "ee230002056@iiti.ac.in",
+          "phone": "7986128956",
+          "domain": "Core",
+          "img": "/data/managers/Prashant Narang.jpg"
+        },
+        {
+          "name": "Kuvam Bhutani",
+          "email": "ee230002037@iiti.ac.in",
+          "phone": "7289916012",
+          "domain": "Core",
+          "img": "/data/managers/Kuvam Bhutani.jpeg"
+        },
+        {
+          "name": "Bharath Varma",
+          "email": "ee230002032@iiti.ac.in",
+          "phone": "8712200709",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Kalidindi Bharath Varma.jpeg"
+        }
+      ],
+      [
+        {
+          "name": "Yagyaparna Mandwale",
+          "email": "ce230004052@iiti.ac.in",
+          "phone": "9303138437",
+          "domain": "Core",
+          "img": "/data/managers/Yagyaparna Mandwale.jpg"
+        },
+        {
+          "name": "Ashutosh Diyewar",
+          "email": "ce230004010@iiti.ac.in",
+          "phone": "9850607972",
+          "domain": "Core",
+          "img": "/data/managers/Ashutosh Diyewar.jpeg"
+        },
+        {
+          "name": "Sai Chathura Alam",
+          "email": "ce230004004@iiti.ac.in",
+          "phone": "9182794408",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/default.png"
+        }
+      ],
+      [
+        {
+          "name": "Suryansh Nagar",
+          "email": "me230003077@iiti.ac.in",
+          "phone": "9082388554",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/default.png"
+        },
+        {
+          "name": "Harsh Anand",
+          "email": "mems230005016@iiti.ac.in",
+          "phone": "9572396507",
+          "domain": "Core",
+          "img": "/data/managers/Harsh Anand.jpg"
+        },
+        {
+          "name": "Varsha",
+          "email": "me230003074@iiti.ac.in",
+          "phone": "9701399946",
+          "domain": "Core",
+          "img": "/data/managers/Sri Varsha Dodda.jpg"
+        }
+      ],
+      [
+        {
+          "name": "Mohit Garhewal",
+          "email": "mems230005028@iiti.ac.in",
+          "phone": "7898460527",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Mohit Garhewal.jpg"
+        },
+        {
+          "name": "Utkarsh Mittal",
+          "email": "mems230005049@iiti.ac.in",
+          "phone": "9929522265",
+          "domain": "Core",
+          "img": "/data/managers/Utkarsh Mittal.jpg"
+        },
+        {
+          "name": "Sahajmeet Kaur",
+          "email": "mems230005040@iiti.ac.in",
+          "phone": "9310905055",
+          "domain": "Core",
+          "img": "/data/managers/default.png"
+        }
+      ],
+      [
+        {
+          "name": "Vedika Butle",
+          "email": "che230008012@iiti.ac.in",
+          "phone": "9112229222",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Butle Vedika Ashirwad.jpg"
+        },
+        {
+          "name": "Ved Pathak",
+          "email": "che230008037@iiti.ac.in",
+          "phone": "6260807744",
+          "domain": "Core",
+          "img": "/data/managers/default.png"
+        },
+        {
+          "name": "Mustafa",
+          "email": "che230008027@iiti.ac.in",
+          "phone": "9586786052",
+          "domain": "Core",
+          "img": "/data/managers/Rayliwala Mustafa.JPG"
+        }
+      ],
+      [
+        {
+          "name": "Md. Asif Hussain",
+          "email": "mc230041021@iiti.ac.in",
+          "phone": "9989073010",
+          "domain": "Core",
+          "img": "/data/managers/Md. Asif Hussain.png"
+        },
+        {
+          "name": "Rishabh Anand",
+          "email": "mc230041029@iiti.ac.in",
+          "phone": "9560965280",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Rishab Anand.png"
+        }
+      ],
+      [
+        {
+          "name": "Aarushi Singh",
+          "email": "ep230051001@iiti.ac.in",
+          "phone": "9664070168",
+          "domain": "Core",
+          "img": "/data/managers/Aarushi Singh.jpeg"
+        },
+        {
+          "name": "Prince Kumar",
+          "email": "ep230051013@iiti.ac.in",
+          "phone": "9973938636",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Prince Kumar.jpeg"
+        }
+      ],
+      [
+        {
+          "name": "Prem pratik",
+          "email": "sse230021012@iiti.ac.in",
+          "phone": "9142558530",
+          "domain": "Core",
+          "img": "/data/managers/Prem Pratik.jpg"
+        },
+        {
+          "name": "Anuvab mandal",
+          "email": "sse230021003@iiti.ac.in",
+          "phone": "8109109508",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Anuvab Mandal.jpeg"
+        }
+      ],
+      [
+        {
+          "name": "Anmol Jain",
+          "email": "che230008009@iiti.ac.in",
+          "phone": "9425656973",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Anmol Jain.jpg"
+        },
+        {
+          "name": "Ayush Sharma",
+          "email": "me230003012@iiti.ac.in",
+          "phone": "8839137604",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/default.png"
+        },
+        {
+          "name": "Varad Pendse",
+          "email": "me230003084@iiti.ac.in",
+          "phone": "9967721357",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/default.png"
+        },
+        {
+          "name": "Nirdosh Kumar",
+          "email": "ce230004032@iiti.ac.in",
+          "phone": "9311678891",
+          "domain": "Core & Non-Core",
+          "img": "/data/managers/Nirdosh Kumar.png"
+        }
+      ]
+    ],
+    "teampg": [
+      {
+        "name": "Anirban Roy",
+        "email": "mt2502104012@iiti.ac.in",
+        "branch": "Water, Climate and Sustainability",
+        "course": "MTech",
+        "department": "Civil Engineering",
+        "phone": "8102220646",
+        "img": "/data/managers/Anirban Roy.png"
+      },
+      {
+        "name": "Arka Biswas",
+        "email": "mt2502121004@iiti.ac.in",
+        "branch": "Applied Optics and Laser Technology (AOLT)",
+        "course": "MTech",
+        "department": "DAASE",
+        "phone": "8910138703",
+        "img": "/data/managers/Arka Biswas.jpg"
+      },
+      {
+        "name": "Unnati Manohar Dhingriya",
+        "email": "mt2502121025@iiti.ac.in",
+        "branch": "Space Engineering",
+        "course": "MTech",
+        "department": "DAASE",
+        "phone": "9359057443",
+        "img": "/data/managers/Unnati Manohar Dhingriya.jpg"
+      },
+      {
+        "name": "Ashutosh Mishra",
+        "email": "mt2502103034@iiti.ac.in",
+        "branch": "Thermal Energy System",
+        "course": "MTech",
+        "department": "Mechanical Engineering",
+        "phone": "9265685938",
+        "img": "/data/managers/Ashutosh Mishra.jpg"
+      },
+      {
+        "name": "Aditya Garg",
+        "email": "mt2502102017@iiti.ac.in",
+        "branch": "Power Systems and Power Electronics",
+        "course": "MTech",
+        "department": "Electrical Engineering",
+        "phone": "7876804125",
+        "img": "/data/managers/Aditya Garg.jpg"
+      },
+      {
+        "name": "Suriyan T",
+        "email": "mt2502171022@iiti.ac.in",
+        "branch": "Biomedical Devices",
+        "course": "MTech",
+        "department": "Biosciences and Biomedical Engineering",
+        "phone": "8754800162",
+        "img": "/data/managers/default.png"
+      },
+      {
+        "name": "TAMANNA DESWAL",
+        "email": "mSC2503131028@iiti.ac.in",
+        "branch": "Chemistry",
+        "course": "MSc",
+        "department": "Chemistry",
+        "phone": "7988798556",
+        "img": "/data/managers/Tamanna Deswal.jpg"
+      },
+      {
+        "name": "Tarun Sharma",
+        "email": "mSC2503141020@iiti.ac.in",
+        "branch": "Mathematics",
+        "course": "MSc",
+        "department": "Mathematics",
+        "phone": "8076951735",
+        "img": "/data/managers/Tarun Sharma.jpg"
+      },
+      {
+        "name": "Saket Jain",
+        "email": "mt2502101009@iiti.ac.in",
+        "branch": "Computer Science and Engineering (CSE)",
+        "course": "MTech / MS(Research)",
+        "department": "Computer Science and Engineering",
+        "phone": "9131198210",
+        "img": "/data/managers/default.png"
+      },
+      {
+        "name": "Aryan Raj",
+        "email": "mt2502105003@iiti.ac.in",
+        "branch": "Materials Science and Engineering ",
+        "course": "MTech",
+        "department": "Metallurgical Engineering and Materials Science",
+        "phone": "9024252579",
+        "img": "/data/managers/aryan raj.jpg"
+      },
+      {
+        "name": "Utkarsh Dubey",
+        "email": "mt2502103026@iiti.ac.in",
+        "branch": "Mechanical Systems Design",
+        "course": "MTech",
+        "department": "Mechanical Engineering",
+        "phone": "8299724273",
+        "img": "/data/managers/Utkarsh Dubey.jpg"
+      },
+      {
+        "name": "Arnab Nandi",
+        "email": "mt2502106003@iiti.ac.in",
+        "branch": "Electric Vehicle Technology",
+        "course": "MTech",
+        "department": "Center for Electric Vehicles Intelligent Transport Systems",
+        "phone": "8877398860",
+        "img": "/data/managers/Arnab Nandi.png"
+      },
+      {
+        "name": "Divyanshu Naugai",
+        "email": "mt2502102003@iiti.ac.in",
+        "branch": "Communication & Signal Processing",
+        "course": "MTech",
+        "department": "Electrical Engineering",
+        "phone": "7409429600",
+        "img": "/data/managers/Divyanshu Naugai.jpg"
+      }
+    ],
+    "Info": [
+      {
+        "name": "Dr. Ankur Miglani",
+        "position": "Associate Professor, Mechanical Engineering",
+        "department": "Professor-In-Charge, Career Advancement and Mentoring Centre ",
+        "email": "head-tnp@iiti.ac.in",
+        "phone": "0731-660",
+        "extension": "3413",
+        "mobile": "",
+        "social": {
+          "linkedin": "https://linkedin.com/in/prof-pavan-kumar-kankar",
+          "twitter": "https://twitter.com/prof_pavan_kankar"
+        },
+        "image": "/data/people/staff/Dr. Ankur Miglani.jpg"
+      },
+      {
+        "name": "Mr. Pushpak Kumar Pemma",
+        "position": "Placement Officer",
+        "department": "Career Advancement and Mentoring Centre , IIT Indore",
+        "email": "placementofficer@iiti.ac.in",
+        "phone": "0731-660",
+        "extension": "3572",
+        "mobile": "+91-9000431899",
+        "social": {
+          "facebook": "https://facebook.com/pushpak.kumar.pemma",
+          "instagram": "https://instagram.com/pushpak.pemma"
+        },
+        "image": "/data/people/staff/Mr. Pushpak Kumar Pemma.jpg"
+      },
+      {
+        "name": "Ms. Preeti Sharma",
+        "position": "Jr. Tech. Superintendent",
+        "department": "Career Advancement and Mentoring Centre , IIT Indore",
+        "email": "managerplacement@iiti.ac.in",
+        "phone": "0731-660",
+        "extension": "3430",
+        "mobile": "+91-9644448860",
+        "social": {
+          "linkedin": "https://linkedin.com/in/preeti-sharma",
+          "twitter": "https://twitter.com/preeti_sharma"
+        },
+        "image": "/data/people/staff/Ms. Preeti Sharma.jpg"
+      }
+    ]
+  },
+  "developers": [
+    {
+      "name": "Prince Kumar",
+      "image": "/data/developers/prince.jpg",
+      "linkedin": "https://www.linkedin.com/in/k07prince/",
+      "github": "https://github.com/princekumarofficial",
+      "email": "k07prince@gmail.com",
+      "website": "https://www.pk42.me/"
+    },
+    {
+      "name": "Jai Pannu",
+      "image": "/data/developers/jai.png",
+      "linkedin": "https://www.linkedin.com/in/jaipannu-iiti/",
+      "github": "https://github.com/JaiPannu-IITI",
+      "email": "pannujai06iiti@gmail.com"
+    },
+    {
+      "name": "Aryan Kullkarni",
+      "image": "/data/developers/aryan.jpg",
+      "linkedin": "https://www.linkedin.com/in/aryan-kulkarni-5b2182231/",
+      "github": "https://github.com/AryanGKulkarni",
+      "email": "aryangkulkarni@gmail.com"
+    },
+    {
+      "name": "Harsh Soni",
+      "image": "/data/developers/harshsoni.png",
+      "linkedin": "https://www.linkedin.com/in/harsh-soni15",
+      "github": "https://github.com/SoniHarsh1",
+      "email": "soniharsh1511@gmail.com"
+    },
+    {
+      "name": "Harsh Talati",
+      "image": "/data/developers/harshtalati.png",
+      "linkedin": "https://www.linkedin.com/in/harsh-talati-1486b6228/",
+      "github": "https://github.com/harshtalati2410",
+      "email": "harsht241003@gmail.com"
+    },
+    {
+      "name": "Anand Vivek",
+      "image": "/data/developers/anandvivek.jpg",
+      "linkedin": "https://in.linkedin.com/in/anandvivek1223",
+      "github": "https://github.com/AnandVivek-iiti",
+      "email": "anand1234.vivek@gmail.com"
+    },
+    {
+      "name": "Sakshya Singh Kasera",
+      "image": "/data/developers/sakshyasinghkasera.jpg",
+      "linkedin": "https://in.linkedin.com/in/sakshya2504",
+      "github": "https://github.com/Sakshya2504",
+      "email": "singhkaserasakshya2504@gmail.com"
+    },
+    {
+      "name": "Pranay Gottimukkula",
+      "image": "/data/developers/pranaygottimukula.jpg",
+      "linkedin": "https://www.linkedin.com/in/pranay-gottimukula",
+      "github": "https://github.com/Pranay-Gottimukula",
+      "email": "pranaygottimukula@gmail.com"
+    },
+    {
+      "name": "Aarush Bindod",
+      "image": "/data/developers/aarushbindod.jpg",
+      "linkedin": "https://www.linkedin.com/in/aarushbindod",
+      "github": "https://github.com/metamyteee",
+      "email": "aarushbindod@gmail.com"
+    },
+    {
+      "name": "Ashu Newatia",
+      "image": "/data/developers/ashunewatia.jpeg",
+      "linkedin": "https://www.linkedin.com/in/ashunewatia23/",
+      "github": "https://github.com/AshuNewatia",
+      "email": "govind06092007@gmail.com"
+    },
+    {
+      "name": "Mahi Singh Sengar",
+      "image": "/data/developers/mahisinghsengar.jpg",
+      "linkedin": "https://www.linkedin.com/in/mahi-singh-sengar-b712b4377",
+      "github": "https://github.com/mahisingh06330-arch",
+      "email": "mahisingh06330@gmail.com"
+    }
+  ],
+  "demographics": {
+    "departmentData": [
+      {
+        "short": "CSE",
+        "departmentName": "Computer Science Engineering",
+        "labels": [
+          "B.Tech",
+          "M.Tech - Computer Science and Engineering",
+          "M.S."
+        ],
+        "data": [
+          85,
+          16,
+          12
+        ],
+        "description": "A 4-year UG program that offers graduates a strong foundation in Computer Science. Courses include: Mathematics, Discrete Mathematical Structures, Data Structures and Algorithms, Automata Theory and Logic, Software Engineering, Database and Information Systems, Parallel Computing, Operating Systems, Computer Architecture, Computer Graphics and Visualization, Computational Intelligence, Computer Networks, Optimization Algorithms and Techniques, Compiler Techniques. B.Tech projects involve practical applications in various fields such as machine learning, computer vision, blockchain, natural language processing etc.",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Tech",
+            "M.S."
+          ],
+          "data": [
+            85,
+            16,
+            12
+          ]
+        }
+      },
+      {
+        "short": "EE",
+        "departmentName": "Electrical Engineering",
+        "labels": [
+          "B.Tech",
+          "M.Tech - Communication and Signal Processing",
+          "M.Tech - VLSI Design and Nanoelectronics",
+          "M.Tech - Power Systems and Power Electronics",
+          "M.S. Research"
+        ],
+        "data": [
+          85,
+          11,
+          8,
+          7,
+          7
+        ],
+        "description": "A 4-year UG program that offers graduates a strong foundation in electrical engineering. Courses include: Analog Circuits, Digital Electronics, Electromagnetic Waves, VLSI Systems and Technology, Microprocessors and Digital Systems, Power Systems, Digital Signal Processing, MOS Devices and Modeling, System on Chip(SoC) Design, Information and Coding Theory. B.Tech projects involve microcontroller-based projects, designing and building electronic devices, and research in areas like renewable energy, power systems, wireless communication, and IC design.",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Tech",
+            "M.S. Research"
+          ],
+          "data": [
+            85,
+            34,
+            7
+          ]
+        }
+      },
+      {
+        "short": "ME",
+        "departmentName": "Mechanical Engineering",
+        "labels": [
+          "B.Tech",
+          "M.Tech - Mechanical Systems Design",
+          "M.Tech - Thermal Energy Systems",
+          "M.Tech - Advanced Manufacturing",
+          "M.S."
+        ],
+        "data": [
+          85,
+          13,
+          8,
+          13,
+          3
+        ],
+        "description": "Strengthening their command on analytical methods, simulation tools, and experimental techniques alike, students pursue projects involving a vast spectrum of industry relevant topics. B.Tech students work on innovative fuel needs, exhaust systems, and automotive sector challenges. M.Tech students specialize in Mechanical Systems Design, Thermal Energy Systems, Advanced Manufacturing, and Applied Optics and Laser Technology, collaborating with industries and research institutions like RRCAT, Indore. MS Research scholars focus on novel technologies in noise control, condition monitoring, digital twins, and Lab-on-a-chip for industrial and biomedical applications.",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Tech",
+            "M.S."
+          ],
+          "data": [
+            85,
+            30,
+            3
+          ]
+        }
+      },
+      {
+        "short": "CE",
+        "departmentName": "Civil Engineering",
+        "labels": [
+          "B.Tech",
+          "M.Tech - Structural Engineering",
+          "M.Tech. - Geotechnical Engineering",
+          "M.Tech - Water, Climate and Sustainability",
+          "M.Tech. - Transportation Systems Engineering"
+        ],
+        "data": [
+          49,
+          11,
+          7,
+          3,
+          4
+        ],
+        "description": "Civil Engineering at IIT Indore aims to play an active role in propelling India in its growth trajectory through innovative interdisciplinary research and educational programs at postgraduate levels. The M.Tech program offers specializations in Structural Engineering and Water, Climate and Sustainability, focusing on industry-oriented thesis work.",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Tech"
+          ],
+          "data": [
+            49,
+            21
+          ]
+        }
+      },
+      {
+        "short": "MEMS",
+        "departmentName": "Metallurgical Engineering and Materials Science (MEMS)",
+        "labels": [
+          "B.Tech",
+          "M.Tech - Metallurgical Engineering",
+          "M.Tech - Materials Science and Engineering"
+        ],
+        "data": [
+          44,
+          8,
+          5
+        ],
+        "description": "With 49 courses and 12 labs, students gain theoretical and practical expertise in materials engineering. The curriculum emphasizes practical learning with industry-connected projects in leading companies. B.Tech students focus on materials engineering fundamentals. M.Tech students specialize in Metallurgical Engineering and Materials Science Engineering, participating in hands-on labs and industry projects.",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Tech"
+          ],
+          "data": [
+            44,
+            15
+          ]
+        }
+      },
+      {
+        "short": "BSBE",
+        "departmentName": "Biosciences and Biological Engineering",
+        "labels": [
+          "B.Tech. - Biomedical Engineering and Data Science",
+          "M.Tech - Biomedical Devices",
+          "M.Tech - Biomedical Engineering",
+          "MSc"
+        ],
+        "data": [
+          36,
+          20
+        ],
+        "description": "The Department of Biosciences and Biomedical Engineering (BSBE) at IIT Indore aims to be a center of excellence in human resource development and research in Biosciences, Bioengineering, and Biomedical Engineering. Current projects include drug discovery for neurodegenerative diseases, nanoparticle-mediated drug delivery and disease theranostics, molecular immunology, cancer research, and musculoskeletal tissue engineering. Additional research focuses on algal biomass for aquatic feed, 2D and 3D cell culture systems, and neuro-robotics.",
+        "pieLabels": {
+          "labels": [
+            "M.Tech",
+            "M.Sc."
+          ],
+          "data": [
+            36,
+            20
+          ]
+        }
+      },
+      {
+        "short": "DAASE",
+        "departmentName": "Department of Astronomy, Astrophysics and Space Engineering (DAASE)",
+        "labels": [
+          "B.Tech",
+          "M.Tech - Space Engineering",
+          "M.Tech - Applied Optics and Laser Technology",
+          "M.S. Research (Space Science and Engineering)",
+          "M.Sc. (Astronomy)"
+        ],
+        "data": [
+          20,
+          8,
+          10,
+          4,
+          12
+        ],
+        "description": "Our institute offers a comprehensive M.Sc. program and a robust research program leading to the coveted Doctor of Philosophy degree. At IIT Indore, we pride ourselves on our diverse and dynamic research portfolio, which spans across various frontier areas of basic sciences, catering to the ever-evolving demands of scientific exploration and societal needs. Students gain technical and teaching skills, enabling success in academia, research, and industry. The curriculum includes core courses, electives, and a final-year project for the practical application of mathematics. Notably, the syllabi of the laboratory courses have been meticulously revised from traditional standards. Students engage in seminars and departmental activities to bridge theory with real-world applications.",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Tech",
+            "M.S. Research(Space Science and Engineering)",
+            "M.Sc. (Astronomy)"
+          ],
+          "data": [
+            20,
+            18,
+            4,
+            12
+          ]
+        }
+      },
+      {
+        "short": "ChE",
+        "departmentName": "Chemical Engineering (ChE)",
+        "labels": [
+          "B.Tech"
+        ],
+        "data": [
+          38
+        ],
+        "description": "",
+        "pieLabels": {
+          "labels": [
+            "B.Tech"
+          ],
+          "data": [
+            38
+          ]
+        }
+      },
+      {
+        "short": "CEVITS",
+        "departmentName": "Electric Vehicle and Intelligent Transport Systems (CEVITS)",
+        "labels": [
+          "M.Tech. - Electric Vehicle Technology"
+        ],
+        "data": [
+          10
+        ],
+        "description": "",
+        "pieLabels": {
+          "labels": [
+            "M.Tech"
+          ],
+          "data": [
+            10
+          ]
+        }
+      },
+      {
+        "short": "Mathematics",
+        "departmentName": "Mathematics",
+        "labels": [
+          "B.Tech. - Mathematics and Computing",
+          "M.Sc. - Mathematics"
+        ],
+        "data": [
+          40,
+          20
+        ],
+        "description": "",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Sc"
+          ],
+          "data": [
+            40,
+            20
+          ]
+        }
+      },
+      {
+        "short": "Chemistry",
+        "departmentName": "Chemistry",
+        "labels": [
+          "M.Sc. - Chemistry"
+        ],
+        "data": [
+          28
+        ],
+        "description": "",
+        "pieLabels": {
+          "labels": [
+            "M.Sc"
+          ],
+          "data": [
+            28
+          ]
+        }
+      },
+      {
+        "short": "Physics",
+        "departmentName": "Physics",
+        "labels": [
+          "B.Tech. - Engineering Physics",
+          "M.Sc. - Physics"
+        ],
+        "data": [
+          19,
+          25
+        ],
+        "description": "",
+        "pieLabels": {
+          "labels": [
+            "B.Tech",
+            "M.Sc"
+          ],
+          "data": [
+            19,
+            25
+          ]
+        }
+      }
+    ]
+  },
+  "studentFaq": {
+    "data": {
+      "starter": "Students of Indian Institute of Technology Indore (IIT Indore) often have several questions about the placement process, the internships, and the support provided by the Training and Placement (T&P) Cell. Here are some of the most frequently asked questions and their answers:",
+      "finisher": "These FAQs provide a comprehensive overview for students looking to their placements. The T&P Cell is dedicated to facilitating a seamless student experience and ensuring that student find the best placements suited to their skills and talent.",
+      "brochure": "/django/api/landing-config/brochure.pdf",
+      "achievement": "/aboutus/achievements"
+    },
+    "internship": {
+      "faq": [
+        {
+          "Question": "I have a remote intern in a startup, I started it in June and it's supposed to continue till August, will I have to leave this before sitting for on campus placement drives?",
+          "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
+        },
+        {
+          "Question": "I wish to continue applying for interns in small companies/startups and research interns, these will be remote and finish before the time of the start of my Intern next summer, Can I do that?",
+          "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated. \n Also I'm not sure how they are going to include this with regular classes in CV, as anything during the academic session needs NOC."
+        },
+        {
+          "Question": "If I want to apply (when I haven't received any offer) to companies myself for Summer Internship, via asking members for referrals, sitting for open positions etc. (Off-Campus),  If I tell the CAMC, will I be barred from sitting in On-Campus Drives?",
+          "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
+        },
+        {
+          "Question": "Since I have 6 month industrial/on-site internship with proper NOC, what will happen to the resume verification in my case? I want to participate in placement drive after coming back to college. ",
+          "Answer": "In this case contact your managers, write a request email attach NOC-with reason to them, mark APO in CC. \n Once approved by Placement Office any of the Manager can do this online and once the student is back on-campus the same can be verified before the commencement of the drive."
+        },
+        {
+          "Question": "Do we need to inform Placement Office everytime we apply for an off campus internship?",
+          "Answer": "Yes. Mandatory before you get an interview/test call and after u get selected or rejected"
+        },
+        {
+          "Question": "Is one student is allowed to have two internships if there timings are different like one oncampus and one offcampus?",
+          "Answer": "You cannot hold two offers together/you cannot do two internships together(virtual+in-Person). To be eligible for Internship Drive, you must be exclusively dedicated & available for the drive & for next Mid May to Mid July duration joining-officilly designated."
+        }
+      ]
+    },
+    "resume": {
+      "faq": [
+        {
+          "Question": "When will the resume verification of 4th Years take place?",
+          "Answer": "Just after the Internship Drive -May be 1st week od Sept, by that time you can update the CV with Internships done. \n This will be done by managers for their departments under my supervision."
+        },
+        {
+          "Question": "Can I remove Key Courses Taken Section from my Resume",
+          "Answer": "Yes, it's not mandatory but if you have taken some good courses online or somewhere it'll add a good value to your resume"
+        },
+        {
+          "Question": "What if the internship completion certificate is not available by the time CV verification happens? Will the offer letter work in that case?",
+          "Answer": "NO. Completion certificate /email is must to write in CV"
+        },
+        {
+          "Question": "What we have to do if we want to change our CV after verification \n ( like after a month or so, if we want to add something)",
+          "Answer": "NO. Completion certificate /email is must to write in CV"
+        },
+        {
+          "Question": "I am currently doing an internship which will be over on 4th August! So will receive the completion certificate after that. Can I use the offer letter during verification instead of the CoC? ",
+          "Answer": "NO. Completion certificate /email is a must to write in CV. becuase we will be unsure of sucessful completion."
+        },
+        {
+          "Question": "Can I add something if i had missed in my resume after verification is done?",
+          "Answer": "Answer not available"
+        }
+      ]
+    },
+    "process": {
+      "faq": [
+        {
+          "Question": "By which month will the first company arrive?",
+          "Answer": "Internship - Last week of July Placements- Decemeber (the process will start from October)"
+        },
+        {
+          "Question": "Is it true that the PPTs/first rounds of all companies will be held collectively during sept-oct and interviews will be held collectively during dec?",
+          "Answer": "Yes"
+        },
+        {
+          "Question": "Please explain the new placement procedure that we are to start from this year briefly.",
+          "Answer": "There is nothing new, go through the policies thoroughly, attend the induction T&P session of your department.For major concern ask your Managers & for minor concerns you can connect with CAMC team (coordinators)."
+        },
+        {
+          "Question": "If we have an on campus offer, can we not approach for any off campus opportunities?",
+          "Answer": "No U can't - Penalty will be imposed in case you leave an on campus offer and go for an off campus opportunity, which will be carried forward to next placement Drive"
+        }
+      ]
+    }
+  },
+  "recruiterFaq": {
+    "data": {
+      "starter": "Recruiters visiting the Indian Institute of Technology Indore (IIT Indore) often have several questions about the recruitment process, the student body, and the support provided by the Career Advancement & Mentoring Centre . Here are some of the most frequently asked questions and their answers:",
+      "finisher": "These FAQs provide a comprehensive overview for recruiters looking to engage with IIT Indore for their hiring needs. The T&P Cell is dedicated to facilitating a seamless recruitment experience and ensuring that recruiters find the best talent suited to their organizational requirements.",
+      "brochure": "/django/api/landing-config/brochure.pdf",
+      "facilites": "/recruiterscorner/facilities"
+    },
+    "general": {
+      "faq": [
+        {
+          "Question": "When does the recruitment process start at IIT Indore? ",
+          "Answer": "Recruiters can register for campus recruitment by contacting the Career Advancement & Mentoring Centre through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
+        },
+        {
+          "Question": "In what ways can a company recruit students from IITI campus?",
+          "Answer": "Once registered, the Career Advancement & Mentoring Centre will coordinate with the recruiters to schedule a suitable date for the pre-placement talks (PPTs), written tests, interviews, and other recruitment activities."
+        },
+        {
+          "Question": "Are companies required to pay any fee to participate in the campus recruitment program at IIT Indore? / Is there any fee associated with the process?",
+          "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+        },
+        {
+          "Question": "How to reach the campus? ",
+          "Answer": "Recruiters can register for campus recruitment by contacting the Career Advancement & Mentoring Centre through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
+        },
+        {
+          "Question": "Are multiple companies allowed to share a single slot/day? If yes, please explain the process",
+          "Answer": "Once registered, the T&P Cell will coordinate with the recruiters to schedule a suitable date for the pre-placement talks (PPTs), written tests, interviews, and other recruitment activities."
+        },
+        {
+          "Question": "On what basis is the slot allotted to a company for final placement?",
+          "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+        },
+        {
+          "Question": "How many companies can be accommodated in a single slot/day?",
+          "Answer": "Recruiters can register for campus recruitment by contacting the Career Advancement & Mentoring Centre through email or phone. They will need to provide company details and the job profiles they wish to recruit for."
+        },
+        {
+          "Question": "Does IITI have a DREAM job policy? If yes, please explain",
+          "Answer": "Once registered, the T&P Cell will coordinate with the recruiters to schedule a suitable date for the pre-placement talks (PPTs), written tests, interviews, and other recruitment activities."
+        },
+        {
+          "Question": "What are the infrastructural facilities available on campus to facilitate the recruitment process?",
+          "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+        },
+        {
+          "Question": "Is there any facility for the accommodation available on campus?",
+          "Answer": "IIT Indore provides state-of-the-art facilities for recruitment drives, including auditoriums for PPTs, computer labs for online tests, and interview rooms for one-on-one interviews."
+        }
+      ]
+    }
+  },
+  "recruiterProcess": [
+    {
+      "title": "Company Invitations",
+      "content": "The Career Advancement & Mentoring Centre , IIT Indore sends invitations to companies along with relevant information and Job Announcement Form (JAF). The recruiters also can send an email expressing their interest to participate in the campus recruitment program of IIT Indore on placementofficer@iiti.ac.in / apo@iiti.ac.in."
+    },
+    {
+      "title": "Job Announcement Form Submission",
+      "content": "Companies interested in recruiting can fill the JAF for each profile they wish to hire for."
+    },
+    {
+      "title": "Company Registration",
+      "content": "Once the filled JAF with all required details is received, companies are considered to be registered and will be contacted for further processes."
+    },
+    {
+      "title": "Pre-placement Talks",
+      "content": "Companies interested in conducting a pre-placement talk can send a request along with the preferred date(s)."
+    },
+    {
+      "title": "Job Announcements to Students",
+      "content": "The Job Announcement Form of the company will be made available online to all the eligible students. Interested students may apply online to each of the job roles offered by the company within a specified period."
+    },
+    {
+      "title": "Student Shortlisting",
+      "content": "The company can shortlist the students based on their shortlisting criteria like CV screening/assessment/GD."
+    },
+    {
+      "title": "Campus Interview Scheduling",
+      "content": "Further, the CAMC office allots the dates for campus interviews considering factors like student preference, job profile, compensation, association with the institution, etc."
+    },
+    {
+      "title": "Final Selection List Submission",
+      "content": "The company is required to submit the list of selected and waitlisted (if any) candidates to the CAMC office on the same day itself."
+    }
+  ],
+  "directions": {
+    "transportInfo": {
+      "air": "The nearest airport is Devi Ahilyabai Holkar Airport (IDR), located about 25 km from the IIT Indore campus. Taxis and pre-paid cabs are available from the airport to reach the institute.",
+      "train": "Indore Junction (INDB) is the main railway station, approximately 20 km from the campus. You can take a taxi or use app-based cab services to reach IIT Indore from the station.",
+      "road": "Indore has a well-connected bus network. The nearest bus stop to IIT Indore is Simrol, from where you can take a local auto or taxi to reach the campus. IIT Indore is located on Khandwa Road (NH 59A). If you're driving, use GPS navigation and follow the signs to Simrol. The campus is well-marked and easy to locate."
+    },
+    "address": [
+      "Indian Institute of Technology Indore",
+      "Khandwa Road, Simrol",
+      "Indore 453552",
+      "Madhya Pradesh, India"
+    ],
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6750421245495!2d75.91833661495544!3d22.520428585205823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efcccbce7145%3A0x784e8cb69818596b!2sIndian%20Institute%20of%20Technology%20Indore!5e0!3m2!1sen!2sin!4v1635774243689!5m2!1sen!2sin",
+    "phoneLink": "tel:+917324306800",
+    "phone": "+91 732 4306 800"
+  }
+}

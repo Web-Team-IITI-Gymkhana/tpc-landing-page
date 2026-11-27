@@ -1,15 +1,18 @@
 "use client";
+import type { LandingPageConfig } from "@/lib/landing-page-config";
 import React from "react";
 import styles from "./activities.module.css";
-import data from "./data.json";
 import { Image } from "@nextui-org/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-export default function Activities() {
+export default function Activities({
+  activities,
+  insta,
+}: Pick<LandingPageConfig["studentActivities"], "activities" | "insta">) {
   return (
     <>
       <div className={styles.cardContainer}>
-        {data.activities.map((activity, index) => (
+        {activities.map((activity, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, x: 50 }} // Start with opacity 0 and 50px to the right
@@ -37,7 +40,7 @@ export default function Activities() {
                     {activity.description}
 
                     <Image
-                      src={data.insta}
+                      src={insta}
                       alt="insta"
                       width={40}
                       className=" brightness-0 invert-[1] relative left-[150px]"
